@@ -1,0 +1,21 @@
+{
+  "name": "masterkelas/mk-plugin",
+  "description": "",
+  "type": "wordpress-plugin",
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "MasterKelas\\": "src/"
+    },
+    "classmap": [
+      "src/"
+    ]
+  },
+  "require": {
+    "firebase/php-jwt": "^6.0",
+    "guzzlehttp/guzzle": "7.0",
+    "kavenegar/php": "^1.2"
+  }
+}
