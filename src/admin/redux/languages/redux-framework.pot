@@ -1,0 +1,1887 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: MasterKelas\n"
+"POT-Creation-Date: 2022-06-28 02:18+0430\n"
+"PO-Revision-Date: 2022-06-28 02:17+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: masterkelas-core.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: src/admin/class-admin.php:30
+msgid "Basic Field"
+msgstr ""
+
+#: src/admin/class-admin.php:32
+msgid "Basic field with no subsections."
+msgstr ""
+
+#: src/admin/class-admin.php:38
+msgid "Example Text"
+msgstr ""
+
+#: src/admin/class-admin.php:39
+msgid "Example description."
+msgstr ""
+
+#: src/admin/class-admin.php:40
+msgid "Example subtitle."
+msgstr ""
+
+#: src/admin/redux/class-redux-core.php:400
+msgid "The Redux upload directory"
+msgstr ""
+
+#: src/admin/redux/class-redux-core.php:406
+msgid "Redux Framework"
+msgstr ""
+
+#: src/admin/redux/class-redux-core.php:407
+msgid "Debug information specific to Redux Framework."
+msgstr ""
+
+#: src/admin/redux/class-redux-core.php:410
+#: src/admin/redux/inc/welcome/views/about.php:25
+#: src/admin/redux/inc/welcome/views/about.php:131
+#: src/admin/redux/inc/welcome/views/templates.php:23
+msgid "Version"
+msgstr ""
+
+#: src/admin/redux/class-redux-core.php:414
+msgid "Installation"
+msgstr ""
+
+#: src/admin/redux/class-redux-core.php:418
+msgid "Data directory"
+msgstr ""
+
+#: src/admin/redux/class-redux-core.php:422
+msgid "Browser"
+msgstr ""
+
+#. translators: %s = Instance name.
+#: src/admin/redux/class-redux-core.php:455
+#, php-format
+msgid "Redux Instance: %s"
+msgstr ""
+
+#. translators: %s = Instance name w/ HTML.
+#: src/admin/redux/class-redux-core.php:457
+#, php-format
+msgid "Debug information for the %s Redux instance."
+msgstr ""
+
+#: src/admin/redux/framework.php:407 src/admin/redux/framework.php:416
+msgid "Cheatin&#8217; eh?"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-admin-notices.php:136
+msgid "Dismiss"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-ajax-save.php:42
+#: src/admin/redux/inc/classes/class-redux-ajax-select2.php:38
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-ajax-save.php:52
+#: src/admin/redux/inc/classes/class-redux-ajax-select2.php:42
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-ajax-save.php:114
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-api.php:144
+msgid "Warning, Premature Initialization"
+msgstr ""
+
+#. translators: This is only shown to developers, should not impact users.
+#: src/admin/redux/inc/classes/class-redux-api.php:147
+#, php-format
+msgid "was run before the %s hook and was delayed to avoid errors."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-api.php:376
+msgid "Redux Framework is not installed. Please install it."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-api.php:755
+msgid "Unable to create a section due to missing id and title."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-api.php:773
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-metaboxes-api.php:448
+msgid ""
+"Unable to create a section due an empty section array or the section "
+"variable passed was not an array."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-args.php:134
+msgid "Regular 400"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-args.php:138
+msgid "Regular 400 Italic"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-args.php:142
+msgid "Bold 700"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-args.php:146
+msgid "Bold 700 Italic"
+msgstr ""
+
+#. translators: 1: Redux, 2: Link to plugin review
+#: src/admin/redux/inc/classes/class-redux-args.php:269
+#, php-format
+msgid ""
+"Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your "
+"support!"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-args.php:270
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:503
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:319
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:113
+msgid "Redux"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-args.php:277
+#: src/admin/redux/inc/classes/class-redux-args.php:281
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:994
+msgid "Options"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-args.php:343
+msgid "Redux Framework Notice"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-args.php:344
+msgid ""
+"There are references to the Redux Framework support site in your config's "
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-args.php:345
+#: src/admin/redux/inc/classes/class-redux-args.php:362
+msgid ""
+"argument.  This is sample data.  Please change or remove this data before "
+"shipping your product."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-args.php:360
+msgid "Redux Framework Notice:"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-args.php:361
+msgid ""
+"There are references to the Redux Framework support site in your config's"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-cdn.php:127
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load some "
+"remotely hosted scripts."
+msgstr ""
+
+#. translators: %s: URL.
+#: src/admin/redux/inc/classes/class-redux-cdn.php:130
+#, php-format
+msgid ""
+"If you are developing offline, please download and install the %s plugin/"
+"extension to bypass our CDN and avoid this warning"
+msgstr ""
+
+#. translators: %s: CDN handle.
+#: src/admin/redux/inc/classes/class-redux-cdn.php:134
+msgid "Redux Framework Warning"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-cdn.php:134
+#, php-format
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#. translators: %s: Vendor support URL. %s: Admin plugins page.
+#: src/admin/redux/inc/classes/class-redux-cdn.php:182
+#, php-format
+msgid ""
+"The %1$s (or extension) is either not installed or not activated and thus, "
+"some controls may not render properly.  Please ensure that it is installed "
+"and %2$s"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-cdn.php:182
+msgid "activated."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:136
+msgid "Security check failed."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:207
+msgid "Error: Install URL for Extendify could not be located."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:228
+msgid "Install process for Extendify failed."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:243
+msgid "Extendify activation failed."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:251
+msgid "Extendify installed and activated."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:332
+#, php-format
+msgid ""
+"Register <strong>%1$s</strong> to enable automatic Google Font updates "
+"service. Plus unlock all free block templates in the Redux template library."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:337
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:782
+msgid "learn more"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:344
+msgid "Register Now"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:345
+msgid "No thanks"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:410
+msgid "Visit our website to learn more!"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:432
+msgid "Get access to even more free templates!"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:436
+msgid ""
+"Redux users have been asking for easier options to create and edit their "
+"sites using the Gutenberg editor. We're excited to announce that Redux is "
+"partnering with the Extendify library of Gutenberg patterns and templates to "
+"bring the power of WordPress 5.9 to Redux users! By clicking “Install & "
+"Activate Extendify” you will get access to 10 free monthly imports of "
+"patterns and templates. Installing Extendify is optional, and Redux will "
+"continue to work if you decide to not install Extendify."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:456
+msgid "Install and Activate Extendify"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:480
+msgid ""
+"<strong>Redux is activated!</strong> Each site on your network must be "
+"connected individually by an admin on that site."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:502
+#, php-format
+msgid ""
+"By clicking the <strong>Register</strong> button, you agree to our <a href="
+"\"%1$s\" target=\"_blank\">terms of service</a>, to create an account, and "
+"to share details of your usage metrics with Redux.io.  We may also "
+"occasionally send you emails with product updates, special offers, or other "
+"marketing content."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:168
+msgid "Gutenberg is currently disabled!"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:176
+msgid "Hmm, it seems something else is disabling Gutenberg..."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:179
+msgid "Your theme author has disabled Gutenberg!"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:182
+msgid "Looks like something has disabled Gutenberg?"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:187
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:193
+msgid "Enable Gutenberg"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:191
+msgid "Your theme"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:211
+msgid "Disable Plugin"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:214
+msgid "Disable Plugins"
+msgstr ""
+
+#. translators: 1. Name
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:333
+msgid "Redux WordPress Plugin"
+msgstr ""
+
+#. translators: 1. Name
+#. phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:342
+msgid "No Thanks"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enqueue.php:628
+#: src/admin/redux/inc/extensions/customizer/class-redux-extension-customizer.php:726
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enqueue.php:644
+#: src/admin/redux/inc/extensions/customizer/class-redux-extension-customizer.php:727
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enqueue.php:660
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enqueue.php:676
+#: src/admin/redux/inc/extensions/customizer/class-redux-extension-customizer.php:728
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enqueue.php:692
+msgid ""
+"Your current options will be replaced with the values of this import. Would "
+"you like to proceed?"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enqueue.php:706
+msgid "Please Wait"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enqueue.php:719
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enqueue.php:723
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#. translators: %1$s Extension friendly name. %2$s: minimum Redux version.
+#: src/admin/redux/inc/classes/class-redux-extension-abstract.php:221
+#, php-format
+msgid "The %1$s extension requires Redux Framework version %2$s or higher."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-extension-abstract.php:221
+msgid "You are currently running Redux Framework version "
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-extension-abstract.php:221
+msgid ""
+"This field will not render in your option panel, and features of this "
+"extension will not be available until the latest version of Redux Framework "
+"has been installed."
+msgstr ""
+
+#. translators: %s is the name of an extension
+#: src/admin/redux/inc/classes/class-redux-extensions.php:94
+#, php-format
+msgid "The `%s` extension was not located properly"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-field.php:37
+msgid "Field ID"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-field.php:38
+#: src/admin/redux/inc/extensions/repeater/repeater/class-redux-repeater.php:143
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:128
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:263
+msgid "Title"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-field.php:39
+msgid "Subtitle"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-field.php:40
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:140
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:276
+msgid "Description"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-field.php:41
+msgid "Class"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-field.php:42
+msgid "Compiler"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-field.php:43
+#: src/admin/redux/inc/classes/class-redux-page-render.php:993
+msgid "Default"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-field.php:44
+msgid "Disabled"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-field.php:45
+msgid "Hint"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-field.php:46
+msgid "Permissions"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-field.php:47
+msgid "Required"
+msgstr ""
+
+#. translators: %1$s: Upload URL.  %2$s: Codex URL.
+#: src/admin/redux/inc/classes/class-redux-filesystem.php:142
+#: src/admin/redux/inc/classes/class-redux-filesystem.php:436
+msgid "File Permission Issues"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-filesystem.php:142
+#: src/admin/redux/inc/classes/class-redux-filesystem.php:436
+#, php-format
+msgid ""
+"We were unable to modify required files. Please ensure that %1$s has the "
+"proper read-write permissions, or modify your wp-config.php file to contain "
+"your FTP login credentials as %2$s."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-filesystem.php:142
+#: src/admin/redux/inc/classes/class-redux-filesystem.php:436
+msgid "outlined here"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-functions.php:483
+msgid "Support hash could not be generated. Please try again later."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-health.php:52
+msgid "Security token"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-health.php:87
+msgid "Data transmit"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-helpers.php:1218
+msgid "version"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-helpers.php:1218
+msgid "is out of date. The core version is"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-page-render.php:174
+msgid "Enable"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-page-render.php:179
+msgid "Disable"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-page-render.php:186
+msgid "moving the mouse over"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-page-render.php:188
+msgid "clicking"
+msgstr ""
+
+#. translators: %1$s: Mouse action.  %2$s: Hint status.
+#: src/admin/redux/inc/classes/class-redux-page-render.php:193
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %1$s the hint icon, offering addition "
+"information about the field in which they appear.  They can be %2$s by using "
+"the link below."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-page-render.php:198
+msgid "Hints"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-page-render.php:214
+msgid "Hint Tooltip Preferences"
+msgstr ""
+
+#. translators: %1$s is the field ID, %2$s is the field type.
+#: src/admin/redux/inc/classes/class-redux-page-render.php:517
+#, php-format
+msgid "Field %1$s could not be displayed. Field type %2$s was not found."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:86
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:104
+msgid "Submit Support Information?"
+msgstr ""
+
+#. translators: %s = WP Site Health Screen URL.
+#: src/admin/redux/inc/classes/class-redux-panel.php:106
+#, php-format
+msgid ""
+"Redux will send the debug information found on the %s and your Redux config "
+"to our secure server.  Are you ready to proceed?"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:106
+msgid "WordPress Site Health screen"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:166
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1213
+msgid "Settings Imported!"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:187
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:208
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:229
+msgid "Settings Saved!"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:256
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1217
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:270
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1221
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1527
+msgid "error(s) were found!"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:285
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1225
+msgid "warning(s) were found!"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:405
+msgid ""
+"Your panel has bundled copies of Redux Framework template files that are "
+"outdated!"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:405
+msgid "Please update them now as functionality issues could arise."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-rest-api-builder.php:68
+#: src/admin/redux/inc/classes/class-redux-rest-api-builder.php:83
+msgid "The field type"
+msgstr ""
+
+#. translators: Number of years
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:99
+#, php-format
+msgid "%s years"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:101
+msgid "a year"
+msgstr ""
+
+#. translators: Number of weeks
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:108
+#, php-format
+msgid "%s weeks"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:110
+msgid "a week"
+msgstr ""
+
+#. translators: Number of days
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:117
+#, php-format
+msgid "%s days"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:119
+msgid "a day"
+msgstr ""
+
+#. translators: Number of hours
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:126
+#, php-format
+msgid "%s hours"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:128
+msgid "an hour"
+msgstr ""
+
+#. translators: Number of minutes
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:135
+#, php-format
+msgid "%s minutes"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:137
+msgid "a minute"
+msgstr ""
+
+#. translators: Number of seconds
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:144
+#, php-format
+msgid "%s seconds"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:146
+msgid "a second"
+msgstr ""
+
+#. translators: 1. Name
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:278
+#, php-format
+msgid "%s WordPress Plugin"
+msgstr ""
+
+#. translators: 1. Name
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:282
+#, php-format
+msgid "Are you enjoying %s?"
+msgstr ""
+
+#. translators: 1. Name, 2. Time
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:285
+#, php-format
+msgid ""
+"You have been using %1$s for %2$s now. Would you mind leaving a review to "
+"let us know know what you think? We'd really appreciate it!"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:289
+msgid "Leave a Review"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:290
+msgid "No thanks / I already have"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-wordpress-data.php:358
+msgid "[unassigned]"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/customizer/class-redux-extension-customizer.php:750
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/customizer/class-redux-extension-customizer.php:751
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: src/admin/redux/inc/extensions/customizer/class-redux-extension-customizer.php:752
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-panel.php:109
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-panel.php:231
+msgid "Press return or enter to open this panel"
+msgstr ""
+
+#. translators: %s is the site/panel title in the Customizer
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-panel.php:138
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-panel.php:197
+msgid "You are customizing"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-panel.php:193
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-section.php:181
+msgid "Back"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-panel.php:204
+msgid "Help"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-section.php:98
+msgid "Press return or enter to expand"
+msgstr ""
+
+#. translators: &#9656; is the unicode right-pointing triangle, and %s is the section title in the Customizer
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-section.php:144
+#, php-format
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-section.php:146
+msgid "Customizing"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-section.php:175
+msgid "Press return or enter to open"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/datetime/datetime/class-redux-datetime.php:149
+msgid "Date"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/datetime/datetime/class-redux-datetime.php:150
+msgid "Time"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/datetime/datetime/class-redux-datetime.php:152
+msgid "Date / Time"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/import_export/class-redux-extension-import-export.php:84
+msgid "Import / Export"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:77
+msgid "Import Options"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:83
+msgid "Import from Clipboard"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:89
+msgid "Upload file"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:96
+msgid "Paste your clipboard data here."
+msgstr ""
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:109
+msgid "Import"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:112
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:120
+msgid "Export Options"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:124
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:131
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:133
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:132
+msgid "Copied!"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:136
+msgid "Export File"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:168
+msgid "Your panel has unchanged values, would you like to save them now?"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1230
+#: src/admin/redux/templates/panel/header-stickybar.tpl.php:16
+msgid "Expand"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1533
+msgid "warnings(s) were found!"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-metaboxes-api.php:636
+msgid ""
+"Unable to create a box due an empty box array or the box variable passed was "
+"not an array."
+msgstr ""
+
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:32
+msgid "Add or Upload File(s)"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:123
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:229
+msgid "Remove Image"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:146
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:231
+msgid "File: "
+msgstr ""
+
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:148
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:232
+msgid "Download"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:148
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:230
+#: src/admin/redux/inc/fields/background/class-redux-background.php:337
+#: src/admin/redux/inc/fields/media/class-redux-media.php:249
+#: src/admin/redux/inc/fields/multi_text/class-redux-multi-text.php:60
+#: src/admin/redux/inc/fields/multi_text/class-redux-multi-text.php:77
+#: src/admin/redux/inc/fields/multi_text/class-redux-multi-text.php:99
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:116
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:251
+msgid "Remove"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:228
+msgid "Select File(s)"
+msgstr ""
+
+#. translators: %s: Filename.
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:236
+#, php-format
+msgid "%s already exists in your file queue."
+msgstr ""
+
+#. translators: %s: Upload limit.
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:239
+#, php-format
+msgid "Maximum upload limit of %s reached/exceeded."
+msgstr ""
+
+#: src/admin/redux/inc/extensions/options_object/class-redux-extension-options-object.php:72
+#: src/admin/redux/inc/extensions/options_object/options_object/class-redux-options-object.php:100
+msgid "Options Object"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/options_object/options_object/class-redux-options-object.php:106
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/repeater/repeater/class-redux-repeater.php:160
+msgid "The"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/repeater/repeater/class-redux-repeater.php:160
+msgid "field is not supported within the Repeater field."
+msgstr ""
+
+#: src/admin/redux/inc/extensions/repeater/repeater/class-redux-repeater.php:167
+#: src/admin/redux/inc/extensions/repeater/repeater/class-redux-repeater.php:219
+#: src/admin/redux/inc/extensions/repeater/repeater/class-redux-repeater.php:393
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:215
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:351
+msgid "Delete"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/repeater/repeater/class-redux-repeater.php:242
+msgid "Add"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/search/class-redux-extension-search.php:101
+msgid "Search for field(s)"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:121
+#: src/admin/redux/inc/fields/color/class-redux-color.php:76
+#: src/admin/redux/inc/fields/color_gradient/class-redux-color-gradient.php:132
+msgid "Transparent"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:131
+msgid "No Repeat"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:132
+msgid "Repeat All"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:133
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:134
+msgid "Repeat Vertically"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:135
+#: src/admin/redux/inc/fields/background/class-redux-background.php:150
+#: src/admin/redux/inc/fields/background/class-redux-background.php:168
+#: src/admin/redux/inc/fields/background/class-redux-background.php:186
+#: src/admin/redux/inc/fields/background/class-redux-background.php:205
+msgid "Inherit"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:138
+msgid "Background Repeat"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:151
+#: src/admin/redux/inc/fields/background/class-redux-background.php:169
+msgid "Border Box"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:152
+#: src/admin/redux/inc/fields/background/class-redux-background.php:170
+msgid "Content Box"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:153
+#: src/admin/redux/inc/fields/background/class-redux-background.php:171
+msgid "Padding Box"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:156
+msgid "Background Clip"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:174
+msgid "Background Origin"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:187
+msgid "Cover"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:188
+msgid "Contain"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:191
+msgid "Background Size"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:203
+msgid "Fixed"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:204
+msgid "Scroll"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:208
+msgid "Background Attachment"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:220
+msgid "Left Top"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:221
+msgid "Left center"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:222
+msgid "Left Bottom"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:223
+msgid "Center Top"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:224
+msgid "Center Center"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:225
+msgid "Center Bottom"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:226
+msgid "Right Top"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:227
+msgid "Right center"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:228
+msgid "Right Bottom"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:231
+msgid "Background Position"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:285
+#: src/admin/redux/inc/fields/media/class-redux-media.php:89
+msgid "No media selected"
+msgstr ""
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:330
+#: src/admin/redux/inc/fields/media/class-redux-media.php:242
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:105
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:249
+msgid "Upload"
+msgstr ""
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:106
+#: src/admin/redux/inc/fields/spacing/class-redux-spacing.php:165
+msgid "All"
+msgstr ""
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:123
+#: src/admin/redux/inc/fields/spacing/class-redux-spacing.php:223
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:665
+msgid "Top"
+msgstr ""
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:135
+#: src/admin/redux/inc/fields/spacing/class-redux-spacing.php:239
+msgid "Right"
+msgstr ""
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:147
+#: src/admin/redux/inc/fields/spacing/class-redux-spacing.php:255
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:692
+msgid "Bottom"
+msgstr ""
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:159
+#: src/admin/redux/inc/fields/spacing/class-redux-spacing.php:271
+msgid "Left"
+msgstr ""
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:169
+msgid "Solid"
+msgstr ""
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:170
+msgid "Dashed"
+msgstr ""
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:171
+msgid "Dotted"
+msgstr ""
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:172
+msgid "Double"
+msgstr ""
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:173
+msgid "None"
+msgstr ""
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:176
+msgid "Border style"
+msgstr ""
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:92
+msgid "Shadow"
+msgstr ""
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:111
+msgid "Horizontal Length "
+msgstr ""
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:120
+msgid "Horizontal Length"
+msgstr ""
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:135
+msgid "Vertical Length "
+msgstr ""
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:144
+msgid "Vertical Length"
+msgstr ""
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:159
+msgid "Blur Radius "
+msgstr ""
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:168
+msgid "Blur Radius"
+msgstr ""
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:183
+msgid "Spread "
+msgstr ""
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:192
+msgid "Spread"
+msgstr ""
+
+#: src/admin/redux/inc/fields/color_rgba/class-redux-color-rgba.php:42
+msgid "Choose"
+msgstr ""
+
+#: src/admin/redux/inc/fields/color_rgba/class-redux-color-rgba.php:43
+msgid "Cancel"
+msgstr ""
+
+#: src/admin/redux/inc/fields/color_rgba/class-redux-color-rgba.php:45
+msgid "Select Color"
+msgstr ""
+
+#: src/admin/redux/inc/fields/dimensions/class-redux-dimensions.php:144
+msgid "Width"
+msgstr ""
+
+#: src/admin/redux/inc/fields/dimensions/class-redux-dimensions.php:173
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:583
+msgid "Height"
+msgstr ""
+
+#: src/admin/redux/inc/fields/dimensions/class-redux-dimensions.php:194
+#: src/admin/redux/inc/fields/dimensions/class-redux-dimensions.php:198
+#: src/admin/redux/inc/fields/dimensions/class-redux-dimensions.php:200
+#: src/admin/redux/inc/fields/spacing/class-redux-spacing.php:282
+#: src/admin/redux/inc/fields/spacing/class-redux-spacing.php:283
+msgid "Units"
+msgstr ""
+
+#: src/admin/redux/inc/fields/gallery/class-redux-gallery.php:48
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: src/admin/redux/inc/fields/gallery/class-redux-gallery.php:49
+msgid "Clear Gallery"
+msgstr ""
+
+#: src/admin/redux/inc/fields/link_color/class-redux-link-color.php:65
+msgid "Regular"
+msgstr ""
+
+#: src/admin/redux/inc/fields/link_color/class-redux-link-color.php:87
+msgid "Hover"
+msgstr ""
+
+#: src/admin/redux/inc/fields/link_color/class-redux-link-color.php:109
+msgid "Visited"
+msgstr ""
+
+#: src/admin/redux/inc/fields/link_color/class-redux-link-color.php:131
+msgid "Active"
+msgstr ""
+
+#: src/admin/redux/inc/fields/link_color/class-redux-link-color.php:153
+msgid "Focus"
+msgstr ""
+
+#: src/admin/redux/inc/fields/multi_text/class-redux-multi-text.php:28
+msgid "Add More"
+msgstr ""
+
+#: src/admin/redux/inc/fields/password/class-redux-password.php:53
+msgid "Password"
+msgstr ""
+
+#: src/admin/redux/inc/fields/password/class-redux-password.php:54
+msgid "Username"
+msgstr ""
+
+#: src/admin/redux/inc/fields/select/class-redux-select.php:106
+#: src/admin/redux/inc/fields/select_image/class-redux-select-image.php:26
+msgid "Select an item"
+msgstr ""
+
+#: src/admin/redux/inc/fields/select/class-redux-select.php:183
+#: src/admin/redux/inc/fields/select_image/class-redux-select-image.php:145
+msgid "No items of this type were found."
+msgstr ""
+
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:32
+msgid "Slide"
+msgstr ""
+
+#. translators: New accordion title.
+#. translators:  Content title for new accordion.
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:48
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:233
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:152
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:288
+msgid "URL"
+msgstr ""
+
+#. translators:  Content title for accordion.
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:363
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: src/admin/redux/inc/fields/switch/class-redux-switch.php:37
+msgid "On"
+msgstr ""
+
+#: src/admin/redux/inc/fields/switch/class-redux-switch.php:40
+msgid "Off"
+msgstr ""
+
+#: src/admin/redux/inc/fields/text/class-redux-text.php:27
+msgid ""
+"The Text field accepts any form of text and optionally validates the text "
+"before saving the value."
+msgstr ""
+
+#: src/admin/redux/inc/fields/text/class-redux-text.php:29
+msgid "Display a qTip div when active on the text field."
+msgstr ""
+
+#: src/admin/redux/inc/fields/text/class-redux-text.php:30
+msgid "Placeholder text."
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:309
+msgid "Font Family"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:311
+msgid "Font family"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:350
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:352
+msgid "Backup Font Family"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:371
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:391
+msgid "Font style"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:372
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:389
+msgid "Style"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:404
+msgid "Font subsets"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:412
+msgid "Font Subsets"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:415
+msgid "Subsets"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:417
+msgid "Font script"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:431
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:432
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:434
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:436
+msgid "Text Align"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:445
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:481
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:507
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:536
+msgid "inherit"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:446
+msgid "left"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:447
+msgid "right"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:448
+msgid "center"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:449
+msgid "justify"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:450
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:480
+msgid "initial"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:462
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:463
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:465
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:467
+msgid "Text Transform"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:476
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:535
+msgid "none"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:477
+msgid "capitalize"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:478
+msgid "uppercase"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:479
+msgid "lowercase"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:493
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:494
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:496
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:498
+msgid "Font Variant"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:508
+msgid "normal"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:509
+msgid "small-caps"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:521
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:522
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:524
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:526
+msgid "Text Decoration"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:537
+msgid "underline"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:538
+msgid "overline"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:539
+msgid "line-through"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:540
+msgid "blink"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:555
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:560
+msgid "Font Size"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:561
+msgid "Size"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:577
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:582
+msgid "Line Height"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:605
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:610
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:611
+msgid "Word Spacing"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:628
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:633
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:634
+msgid "Letter Spacing"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:659
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:664
+msgid "Margin Top"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:686
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:691
+msgid "Margin Bottom"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:718
+msgid "Font Color"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:725
+msgid "Font color"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:779
+msgid ""
+"Your Google Fonts are out of date. In order to update them you must register "
+"for Redux to enable updates."
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:781
+msgid "Register"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:781
+msgid "to enable font updates"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:786
+msgid "Automated updates"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:786
+msgid "one-time update"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:799
+msgid "Shadow Color"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:804
+msgid "Shadow color"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:816
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:825
+msgid "Horizontal"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:833
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:842
+msgid "Vertical"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:850
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:859
+msgid "Blur"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:899
+msgid "Downloading Google Fonts..."
+msgstr ""
+
+#. translators: Aria title, link title.
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:901
+#, php-format
+msgid "Update Failed|msg. %1$s"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:901
+msgid "Retry?"
+msgstr ""
+
+#. translators: Javascript reload command, link title.
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:903
+#, php-format
+msgid "Updated! %1$s to start using your updated fonts."
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:903
+msgid "Reload the page"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:1331
+msgid "Standard Fonts"
+msgstr ""
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:1414
+msgid "Google Webfonts"
+msgstr ""
+
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:44
+msgid "Gradient Type "
+msgstr ""
+
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:47
+msgid "Type"
+msgstr ""
+
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:53
+msgid "linear"
+msgstr ""
+
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:54
+msgid "radial"
+msgstr ""
+
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:82
+msgid "From Reach "
+msgstr ""
+
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:91
+msgid "From Reach"
+msgstr ""
+
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:105
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:114
+msgid "To Reach"
+msgstr ""
+
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:135
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:144
+msgid "Gradient Angle"
+msgstr ""
+
+#: src/admin/redux/inc/lib/image-filters/class-redux-image-filters.php:55
+msgid "Filters"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:43
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:63
+msgid "RECOMMENDED"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "If you are submitting to WordPress.org Theme Repository, it is"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "strongly"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "suggested that you read"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "this document"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "or your theme will be rejected because of Redux."
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:50
+msgid "REQUIRED"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:50
+msgid "You MUST delete"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:50
+msgid ""
+"or your theme will be rejected by WP.org theme submission because of Redux."
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:63
+msgid ""
+"The following arguments MUST be used for WP.org submissions, or you will be "
+"rejected because of your Redux configuration."
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:43
+msgid "Redux localization utilities"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:44
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:45
+msgid "Redux Code Styles"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:46
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:47
+msgid "Redux Plugin File"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:48
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:49
+msgid "CI Testing FIle"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:50
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:63
+msgid ""
+"It appears that you have embedded the full Redux package inside your theme. "
+"You need only embed the"
+msgstr ""
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:63
+msgid ""
+"folder. Embedding anything else will get your rejected from theme "
+"submission. Suspected Redux package file(s):"
+msgstr ""
+
+#. translators: %1$s: sanitized value.  %2$s: Old value.
+#: src/admin/redux/inc/validation/color/class-redux-validation-color.php:34
+#, php-format
+msgid ""
+"Invalid HTML color code %1$s. Please enter a valid code. No value was saved."
+msgstr ""
+
+#. translators: %1$s: sanitized value.  %2$s: Old value.
+#: src/admin/redux/inc/validation/color/class-redux-validation-color.php:46
+#, php-format
+msgid "Sanitized value and saved as %1$s instead of %2$s."
+msgstr ""
+
+#: src/admin/redux/inc/validation/comma_numeric/class-redux-validation-comma-numeric.php:34
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: src/admin/redux/inc/validation/css/class-redux-validation-css.php:27
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: src/admin/redux/inc/validation/date/class-redux-validation-date.php:27
+msgid "This field must be a valid date."
+msgstr ""
+
+#: src/admin/redux/inc/validation/email/class-redux-validation-email.php:27
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: src/admin/redux/inc/validation/html_custom/class-redux-validation-html-custom.php:27
+msgid "Unallowed HTML was found in this field and has been removed."
+msgstr ""
+
+#: src/admin/redux/inc/validation/js/class-redux-validation-js.php:27
+msgid "Javascript has been successfully escaped."
+msgstr ""
+
+#: src/admin/redux/inc/validation/no_html/class-redux-validation-no-html.php:27
+msgid "You must not enter any HTML in this field.  All HTML has been removed."
+msgstr ""
+
+#: src/admin/redux/inc/validation/no_special_chars/class-redux-validation-no-special-chars.php:27
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: src/admin/redux/inc/validation/not_empty/class-redux-validation-not-empty.php:27
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: src/admin/redux/inc/validation/numeric/class-redux-validation-numeric.php:27
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: src/admin/redux/inc/validation/unique_slug/class-redux-validation-unique-slug.php:29
+msgid "That URL slug is in use, please choose another."
+msgstr ""
+
+#: src/admin/redux/inc/validation/url/class-redux-validation-url.php:27
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:96
+msgid "If you like"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:96
+msgid "please leave us a"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:96
+msgid "rating. A huge thank you in advance!"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:113
+msgid "What is Redux Framework?"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:117
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:192
+msgid "Templates"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:186
+msgid "What is Redux?"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:261
+msgid "Disable Panel Demo"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:267
+msgid "Enable Panel Demo"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/about.php:17
+#: src/admin/redux/inc/welcome/views/templates.php:15
+msgid "Welcome to"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/about.php:21
+#: src/admin/redux/inc/welcome/views/templates.php:19
+msgid ""
+"Redux is the world's most powerful and widely used WordPress interface "
+"builder. We are trusted by millions of developers and end users world-wide."
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/about.php:39
+msgid "Did I install this?"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/about.php:43
+msgid ""
+"Maybe not! These items are using Redux. If you want to keep using them, "
+"Redux will need to remain installed and activated."
+msgstr ""
+
+#. translators: %1$s: URL, %2$s: close tag.
+#: src/admin/redux/inc/welcome/views/about.php:54
+#, php-format
+msgid ""
+"Maybe not! If you want to see what Redux is all about, click here to "
+"%1$sActivate Demo Mode%2$s."
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/about.php:81
+msgid "Version:"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/about.php:86
+#: src/admin/redux/inc/welcome/views/about.php:139
+msgid "By"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/about.php:93
+msgid "Theme"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/about.php:145
+msgid "Plugin"
+msgstr ""
+
+#. translators: %s: HTML.
+#: src/admin/redux/inc/welcome/views/templates.php:35
+msgid " Template Libraries"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/templates.php:46
+msgid "Extendify Template Library"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/templates.php:50
+msgid "Load Extendify template library"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/templates.php:56
+msgid "Redux Template Library"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/templates.php:60
+msgid "Load legacy Redux template library"
+msgstr ""
+
+#: src/admin/redux/templates/panel/footer.tpl.php:58
+#: src/admin/redux/templates/panel/header-stickybar.tpl.php:22
+msgid "Save Changes"
+msgstr ""
+
+#: src/admin/redux/templates/panel/footer.tpl.php:62
+#: src/admin/redux/templates/panel/header-stickybar.tpl.php:26
+msgid "Reset Section"
+msgstr ""
+
+#: src/admin/redux/templates/panel/footer.tpl.php:63
+#: src/admin/redux/templates/panel/header-stickybar.tpl.php:27
+msgid "Reset All"
+msgstr ""
+
+#: src/admin/redux/templates/panel/footer.tpl.php:67
+#: src/admin/redux/templates/panel/header-stickybar.tpl.php:31
+msgid "Working..."
+msgstr ""
+
+#: src/admin/redux/templates/panel/header.tpl.php:11
+#: src/admin/redux/templates/panel/header.tpl.php:48
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: src/admin/redux/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: src/admin/redux/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: src/admin/redux/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: src/admin/redux/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: src/admin/redux/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "MasterKelas"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "masterkelas.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "هسته مسترکلاس"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Hamed Ataei"
+msgstr ""
