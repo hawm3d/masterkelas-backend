@@ -123,6 +123,7 @@ if ( ! class_exists( '\MasterKelas\MasterKelas' ) ) :
 		 */
 		private static function run() {
 			\MasterKelas\GraphQL::hooks();
+			\MasterKelas\Admin::setup();
 		}
 
 		/**
