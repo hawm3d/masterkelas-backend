@@ -13,9 +13,30 @@
       "src/"
     ]
   },
+  "extra": {
+    "google/apiclient-services": [
+      "Oauth2"
+    ],
+    "installer-paths": {
+      "vendor/{$vendor}/{$name}/": [
+        "woocommerce/action-scheduler"
+      ]
+    }
+  },
+  "scripts": {
+    "pre-autoload-dump": "Google\\Task\\Composer::cleanup"
+  },
   "require": {
-    "firebase/php-jwt": "^6.0",
     "guzzlehttp/guzzle": "7.0",
-    "kavenegar/php": "^1.2"
+    "kavenegar/php": "^1.2",
+    "berlindb/core": "^2.0",
+    "nesbot/carbon": "^2.59",
+    "woocommerce/action-scheduler": "^3.4",
+    "google/apiclient": "^2.12",
+    "matomo/device-detector": "^6.0",
+    "psr/simple-cache": "^1.0",
+    "firebase/php-jwt": "^6.2",
+    "hidehalo/nanoid-php": "^1.1",
+    "jenssegers/optimus": "^1.1"
   }
 }

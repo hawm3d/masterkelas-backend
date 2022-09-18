@@ -24,14 +24,13 @@
  * Text Domain:       mk
  * Domain Path:       /languages
  */
-namespace MasterKelas;
 
 // If this file is called directly, abort.
-if ( ! defined( 'WPINC' ) ) {
+if (!defined('WPINC')) {
 	die;
 }
 
-if ( ! class_exists( '\MasterKelas\MasterKelas' ) ) :
+if (!class_exists('\MasterKelas')) :
 	final class MasterKelas {
 		/**
 		 * Stores the instance of the MasterKelas class
@@ -50,7 +49,7 @@ if ( ! class_exists( '\MasterKelas\MasterKelas' ) ) :
 		 * @access public
 		 */
 		public static function instance() {
-			if ( ! isset( self::$instance ) && ! ( self::$instance instanceof MasterKelas ) ) {
+			if (!isset(self::$instance) && !(self::$instance instanceof MasterKelas)) {
 				self::$instance = new MasterKelas;
 				self::$instance->setup();
 				self::$instance->includes();
@@ -73,33 +72,43 @@ if ( ! class_exists( '\MasterKelas\MasterKelas' ) ) :
 		 */
 		private function setup() {
 			// Plugin version.
-			if ( ! defined( 'MASTERKELAS_VERSION' ) ) {
-				define( 'MASTERKELAS_VERSION', '1.0.0' );
+			if (!defined('MASTERKELAS_VERSION')) {
+				define('MASTERKELAS_VERSION', '1.0.0');
+			}
+
+			// Admin Panel version.
+			if (!defined('MASTERKELAS_ADMIN_VERSION')) {
+				define('MASTERKELAS_ADMIN_VERSION', '1.0.0');
 			}
 
 			// Plugin Folder Path.
-			if ( ! defined( 'MASTERKELAS_PLUGIN_DIR' ) ) {
-				define( 'MASTERKELAS_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+			if (!defined('MASTERKELAS_PLUGIN_DIR')) {
+				define('MASTERKELAS_PLUGIN_DIR', plugin_dir_path(__FILE__));
 			}
 
 			// Plugin Folder URL.
-			if ( ! defined( 'MASTERKELAS_PLUGIN_URL' ) ) {
-				define( 'MASTERKELAS_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
+			if (!defined('MASTERKELAS_PLUGIN_URL')) {
+				define('MASTERKELAS_PLUGIN_URL', plugin_dir_url(__FILE__));
 			}
 
 			// Plugin Root File.
-			if ( ! defined( 'MASTERKELAS_PLUGIN_FILE' ) ) {
-				define( 'MASTERKELAS_PLUGIN_FILE', __FILE__ );
+			if (!defined('MASTERKELAS_PLUGIN_FILE')) {
+				define('MASTERKELAS_PLUGIN_FILE', __FILE__);
 			}
 
 			// Whether to autoload the files or not.
-			if ( ! defined( 'MASTERKELAS_AUTOLOAD' ) ) {
-				define( 'MASTERKELAS_AUTOLOAD', true );
+			if (!defined('MASTERKELAS_AUTOLOAD')) {
+				define('MASTERKELAS_AUTOLOAD', true);
 			}
 
 			// JWT auth secret
-			if ( ! defined( 'MASTERKELAS_AUTH_SECRET_KEY' ) ) {
-				define( 'MASTERKELAS_AUTH_SECRET_KEY', 'dsfkj2oi3u4joisduf0983403284' );
+			if (!defined('MASTERKELAS_AES_128_CBC_KEY')) {
+				define('MASTERKELAS_AES_128_CBC_KEY', 'w?%~?#[(??Kna???');
+			}
+
+			// Web App Id
+			if (!defined('MASTERKELAS_WEB_APP_ID')) {
+				define('MASTERKELAS_WEB_APP_ID', '62cb2a6d033a0c47e499faf5');
 			}
 		}
 
@@ -113,8 +122,8 @@ if ( ! class_exists( '\MasterKelas\MasterKelas' ) ) :
 		 */
 		private function includes() {
 			// Autoload Required Classes.
-			if ( defined( 'MASTERKELAS_AUTOLOAD' ) && true === MASTERKELAS_AUTOLOAD ) {
-				require_once( MASTERKELAS_PLUGIN_DIR . 'vendor/autoload.php' );
+			if (defined('MASTERKELAS_AUTOLOAD') && true === MASTERKELAS_AUTOLOAD) {
+				require_once(MASTERKELAS_PLUGIN_DIR . 'vendor/autoload.php');
 			}
 		}
 
@@ -122,8 +131,10 @@ if ( ! class_exists( '\MasterKelas\MasterKelas' ) ) :
 		 * Initialize the plugin
 		 */
 		private static function run() {
+			\MasterKelas\Queue\Scheduler::hooks();
+			\MasterKelas\Admin::init();
+			\MasterKelas\DB::install();
 			\MasterKelas\GraphQL::hooks();
-			\MasterKelas\Admin::setup();
 		}
 
 		/**
@@ -137,7 +148,7 @@ if ( ! class_exists( '\MasterKelas\MasterKelas' ) ) :
 		 */
 		public function __clone() {
 			// Cloning instances of the class is forbidden.
-			_doing_it_wrong( __FUNCTION__, 'MasterKelas should not be cloned.', '1.0.0' );
+			_doing_it_wrong(__FUNCTION__, 'MasterKelas should not be cloned.', '1.0.0');
 		}
 
 		/**
@@ -149,17 +160,25 @@ if ( ! class_exists( '\MasterKelas\MasterKelas' ) ) :
 		 */
 		public function __wakeup() {
 			// De-serializing instances of the class is forbidden.
-			_doing_it_wrong( __FUNCTION__, 'De-serializing instances of MasterKelas is not allowed', '1.0.0' );
+			_doing_it_wrong(__FUNCTION__, 'De-serializing instances of MasterKelas is not allowed', '1.0.0');
 		}
 	}
 endif;
+
+/**
+ * Load Action Scheduler.
+ */
+function load_as() {
+	require_once(plugin_dir_path(__FILE__) . 'vendor/woocommerce/action-scheduler/action-scheduler.php');
+}
+add_action('plugins_loaded', 'load_as', -10);
 
 /**
  * Start MasterKelas.
  */
 function init() {
 	$required_plugins = [];
-	
+
 	if (!class_exists('\WPGraphQL')) {
 		$required_plugins[] = 'WPGraphQL';
 	}
@@ -171,40 +190,40 @@ function init() {
 	if (!empty($required_plugins)) {
 		add_action(
 			'admin_notices',
-			function() use($required_plugins) {
-					?>
-					<div class="error notice">
-							<p>
-									به منظور استفاده از افزونه مسترکلاس،
-									لطفا <?php echo implode(" ،", $required_plugins) ?> را نصب کنید.
-							</p>
-					</div>
-					<?php
+			function () use ($required_plugins) {
+?>
+			<div class="error notice">
+				<p>
+					به منظور استفاده از افزونه مسترکلاس،
+					لطفا <?php echo implode(" ،", $required_plugins) ?> را نصب کنید.
+				</p>
+			</div>
+<?php
 			}
 		);
 
 		return;
 	}
-	
+
 	return MasterKelas::instance();
 }
-add_action( 'plugins_loaded', '\MasterKelas\init', 1 );
+add_action('plugins_loaded', 'init', 1);
 
-/**
- * The code that runs during plugin activation.
- * This action is documented in src/includes/class-mk-activator.php
- */
-function activate_mk() {
-	\MasterKelas\MasterKelasActivator::activate();
-}
+// /**
+//  * The code that runs during plugin activation.
+//  * This action is documented in src/includes/class-mk-activator.php
+//  */
+// function activate_mk() {
+// 	\MasterKelas\MasterKelasActivator::activate();
+// }
 
-/**
- * The code that runs during plugin deactivation.
- * This action is documented in src/includes/class-mk-deactivator.php
- */
-function deactivate_mk() {
-	\MasterKelas\MasterKelasDeactivator::deactivate();
-}
+// /**
+//  * The code that runs during plugin deactivation.
+//  * This action is documented in src/includes/class-mk-deactivator.php
+//  */
+// function deactivate_mk() {
+// 	\MasterKelas\MasterKelasDeactivator::deactivate();
+// }
 
-register_activation_hook( __FILE__, 'activate_mk' );
-register_deactivation_hook( __FILE__, 'deactivate_mk' );
+// register_activation_hook(__FILE__, 'activate_mk');
+// register_deactivation_hook(__FILE__, 'deactivate_mk');

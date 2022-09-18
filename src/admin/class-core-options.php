@@ -1,5 +1,5 @@
 <?php
-namespace MasterKelas\Admin\Sections;
+namespace MasterKelas\Admin;
 
 /**
  * Core options section
@@ -16,12 +16,12 @@ class CoreOptions
       'title'  => "تنظیمات عمومی",
       'id'     => 'core',
       // 'desc'   => "",
-      'icon'   => 'el el-home',
-      'fields' => self::fields()
+      'icon'   => 'fa-regular fa-gear',
+      'fields' => self::core_fields()
     ]);
 	}
 
-  public static function fields() {
+  public static function core_fields() {
     return [
       [
         "id" => "front-url",
@@ -31,7 +31,8 @@ class CoreOptions
         "subtitle" => "",
         "validate" => [
           "url", "not_empty"
-        ]
+        ],
+        "default" => "https://masterkelas.com"
       ]
     ];
   }

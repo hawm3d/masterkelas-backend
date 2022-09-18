@@ -30,7 +30,7 @@ html[dir="rtl"] .redux-group-tab-link-a i {
 }
 html[dir="rtl"] .redux-group-tab-link-a span.group_title {
   padding-left: 0;
-  padding-right: 30px;
+  padding-right: 35px;
 }
 html[dir="rtl"] .redux_slider {
   margin-left: 0;
@@ -44,7 +44,7 @@ html[dir="rtl"] .expand_options {
   border: 1px solid red;
 }
 html[dir="rtl"] .redux_field_th {
-  padding: 20px 0 20px 10px !important;
+  padding: 20px 0 20px 20px !important;
 }
 html[dir="rtl"] .field-desc {
   text-align: right;
@@ -78,9 +78,9 @@ html[dir="rtl"] .input-append {
 html[dir="rtl"] .redux-container-slider,
 html[dir="rtl"] .redux-container-spinner,
 html[dir="rtl"] .redux-container-switch {
-  direction: ltr !important;
+  /* direction: ltr !important;
   float: right;
-  margin: 0;
+  margin: 0; */
 }
 html[dir="rtl"] .redux-info-field .redux-info-icon {
   margin-left: 15px;
@@ -97,40 +97,32 @@ html[dir="rtl"] .select2-search-choice-close {
   left: 23px !important;
 }
 
-html[dir="rtl"] .redux-container #redux-header .display_header {
-  float: right;
+html[dir="rtl"] .redux-container-switch .cb-enable {
+  border-right: 1px solid #ccc;
+  border-left: 0;
+  border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  -webkit-border-radius: 0 3px 3px 0;
 }
 
-html[dir="rtl"]
-  .redux-container
-  #redux-header
-  .display_header
-  .redux-dev-mode-notice-container {
-  right: 20px;
-  left: unset;
+html[dir="rtl"] .redux-container-switch .cb-disable {
+  border-left: 1px solid #ccc;
+  border-right: 0;
+  border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  -webkit-border-radius: 3px 0 0 3px;
 }
 
-html[dir="rtl"] .redux-hint-qtip {
-  float: left !important;
+html[dir="rtl"] .redux-container-switch .switch-options {
+  margin-right: unset;
+  margin-left: 10px;
 }
 
-.redux-action_bar {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  gap: 5px;
+html[dir="rtl"] #redux-footer {
+  left: 21px !important;
+  right: unset !important;
 }
 
-.redux-action_bar .spinner {
-  float: unset !important;
-  margin: 0 !important;
-}
-
-.redux-action_bar input#redux_top_save,
-.redux-action_bar input#redux_bottom_save {
-  order: 1;
-}
-
-.jsonViewOutput #json {
-  direction: ltr;
+html[dir="rtl"] .redux-save-warn.notice-yellow {
+  right: 183px !important;
 }

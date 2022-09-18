@@ -3,7 +3,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
 "Project-Id-Version: MasterKelas\n"
 "POT-Creation-Date: 2022-06-28 02:18+0430\n"
-"PO-Revision-Date: 2022-06-28 03:48+0430\n"
+"PO-Revision-Date: 2022-07-01 01:32+0430\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -97,8 +97,8 @@ msgstr "رد"
 #: src/admin/redux/inc/classes/class-redux-ajax-select2.php:38
 msgid "Invalid security credential.  Please reload the page and try again."
 msgstr ""
-"اعتبارنامه امنیتی نامعتبر است.  لطفا صفحه را مجددا بارگذاری کنید و دوباره "
-"تلاش کنید."
+"اعتبارنامه امنیتی نامعتبر است.  لطفا صفحه را مجددا بارگذاری کنید و دوباره تلاش "
+"کنید."
 
 #: src/admin/redux/inc/classes/class-redux-ajax-save.php:52
 #: src/admin/redux/inc/classes/class-redux-ajax-select2.php:42
@@ -157,8 +157,7 @@ msgstr "Bold 700 Italic"
 #: src/admin/redux/inc/classes/class-redux-args.php:269
 #, php-format
 msgid ""
-"Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your "
-"support!"
+"Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your support!"
 msgstr ""
 "از %1$s لذت می برید؟ لطفاً یک امتیاز %2$s برای ما بگذارید. ما جدا از پشتیبانی "
 "شما قدردانی می کنیم!"
@@ -199,8 +198,7 @@ msgid "Redux Framework Notice:"
 msgstr "اخطار فریمورک Redux:"
 
 #: src/admin/redux/inc/classes/class-redux-args.php:361
-msgid ""
-"There are references to the Redux Framework support site in your config's"
+msgid "There are references to the Redux Framework support site in your config's"
 msgstr "در پیکربندی شما ارجاعاتی به سایت پشتیبانی Redux Framework وجود دارد"
 
 #: src/admin/redux/inc/classes/class-redux-cdn.php:127
@@ -236,8 +234,8 @@ msgstr "CDN %s در دسترس نیست. بعضی از فیلد ها ممکن ا
 #, php-format
 msgid ""
 "The %1$s (or extension) is either not installed or not activated and thus, "
-"some controls may not render properly.  Please ensure that it is installed "
-"and %2$s"
+"some controls may not render properly.  Please ensure that it is installed and "
+"%2$s"
 msgstr ""
 "%1$s (یا برنامه افزودنی) نصب نشده یا فعال نشده است و بنابراین ، برخی از کنترل "
 "ها ممکن است به درستی ارائه نشوند. لطفاً مطمئن شوید که نصب شده است و%2$s"
@@ -302,13 +300,13 @@ msgstr ""
 
 #: src/admin/redux/inc/classes/class-redux-connection-banner.php:436
 msgid ""
-"Redux users have been asking for easier options to create and edit their "
-"sites using the Gutenberg editor. We're excited to announce that Redux is "
-"partnering with the Extendify library of Gutenberg patterns and templates to "
-"bring the power of WordPress 5.9 to Redux users! By clicking “Install & "
-"Activate Extendify” you will get access to 10 free monthly imports of "
-"patterns and templates. Installing Extendify is optional, and Redux will "
-"continue to work if you decide to not install Extendify."
+"Redux users have been asking for easier options to create and edit their sites "
+"using the Gutenberg editor. We're excited to announce that Redux is partnering "
+"with the Extendify library of Gutenberg patterns and templates to bring the "
+"power of WordPress 5.9 to Redux users! By clicking “Install & Activate "
+"Extendify” you will get access to 10 free monthly imports of patterns and "
+"templates. Installing Extendify is optional, and Redux will continue to work "
+"if you decide to not install Extendify."
 msgstr ""
 
 #: src/admin/redux/inc/classes/class-redux-connection-banner.php:456
@@ -405,8 +403,8 @@ msgid ""
 "Your current options will be replaced with the values of this import. Would "
 "you like to proceed?"
 msgstr ""
-"تنظیمات های فعلی شما با مقادیر این درون ریزی جایگزین می شود. آیا مایل به "
-"ادامه هستید؟"
+"تنظیمات های فعلی شما با مقادیر این درون ریزی جایگزین می شود. آیا مایل به ادامه "
+"هستید؟"
 
 #: src/admin/redux/inc/classes/class-redux-enqueue.php:706
 msgid "Please Wait"
@@ -420,8 +418,7 @@ msgstr "هنگام ذخیره خطایی روی داد در اینجا نتیج�
 msgid ""
 "There was a problem with your action. Please try again or reload the page."
 msgstr ""
-"یک مشکل با اقدام شما وجود دارد. لطفا بارگذاری مجدد صفحه با  دوباره امتحان "
-"کنید."
+"یک مشکل با اقدام شما وجود دارد. لطفا بارگذاری مجدد صفحه با  دوباره امتحان کنید."
 
 #. translators: %1$s Extension friendly name. %2$s: minimum Redux version.
 #: src/admin/redux/inc/classes/class-redux-extension-abstract.php:221
@@ -510,9 +507,9 @@ msgid ""
 "proper read-write permissions, or modify your wp-config.php file to contain "
 "your FTP login credentials as %2$s."
 msgstr ""
-"ما نتوانستیم پرونده های مورد نیاز را اصلاح کنیم. لطفاً اطمینان حاصل کنید که"
-"%1$s از مجوز خواندن و نوشتن مناسب برخوردار است یا پرونده wp-config.php خود را "
-"تغییر دهید تا اطلاعات ورود به سیستم FTP شما به عنوان%2$s باشد."
+"ما نتوانستیم پرونده های مورد نیاز را اصلاح کنیم. لطفاً اطمینان حاصل کنید که%1$s "
+"از مجوز خواندن و نوشتن مناسب برخوردار است یا پرونده wp-config.php خود را تغییر "
+"دهید تا اطلاعات ورود به سیستم FTP شما به عنوان%2$s باشد."
 
 #: src/admin/redux/inc/classes/class-redux-filesystem.php:142
 #: src/admin/redux/inc/classes/class-redux-filesystem.php:436
@@ -564,8 +561,8 @@ msgid ""
 "the link below."
 msgstr ""
 "نکات راهنمایی هایی هستند که وقتی%1$s  نماد hint ظاهر می شوند ، اطلاعات اضافی "
-"را درباره زمینه ای که در آنها نشان داده می شوند ، ارائه می دهند. با استفاده "
-"از پیوند زیر می توانند %2$s باشند."
+"را درباره زمینه ای که در آنها نشان داده می شوند ، ارائه می دهند. با استفاده از "
+"پیوند زیر می توانند %2$s باشند."
 
 #: src/admin/redux/inc/classes/class-redux-page-render.php:198
 msgid "Hints"
@@ -593,8 +590,8 @@ msgstr ""
 #: src/admin/redux/inc/classes/class-redux-panel.php:106
 #, php-format
 msgid ""
-"Redux will send the debug information found on the %s and your Redux config "
-"to our secure server.  Are you ready to proceed?"
+"Redux will send the debug information found on the %s and your Redux config to "
+"our secure server.  Are you ready to proceed?"
 msgstr ""
 
 #: src/admin/redux/inc/classes/class-redux-panel.php:106
@@ -848,12 +845,12 @@ msgstr "برون‌ریزی تنظیمات"
 
 #: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:124
 msgid ""
-"Here you can copy/download your current option settings. Keep this safe as "
-"you can use it as a backup should anything go wrong, or you can use it to "
-"restore your settings on this site (or any other site)."
+"Here you can copy/download your current option settings. Keep this safe as you "
+"can use it as a backup should anything go wrong, or you can use it to restore "
+"your settings on this site (or any other site)."
 msgstr ""
-"در اینجا می توانید تنظیمات تنظیمات فعلی خود را کپی / بارگیری کنید. در صورت "
-"عدم استفاده از آن ، به عنوان پشتیبان خود ، این کار را ایمن نگه دارید ، یا می "
+"در اینجا می توانید تنظیمات تنظیمات فعلی خود را کپی / بارگیری کنید. در صورت عدم "
+"استفاده از آن ، به عنوان پشتیبان خود ، این کار را ایمن نگه دارید ، یا می "
 "توانید از آن برای بازیابی تنظیمات خود در این سایت (یا هر سایت دیگر) استفاده "
 "کنید."
 
@@ -1248,7 +1245,7 @@ msgstr "متمرکز (Focus)"
 
 #: src/admin/redux/inc/fields/multi_text/class-redux-multi-text.php:28
 msgid "Add More"
-msgstr "بیشتر اضافه کن"
+msgstr "افزودن"
 
 #: src/admin/redux/inc/fields/password/class-redux-password.php:53
 msgid "Password"
@@ -1658,8 +1655,8 @@ msgid ""
 "The following arguments MUST be used for WP.org submissions, or you will be "
 "rejected because of your Redux configuration."
 msgstr ""
-"<span class=\"tc-lead tc-recommended\">توصیه شده:</span> استدلال زیر باید "
-"برای تحویل WP.org استفاده شود یا به دلیل پیکربندی Redux شما رد خواهد شد."
+"<span class=\"tc-lead tc-recommended\">توصیه شده:</span> استدلال زیر باید برای "
+"تحویل WP.org استفاده شود یا به دلیل پیکربندی Redux شما رد خواهد شد."
 
 #: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:43
 msgid "Redux localization utilities"
@@ -1698,8 +1695,8 @@ msgid ""
 "It appears that you have embedded the full Redux package inside your theme. "
 "You need only embed the"
 msgstr ""
-"به نظر می رسد که شما بسته کامل Redux را در داخل تم خود جاسازی کرده اند. تو "
-"فقط بايد جاسازی کني"
+"به نظر می رسد که شما بسته کامل Redux را در داخل تم خود جاسازی کرده اند. تو فقط "
+"بايد جاسازی کني"
 
 #: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:63
 msgid ""
@@ -1725,8 +1722,8 @@ msgstr "مقدار ضد عفونی شده و به جای%1$s به عنوان%2$s
 msgid ""
 "You must provide a comma separated list of numerical values for this option."
 msgstr ""
-"شما باید یک لیست که مقادیر عددی با کاما جدا شده باشند را برای این گزینه "
-"فراهم  کنید ."
+"شما باید یک لیست که مقادیر عددی با کاما جدا شده باشند را برای این گزینه فراهم  "
+"کنید ."
 
 #: src/admin/redux/inc/validation/css/class-redux-validation-css.php:27
 msgid "Unsafe strings were found in your CSS and have been filtered out."
