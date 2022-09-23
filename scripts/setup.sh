@@ -1,28 +1,30 @@
 #!/bin/bash
 
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
 # Language
-source ./scripts/setup-language-and-time.sh
+source ${SCRIPT_DIR}/setup-language-and-time.sh
 
 # WP GraphQL
-source ./scripts/setup-wp-graphql.sh
+source ${SCRIPT_DIR}/setup-wp-graphql.sh
 
 # Woo
-source ./scripts/setup-woocommerce.sh
+source ${SCRIPT_DIR}/setup-woocommerce.sh
 
 # Woo Sub
-source ./scripts/setup-woocommerce-subscriptions.sh
+source ${SCRIPT_DIR}/setup-woocommerce-subscriptions.sh
 
 # LearnDash
-source ./scripts/setup-sfwd-lms.sh
+source ${SCRIPT_DIR}/setup-sfwd-lms.sh
 
 # LearnDash Woo
-source ./scripts/setup-learndash-woocommerce.sh
+source ${SCRIPT_DIR}/setup-learndash-woocommerce.sh
 
 # Seo Rank Math
-source ./scripts/setup-seo-rank-math.sh
+source ${SCRIPT_DIR}/setup-seo-rank-math.sh
 
 # Redis Cache Pro
-source ./scripts/setup-redis-cache-pro.sh
+source ${SCRIPT_DIR}/setup-redis-cache-pro.sh
 
 # Core
-source ./scripts/setup-core.sh
+source ${SCRIPT_DIR}/setup-core.sh
