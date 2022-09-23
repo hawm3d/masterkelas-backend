@@ -7,7 +7,6 @@ use GraphQL\Error\UserError;
 use GraphQL\Type\Definition\ResolveInfo;
 use WP_Comment_Query;
 use WPGraphQL\AppContext;
-use WPGraphQL\Types;
 use WPGraphQL\Utils\Utils;
 
 /**
@@ -34,6 +33,8 @@ class CommentConnectionResolver extends AbstractConnectionResolver {
 		 */
 		$last  = ! empty( $this->args['last'] ) ? $this->args['last'] : null;
 		$first = ! empty( $this->args['first'] ) ? $this->args['first'] : null;
+
+		$query_args = [];
 
 		/**
 		 * Don't calculate the total rows, it's not needed and can be expensive
@@ -196,6 +197,72 @@ class CommentConnectionResolver extends AbstractConnectionResolver {
 		return true;
 	}
 
+
+	/**
+	 * Filters the GraphQL args before they are used in get_query_args().
+	 *
+	 * @return array
+	 */
+	public function get_args(): array {
+		$args = $this->args;
+
+		if ( ! empty( $args['where'] ) ) {
+			// Ensure all IDs are converted to database IDs.
+			foreach ( $args['where'] as $input_key => $input_value ) {
+				if ( empty( $input_value ) ) {
+					continue;
+				}
+
+				switch ( $input_key ) {
+					case 'authorIn':
+					case 'authorNotIn':
+					case 'commentIn':
+					case 'commentNotIn':
+					case 'parentIn':
+					case 'parentNotIn':
+					case 'contentAuthorIn':
+					case 'contentAuthorNotIn':
+					case 'contentId':
+					case 'contentIdIn':
+					case 'contentIdNotIn':
+					case 'contentAuthor':
+					case 'userId':
+						if ( is_array( $input_value ) ) {
+							$args['where'][ $input_key ] = array_map( function ( $id ) {
+								return Utils::get_database_id_from_id( $id );
+							}, $input_value );
+							break;
+						}
+						$args['where'][ $input_key ] = Utils::get_database_id_from_id( $input_value );
+						break;
+					case 'includeUnapproved':
+						if ( is_string( $input_value ) ) {
+							$input_value = [ $input_value ];
+						}
+						$args['where'][ $input_key ] = array_map( function ( $id ) {
+							if ( is_email( $id ) ) {
+								return $id;
+							}
+
+							return Utils::get_database_id_from_id( $id );
+						}, $input_value );
+						break;
+				}
+			}
+		}
+
+		/**
+		 *
+		 * Filters the GraphQL args before they are used in get_query_args().
+		 *
+		 * @param array                     $args                The GraphQL args passed to the resolver.
+		 * @param CommentConnectionResolver $connection_resolver Instance of the ConnectionResolver
+		 *
+		 * @since 1.11.0
+		 */
+		return apply_filters( 'graphql_comment_connection_args', $args, $this );
+	}
+
 	/**
 	 * This sets up the "allowed" args, and translates the GraphQL-friendly keys to
 	 * WP_Comment_Query friendly keys.
@@ -225,7 +292,7 @@ class CommentConnectionResolver extends AbstractConnectionResolver {
 			'contentAuthorNotIn' => 'post_author__not_in',
 			'contentId'          => 'post_id',
 			'contentIdIn'        => 'post__in',
-			'contentIdNotIn'     => 'post__not_in',
+			'contentIdNotIn'     => 'post__not_in', // phpcs:ignore WordPressVIPMinimum.Performance.WPQueryParams.PostNotIn
 			'contentName'        => 'post_name',
 			'contentParent'      => 'post_parent',
 			'contentStatus'      => 'post_status',
