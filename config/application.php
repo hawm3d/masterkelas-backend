@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Your base production configuration goes in this file. Environment-specific
  * overrides go in their respective config/environments/{{WP_ENV}}.php file.
@@ -96,14 +97,42 @@ Config::define('NONCE_SALT', env('NONCE_SALT'));
 /**
  * Custom Settings
  */
+Config::define('WP_MEMORY_LIMIT', "128M");
 Config::define('AUTOMATIC_UPDATER_DISABLED', true);
 Config::define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 // Disable the plugin and theme file editor in the admin
 Config::define('DISALLOW_FILE_EDIT', true);
 // Disable plugin and theme updates and installation from the admin
 Config::define('DISALLOW_FILE_MODS', true);
+
+Config::define('AUTOSAVE_INTERVAL', env('AUTOSAVE_INTERVAL') ?: 60);
 // Limit the number of post revisions that Wordpress stores (true (default WP): store every revision)
-Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?: true);
+Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?: 1);
+
+/**
+ * Redis Config
+ */
+Config::define('WP_REDIS_DISABLED', env('REDIS_DISABLED') ?: false);
+Config::define('WP_REDIS_CONFIG', [
+    'token' => 'KMHFP-OSYFF-5F2ZJ-RH5GE',
+    'host' => env('REDIS_HOST') ?: '127.0.0.1',
+    'port' => env('REDIS_PORT') ?: 6379,
+    'database' => env('REDIS_DATABASE') ?: 0,
+    'maxttl' => env('REDIS_MAX_TTL') ?: (3600 * 24 * 7), // 7 days
+    'timeout' => env('REDIS_TIMEOUT') ?: 1.0,
+    'read_timeout' => env('REDIS_READ_TIMEOUT') ?: 1.0,
+    'split_alloptions' => env('REDIS_SPLIT_ALLOPTIONS') ?: true,
+    'debug' => env('REDIS_DEBUG') ?: false,
+    'non_persistent_groups' => [
+        'comment',
+        'counts',
+        'plugins',
+        'themes',
+        'learndash_reports',
+        'learndash_admin_profile',
+        'wc_session_id',
+    ]
+]);
 
 /**
  * Debugging Settings

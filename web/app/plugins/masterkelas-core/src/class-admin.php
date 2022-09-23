@@ -30,6 +30,41 @@ class Admin {
 		\MasterKelas\Admin\LearnDash::init();
 		\MasterKelas\Admin\ConfigureUserFields::hooks();
 
+		add_action("parse_request", [__CLASS__, 'parse_request'], 99);
+		add_action("admin_menu", [__CLASS__, 'admin_menu']);
+		add_filter("map_meta_cap", [__CLASS__, 'map_meta_cap'], 10, 2);
+
+		add_action("do_feed", [__CLASS__, 'disable_feed'], 1);
+		add_action("do_feed_rdf", [__CLASS__, 'disable_feed'], 1);
+		add_action("do_feed_rss", [__CLASS__, 'disable_feed'], 1);
+		add_action("do_feed_rss2", [__CLASS__, 'disable_feed'], 1);
+		add_action("do_feed_atom", [__CLASS__, 'disable_feed'], 1);
+		add_action("do_feed_rss2_comments", [__CLASS__, 'disable_feed'], 1);
+		add_action("do_feed_atom_comments", [__CLASS__, 'disable_feed'], 1);
+		add_filter('multilingualpress.hreflang_type', '__return_false');
+		remove_action('wp_head', 'print_emoji_detection_script', 7);
+		remove_action('wp_print_styles', 'print_emoji_styles');
+		remove_action('admin_print_scripts', 'print_emoji_detection_script');
+		remove_action('admin_print_styles', 'print_emoji_styles');
+		remove_action('wp_head', 'rsd_link');
+		remove_action('wp_head', 'wp_generator');
+		remove_action('wp_head', 'feed_links', 2);
+		remove_action('wp_head', 'index_rel_link');
+		remove_action('wp_head', 'wlwmanifest_link');
+		remove_action('wp_head', 'feed_links_extra', 3);
+		remove_action('wp_head', 'start_post_rel_link', 10, 0);
+		remove_action('wp_head', 'parent_post_rel_link', 10, 0);
+		remove_action('wp_head', 'adjacent_posts_rel_link', 10, 0);
+		remove_action('wp_head', 'wp_shortlink_wp_head', 10, 0);
+		remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
+		remove_action('wp_head', 'rest_output_link_wp_head');
+		remove_action('wp_head', 'wp_oembed_add_discovery_links');
+		remove_action('template_redirect', 'rest_output_link_header', 11);
+
+		// Disable XML-RPC
+		add_filter('xmlrpc_enabled', '__return_false');
+		add_action('pre_ping', 'pre_ping');
+
 		add_action("admin_enqueue_scripts", [__CLASS__, 'enqueue_scripts']);
 		add_action("plugins_loaded", [__CLASS__, 'disable_rest_routes']);
 
@@ -47,6 +82,66 @@ class Admin {
 	// 	}
 	// 	error_log($post_ID);
 	// }
+
+	public static function parse_request() {
+		global $wp;
+
+		/**
+		 * If the request is not part of a CRON, REST Request, GraphQL Request or Admin request,
+		 * output some basic, blank markup
+		 */
+		if (
+			!defined('DOING_CRON') &&
+			!defined('REST_REQUEST') &&
+			!is_admin() &&
+			(empty($wp->query_vars['rest_oauth1']) &&
+				!defined('GRAPHQL_HTTP_REQUEST')
+			)
+		) {
+			status_header(404);
+			exit;
+		}
+	}
+
+	public static function admin_menu() {
+		global $menu, $submenu;
+
+		# Remove links
+		unset($menu[15]);
+
+		# Remove appearance
+		unset($menu[60]);
+	}
+
+	public static function map_meta_cap($caps, $cap) {
+		$disallow = array(
+			'delete_themes',
+			'edit_theme_options',
+			'edit_themes',
+			'install_themes',
+			'switch_themes',
+			'update_themes'
+		);
+
+		if (in_array($cap, $disallow)) $caps[] = 'do_not_allow';
+
+		return $caps;
+	}
+
+	public static function disable_feed() {
+		status_header(404);
+		exit;
+	}
+
+	public static function pre_ping(&$links) {
+		$home = get_option('home');
+
+		foreach ($links as $l => $link) {
+			if (0 === strpos($link, $home)) {
+				unset($links[$l]);
+			}
+		}
+	}
 
 	public static function post_type_link($link, \WP_Post $post) {
 		$webapp_url = WebApp::get_webapp_url();
