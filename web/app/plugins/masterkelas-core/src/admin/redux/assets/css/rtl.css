@@ -1,0 +1,128 @@
+html[dir="rtl"] .redux-container .redux-action_bar {
+  float: left;
+}
+html[dir="rtl"] .redux-container .expand_options,
+html[dir="rtl"] .redux-sidebar,
+html[dir="rtl"] .cb-enable,
+html[dir="rtl"] .cb-disable,
+html[dir="rtl"] .cb-enable span,
+html[dir="rtl"] .cb-disable span,
+html[dir="rtl"] #redux-footer #redux-share {
+  float: right;
+}
+html[dir="rtl"] .redux-main {
+  border-left: 0;
+  margin-left: 0;
+  border-right: 1px solid #d8d8d8;
+  margin-right: 201px;
+}
+html[dir="rtl"] .redux-main .redux-typography-container .typography-preview {
+  text-align: center !important;
+  direction: ltr !important;
+}
+html[dir="rtl"] .redux-group-tab-link-a {
+  padding-left: 0;
+  padding-right: 30px;
+}
+html[dir="rtl"] .redux-group-tab-link-a i {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+html[dir="rtl"] .redux-group-tab-link-a span.group_title {
+  padding-left: 0;
+  padding-right: 35px;
+}
+html[dir="rtl"] .redux_slider {
+  margin-left: 0;
+  margin-right: 15px;
+}
+html[dir="rtl"] .redux-action_bar {
+  float: left !important;
+}
+html[dir="rtl"] .expand_options {
+  float: right !important;
+  border: 1px solid red;
+}
+html[dir="rtl"] .redux_field_th {
+  padding: 20px 0 20px 20px !important;
+}
+html[dir="rtl"] .field-desc {
+  text-align: right;
+}
+html[dir="rtl"] .redux-container-ace_editor,
+html[dir="rtl"] .redux-container-border,
+html[dir="rtl"] .redux-container-spacing,
+html[dir="rtl"] .redux-container-dimensions {
+  direction: ltr !important;
+}
+html[dir="rtl"] .redux-container-border .field-border-input,
+html[dir="rtl"] .redux-container-border .redux-color-init,
+html[dir="rtl"] .redux-container-border .redux-border-style,
+html[dir="rtl"] .redux-container-sorter,
+html[dir="rtl"] .redux-container-border,
+html[dir="rtl"] .redux-container-spacing,
+html[dir="rtl"] .redux-container-spacing .field-spacing-input,
+html[dir="rtl"] .redux-container-dimensions .redux-dimensions-container,
+html[dir="rtl"] .redux-container-text label,
+html[dir="rtl"] .redux-container-checkbox input,
+html[dir="rtl"] .typography-font-bar,
+html[dir="rtl"] .typography-style-bar,
+html[dir="rtl"] .redux-color.redux-typography-color,
+html[dir="rtl"] .redux-typography-subsets {
+  float: right !important;
+}
+html[dir="rtl"] .input-append {
+  margin-right: 10px;
+  direction: ltr !important;
+}
+html[dir="rtl"] .redux-container-slider,
+html[dir="rtl"] .redux-container-spinner,
+html[dir="rtl"] .redux-container-switch {
+  /* direction: ltr !important;
+  float: right;
+  margin: 0; */
+}
+html[dir="rtl"] .redux-info-field .redux-info-icon {
+  margin-left: 15px;
+}
+html[dir="rtl"] #redux-share {
+  float: right !important;
+}
+html[dir="rtl"] .redux-sidebar .redux-menu-warning,
+html[dir="rtl"] .redux-sidebar .redux-menu-error,
+html[dir="rtl"] .redux-sidebar .hasSubSections .extraIconSubsections {
+  float: left;
+}
+html[dir="rtl"] .select2-search-choice-close {
+  left: 23px !important;
+}
+
+html[dir="rtl"] .redux-container-switch .cb-enable {
+  border-right: 1px solid #ccc;
+  border-left: 0;
+  border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  -webkit-border-radius: 0 3px 3px 0;
+}
+
+html[dir="rtl"] .redux-container-switch .cb-disable {
+  border-left: 1px solid #ccc;
+  border-right: 0;
+  border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  -webkit-border-radius: 3px 0 0 3px;
+}
+
+html[dir="rtl"] .redux-container-switch .switch-options {
+  margin-right: unset;
+  margin-left: 10px;
+}
+
+html[dir="rtl"] #redux-footer {
+  left: 21px !important;
+  right: unset !important;
+}
+
+html[dir="rtl"] .redux-save-warn.notice-yellow {
+  right: 183px !important;
+}

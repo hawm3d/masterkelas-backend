@@ -1,0 +1,1941 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Project-Id-Version: MasterKelas\n"
+"POT-Creation-Date: 2022-06-28 02:18+0430\n"
+"PO-Revision-Date: 2022-07-01 01:32+0430\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: masterkelas-core.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fa_IR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: src/admin/class-admin.php:30
+msgid "Basic Field"
+msgstr "فیلد اصلی"
+
+#: src/admin/class-admin.php:32
+msgid "Basic field with no subsections."
+msgstr "زمینه اصلی و بدون زیر مجموعه."
+
+#: src/admin/class-admin.php:38
+msgid "Example Text"
+msgstr "متن نمونه"
+
+#: src/admin/class-admin.php:39
+msgid "Example description."
+msgstr "توضیحات مثال."
+
+#: src/admin/class-admin.php:40
+msgid "Example subtitle."
+msgstr "عنوان زیرنویس."
+
+#: src/admin/redux/class-redux-core.php:400
+msgid "The Redux upload directory"
+msgstr ""
+
+#: src/admin/redux/class-redux-core.php:406
+msgid "Redux Framework"
+msgstr "فریمورک ریداکس"
+
+#: src/admin/redux/class-redux-core.php:407
+msgid "Debug information specific to Redux Framework."
+msgstr ""
+
+#: src/admin/redux/class-redux-core.php:410
+#: src/admin/redux/inc/welcome/views/about.php:25
+#: src/admin/redux/inc/welcome/views/about.php:131
+#: src/admin/redux/inc/welcome/views/templates.php:23
+msgid "Version"
+msgstr "ورژن"
+
+#: src/admin/redux/class-redux-core.php:414
+msgid "Installation"
+msgstr "نصب و راه اندازی"
+
+#: src/admin/redux/class-redux-core.php:418
+msgid "Data directory"
+msgstr "تاریخ"
+
+#: src/admin/redux/class-redux-core.php:422
+msgid "Browser"
+msgstr "مرورگر"
+
+#. translators: %s = Instance name.
+#: src/admin/redux/class-redux-core.php:455
+#, php-format
+msgid "Redux Instance: %s"
+msgstr ""
+
+#. translators: %s = Instance name w/ HTML.
+#: src/admin/redux/class-redux-core.php:457
+#, php-format
+msgid "Debug information for the %s Redux instance."
+msgstr ""
+
+#: src/admin/redux/framework.php:407 src/admin/redux/framework.php:416
+msgid "Cheatin&#8217; eh?"
+msgstr "تقلب &#8217; ؟"
+
+#: src/admin/redux/inc/classes/class-redux-admin-notices.php:136
+msgid "Dismiss"
+msgstr "رد"
+
+#: src/admin/redux/inc/classes/class-redux-ajax-save.php:42
+#: src/admin/redux/inc/classes/class-redux-ajax-select2.php:38
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+"اعتبارنامه امنیتی نامعتبر است.  لطفا صفحه را مجددا بارگذاری کنید و دوباره تلاش "
+"کنید."
+
+#: src/admin/redux/inc/classes/class-redux-ajax-save.php:52
+#: src/admin/redux/inc/classes/class-redux-ajax-select2.php:42
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+"نقش کاربری نامعتبر. لطفا صفحه را مجددا بارگزاری کرده و دوباره امتحان کنید."
+
+#: src/admin/redux/inc/classes/class-redux-ajax-save.php:114
+msgid "Your panel has no fields. Nothing to save."
+msgstr "پنل تنظیمات شما هیچ فیلدی برای ذخیره ندارد‌."
+
+#: src/admin/redux/inc/classes/class-redux-api.php:144
+msgid "Warning, Premature Initialization"
+msgstr "هشدار ، مقداردهی اولیه"
+
+#. translators: This is only shown to developers, should not impact users.
+#: src/admin/redux/inc/classes/class-redux-api.php:147
+#, php-format
+msgid "was run before the %s hook and was delayed to avoid errors."
+msgstr "قبل از هوک در %s شد و برای جلوگیری از خطا به تاخیر افتاد."
+
+#: src/admin/redux/inc/classes/class-redux-api.php:376
+msgid "Redux Framework is not installed. Please install it."
+msgstr "Redux Framework نصب نشده است. لطفا نصب کنید."
+
+#: src/admin/redux/inc/classes/class-redux-api.php:755
+msgid "Unable to create a section due to missing id and title."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-api.php:773
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-metaboxes-api.php:448
+msgid ""
+"Unable to create a section due an empty section array or the section variable "
+"passed was not an array."
+msgstr ""
+"ایجاد یک بخش به دلیل آرایه مقطع خالی امکان پذیر نیست یا متغیر بخش عبور داده "
+"شده آرایه ای نیست."
+
+#: src/admin/redux/inc/classes/class-redux-args.php:134
+msgid "Regular 400"
+msgstr "منظم 400"
+
+#: src/admin/redux/inc/classes/class-redux-args.php:138
+msgid "Regular 400 Italic"
+msgstr "معمولی 400 ایتالیک"
+
+#: src/admin/redux/inc/classes/class-redux-args.php:142
+msgid "Bold 700"
+msgstr "Bold 700"
+
+#: src/admin/redux/inc/classes/class-redux-args.php:146
+msgid "Bold 700 Italic"
+msgstr "Bold 700 Italic"
+
+#. translators: 1: Redux, 2: Link to plugin review
+#: src/admin/redux/inc/classes/class-redux-args.php:269
+#, php-format
+msgid ""
+"Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your support!"
+msgstr ""
+"از %1$s لذت می برید؟ لطفاً یک امتیاز %2$s برای ما بگذارید. ما جدا از پشتیبانی "
+"شما قدردانی می کنیم!"
+
+#: src/admin/redux/inc/classes/class-redux-args.php:270
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:503
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:319
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:113
+msgid "Redux"
+msgstr "ریداکس"
+
+#: src/admin/redux/inc/classes/class-redux-args.php:277
+#: src/admin/redux/inc/classes/class-redux-args.php:281
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:994
+msgid "Options"
+msgstr "تنظیمات"
+
+#: src/admin/redux/inc/classes/class-redux-args.php:343
+msgid "Redux Framework Notice"
+msgstr "اخطار فریمورک Redux"
+
+#: src/admin/redux/inc/classes/class-redux-args.php:344
+msgid ""
+"There are references to the Redux Framework support site in your config's "
+msgstr "در پیکربندی شما ارجاعاتی به سایت پشتیبانی Redux Framework وجود دارد "
+
+#: src/admin/redux/inc/classes/class-redux-args.php:345
+#: src/admin/redux/inc/classes/class-redux-args.php:362
+msgid ""
+"argument.  This is sample data.  Please change or remove this data before "
+"shipping your product."
+msgstr ""
+"بحث و جدل. این داده های نمونه است. لطفاً قبل از ارسال محصول ، این داده ها را "
+"تغییر داده یا حذف کنید."
+
+#: src/admin/redux/inc/classes/class-redux-args.php:360
+msgid "Redux Framework Notice:"
+msgstr "اخطار فریمورک Redux:"
+
+#: src/admin/redux/inc/classes/class-redux-args.php:361
+msgid "There are references to the Redux Framework support site in your config's"
+msgstr "در پیکربندی شما ارجاعاتی به سایت پشتیبانی Redux Framework وجود دارد"
+
+#: src/admin/redux/inc/classes/class-redux-cdn.php:127
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load some "
+"remotely hosted scripts."
+msgstr ""
+"لطفا بعد از چند دقیقه صبر کردن صفحه را دوباره لود کنید. در بارگزاری چند "
+"اسکریپت با خطا مواجه شدیم."
+
+#. translators: %s: URL.
+#: src/admin/redux/inc/classes/class-redux-cdn.php:130
+#, php-format
+msgid ""
+"If you are developing offline, please download and install the %s plugin/"
+"extension to bypass our CDN and avoid this warning"
+msgstr ""
+"اگر به صورت آفلاین در حال توسعه هستید ، لطفاً افزونه پسوند %s را بارگیری و نصب "
+"کنید تا CDN ما را دور بزنید و از این هشدار جلوگیری کنید"
+
+#. translators: %s: CDN handle.
+#: src/admin/redux/inc/classes/class-redux-cdn.php:134
+msgid "Redux Framework Warning"
+msgstr "اخطار فریمورک رداکس"
+
+#: src/admin/redux/inc/classes/class-redux-cdn.php:134
+#, php-format
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr "CDN %s در دسترس نیست. بعضی از فیلد ها ممکن است درست کار نکنند."
+
+#. translators: %s: Vendor support URL. %s: Admin plugins page.
+#: src/admin/redux/inc/classes/class-redux-cdn.php:182
+#, php-format
+msgid ""
+"The %1$s (or extension) is either not installed or not activated and thus, "
+"some controls may not render properly.  Please ensure that it is installed and "
+"%2$s"
+msgstr ""
+"%1$s (یا برنامه افزودنی) نصب نشده یا فعال نشده است و بنابراین ، برخی از کنترل "
+"ها ممکن است به درستی ارائه نشوند. لطفاً مطمئن شوید که نصب شده است و%2$s"
+
+#: src/admin/redux/inc/classes/class-redux-cdn.php:182
+msgid "activated."
+msgstr "فعال شده."
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:136
+msgid "Security check failed."
+msgstr "بررسی امنیتی با مشکل مواجه شد."
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:207
+msgid "Error: Install URL for Extendify could not be located."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:228
+msgid "Install process for Extendify failed."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:243
+msgid "Extendify activation failed."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:251
+msgid "Extendify installed and activated."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:332
+#, php-format
+msgid ""
+"Register <strong>%1$s</strong> to enable automatic Google Font updates "
+"service. Plus unlock all free block templates in the Redux template library."
+msgstr ""
+"ثبت نام کنید <strong>%1$s</strong> تا سرویس به روز رسانی خودکار Google Font "
+"فعال شود. به علاوه باز کردن تمام قالب های بلوک رایگان در کتابخانه قالب Redux."
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:337
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:782
+msgid "learn more"
+msgstr "بیشتر بدانید"
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:344
+msgid "Register Now"
+msgstr "ثبت نام کنید"
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:345
+msgid "No thanks"
+msgstr "نه ممنون"
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:395
+msgid "Dismiss this notice"
+msgstr "این اطلاعیه را رد کنید"
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:410
+msgid "Visit our website to learn more!"
+msgstr "برای کسب اطلاعات بیشتر به وب سایت ما مراجعه کنید!"
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:432
+msgid "Get access to even more free templates!"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:436
+msgid ""
+"Redux users have been asking for easier options to create and edit their sites "
+"using the Gutenberg editor. We're excited to announce that Redux is partnering "
+"with the Extendify library of Gutenberg patterns and templates to bring the "
+"power of WordPress 5.9 to Redux users! By clicking “Install & Activate "
+"Extendify” you will get access to 10 free monthly imports of patterns and "
+"templates. Installing Extendify is optional, and Redux will continue to work "
+"if you decide to not install Extendify."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:456
+msgid "Install and Activate Extendify"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:480
+msgid ""
+"<strong>Redux is activated!</strong> Each site on your network must be "
+"connected individually by an admin on that site."
+msgstr ""
+"<strong> Redux  فعال شده است! </strong> هر سایت در شبکه شما باید به طور "
+"جداگانه توسط سرپرست موجود در آن سایت متصل شود."
+
+#: src/admin/redux/inc/classes/class-redux-connection-banner.php:502
+#, php-format
+msgid ""
+"By clicking the <strong>Register</strong> button, you agree to our <a href="
+"\"%1$s\" target=\"_blank\">terms of service</a>, to create an account, and to "
+"share details of your usage metrics with Redux.io.  We may also occasionally "
+"send you emails with product updates, special offers, or other marketing "
+"content."
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:168
+msgid "Gutenberg is currently disabled!"
+msgstr "گوتنبرگ در حال حاضر غیر فعال است!"
+
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:176
+msgid "Hmm, it seems something else is disabling Gutenberg..."
+msgstr "هوم ، به نظر می رسد چیز دیگری گوتنبرگ را از کار انداخته است ..."
+
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:179
+msgid "Your theme author has disabled Gutenberg!"
+msgstr "نویسنده طرح زمینه شما گوتنبرگ را غیرفعال کرده است!"
+
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:182
+msgid "Looks like something has disabled Gutenberg?"
+msgstr "به نظر می رسد چیزی گوتنبرگ را از کار انداخته است؟"
+
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:187
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:193
+msgid "Enable Gutenberg"
+msgstr "گوتنبرگ را فعال کنید"
+
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:191
+msgid "Your theme"
+msgstr "تم شما"
+
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:211
+msgid "Disable Plugin"
+msgstr "غیر فعال کردن افزونه"
+
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:214
+msgid "Disable Plugins"
+msgstr "غیرفعال کردن افزونه ها"
+
+#. translators: 1. Name
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:333
+msgid "Redux WordPress Plugin"
+msgstr "افزونه وردپرس Redux"
+
+#. translators: 1. Name
+#. phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+#: src/admin/redux/inc/classes/class-redux-enable-gutenberg.php:342
+msgid "No Thanks"
+msgstr "نه ممنون"
+
+#: src/admin/redux/inc/classes/class-redux-enqueue.php:628
+#: src/admin/redux/inc/extensions/customizer/class-redux-extension-customizer.php:726
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr "تغییرات انجام شده ذخیره نشده اند. آیا میخواهید تغییرات را ذخیره کنید؟"
+
+#: src/admin/redux/inc/classes/class-redux-enqueue.php:644
+#: src/admin/redux/inc/extensions/customizer/class-redux-extension-customizer.php:727
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr "آیا مطمئنید؟ با ریست ممکن است دیتا وارد شده از بین بروند."
+
+#: src/admin/redux/inc/classes/class-redux-enqueue.php:660
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr "آیا مطمئن هستید ؟ تمام مقادیر وارد شده در این بخش از بین خواهند رفت."
+
+#: src/admin/redux/inc/classes/class-redux-enqueue.php:676
+#: src/admin/redux/inc/extensions/customizer/class-redux-extension-customizer.php:728
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+"تنظیمات های فعلی شما با مقادیر از پیش تعیین شده جایگزین می شوند. آیا مایل به "
+"ادامه هستید؟"
+
+#: src/admin/redux/inc/classes/class-redux-enqueue.php:692
+msgid ""
+"Your current options will be replaced with the values of this import. Would "
+"you like to proceed?"
+msgstr ""
+"تنظیمات های فعلی شما با مقادیر این درون ریزی جایگزین می شود. آیا مایل به ادامه "
+"هستید؟"
+
+#: src/admin/redux/inc/classes/class-redux-enqueue.php:706
+msgid "Please Wait"
+msgstr "لطفا منتظر بمانید"
+
+#: src/admin/redux/inc/classes/class-redux-enqueue.php:719
+msgid "There was an error saving. Here is the result of your action:"
+msgstr "هنگام ذخیره خطایی روی داد در اینجا نتیجه عمل شما آمده است:"
+
+#: src/admin/redux/inc/classes/class-redux-enqueue.php:723
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+"یک مشکل با اقدام شما وجود دارد. لطفا بارگذاری مجدد صفحه با  دوباره امتحان کنید."
+
+#. translators: %1$s Extension friendly name. %2$s: minimum Redux version.
+#: src/admin/redux/inc/classes/class-redux-extension-abstract.php:221
+#, php-format
+msgid "The %1$s extension requires Redux Framework version %2$s or higher."
+msgstr "افزونه %1$s نیاز به نسخه Redux Framework %2$s یا بالاتر دارد."
+
+#: src/admin/redux/inc/classes/class-redux-extension-abstract.php:221
+msgid "You are currently running Redux Framework version "
+msgstr "شما در حال حاضر نسخه Redux Framework را اجرا می کنید "
+
+#: src/admin/redux/inc/classes/class-redux-extension-abstract.php:221
+msgid ""
+"This field will not render in your option panel, and features of this "
+"extension will not be available until the latest version of Redux Framework "
+"has been installed."
+msgstr ""
+
+#. translators: %s is the name of an extension
+#: src/admin/redux/inc/classes/class-redux-extensions.php:94
+#, php-format
+msgid "The `%s` extension was not located properly"
+msgstr "پسوند `%s` به درستی قرار نگرفت"
+
+#: src/admin/redux/inc/classes/class-redux-field.php:37
+msgid "Field ID"
+msgstr "فیلد ID"
+
+#: src/admin/redux/inc/classes/class-redux-field.php:38
+#: src/admin/redux/inc/extensions/repeater/repeater/class-redux-repeater.php:143
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:128
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:263
+msgid "Title"
+msgstr "عنوان"
+
+#: src/admin/redux/inc/classes/class-redux-field.php:39
+msgid "Subtitle"
+msgstr "زیرنویس"
+
+#: src/admin/redux/inc/classes/class-redux-field.php:40
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:140
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:276
+msgid "Description"
+msgstr "توضیح"
+
+#: src/admin/redux/inc/classes/class-redux-field.php:41
+msgid "Class"
+msgstr "کلاس"
+
+#: src/admin/redux/inc/classes/class-redux-field.php:42
+msgid "Compiler"
+msgstr "گردآورنده"
+
+#: src/admin/redux/inc/classes/class-redux-field.php:43
+#: src/admin/redux/inc/classes/class-redux-page-render.php:993
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: src/admin/redux/inc/classes/class-redux-field.php:44
+msgid "Disabled"
+msgstr "غیر فعال"
+
+#: src/admin/redux/inc/classes/class-redux-field.php:45
+msgid "Hint"
+msgstr "راهنمایی"
+
+#: src/admin/redux/inc/classes/class-redux-field.php:46
+msgid "Permissions"
+msgstr "مجوزها"
+
+#: src/admin/redux/inc/classes/class-redux-field.php:47
+msgid "Required"
+msgstr "ضروری"
+
+#. translators: %1$s: Upload URL.  %2$s: Codex URL.
+#: src/admin/redux/inc/classes/class-redux-filesystem.php:142
+#: src/admin/redux/inc/classes/class-redux-filesystem.php:436
+msgid "File Permission Issues"
+msgstr "مشکل دسترسی به فایل"
+
+#: src/admin/redux/inc/classes/class-redux-filesystem.php:142
+#: src/admin/redux/inc/classes/class-redux-filesystem.php:436
+#, php-format
+msgid ""
+"We were unable to modify required files. Please ensure that %1$s has the "
+"proper read-write permissions, or modify your wp-config.php file to contain "
+"your FTP login credentials as %2$s."
+msgstr ""
+"ما نتوانستیم پرونده های مورد نیاز را اصلاح کنیم. لطفاً اطمینان حاصل کنید که%1$s "
+"از مجوز خواندن و نوشتن مناسب برخوردار است یا پرونده wp-config.php خود را تغییر "
+"دهید تا اطلاعات ورود به سیستم FTP شما به عنوان%2$s باشد."
+
+#: src/admin/redux/inc/classes/class-redux-filesystem.php:142
+#: src/admin/redux/inc/classes/class-redux-filesystem.php:436
+msgid "outlined here"
+msgstr "در اینجا مشخص شده است"
+
+#: src/admin/redux/inc/classes/class-redux-functions.php:483
+msgid "Support hash could not be generated. Please try again later."
+msgstr "دوباره امتحان کنید."
+
+#: src/admin/redux/inc/classes/class-redux-health.php:52
+msgid "Security token"
+msgstr "توکن امنیتی"
+
+#: src/admin/redux/inc/classes/class-redux-health.php:87
+msgid "Data transmit"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-helpers.php:1218
+msgid "version"
+msgstr "نسخه"
+
+#: src/admin/redux/inc/classes/class-redux-helpers.php:1218
+msgid "is out of date. The core version is"
+msgstr "منسوخ شده است نسخه اصلی آن است"
+
+#: src/admin/redux/inc/classes/class-redux-page-render.php:174
+msgid "Enable"
+msgstr "فعال"
+
+#: src/admin/redux/inc/classes/class-redux-page-render.php:179
+msgid "Disable"
+msgstr "غیرفعال کردن"
+
+#: src/admin/redux/inc/classes/class-redux-page-render.php:186
+msgid "moving the mouse over"
+msgstr "افکت روی ماوس"
+
+#: src/admin/redux/inc/classes/class-redux-page-render.php:188
+msgid "clicking"
+msgstr "کلیک کردن"
+
+#. translators: %1$s: Mouse action.  %2$s: Hint status.
+#: src/admin/redux/inc/classes/class-redux-page-render.php:193
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %1$s the hint icon, offering addition "
+"information about the field in which they appear.  They can be %2$s by using "
+"the link below."
+msgstr ""
+"نکات راهنمایی هایی هستند که وقتی%1$s  نماد hint ظاهر می شوند ، اطلاعات اضافی "
+"را درباره زمینه ای که در آنها نشان داده می شوند ، ارائه می دهند. با استفاده از "
+"پیوند زیر می توانند %2$s باشند."
+
+#: src/admin/redux/inc/classes/class-redux-page-render.php:198
+msgid "Hints"
+msgstr "راهنمایی ها"
+
+#: src/admin/redux/inc/classes/class-redux-page-render.php:214
+msgid "Hint Tooltip Preferences"
+msgstr "تنظیمات برگزیده راهنمای ابزار"
+
+#. translators: %1$s is the field ID, %2$s is the field type.
+#: src/admin/redux/inc/classes/class-redux-page-render.php:517
+#, php-format
+msgid "Field %1$s could not be displayed. Field type %2$s was not found."
+msgstr "فیلد%1$s نمایش داده نمی شود. نوع فیلد%2$s  پیدا نشد."
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:86
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr "اخطار - این پنل تنظیمات بدون جاوااسکریپت به درستی کار نمی کند !"
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:104
+msgid "Submit Support Information?"
+msgstr ""
+
+#. translators: %s = WP Site Health Screen URL.
+#: src/admin/redux/inc/classes/class-redux-panel.php:106
+#, php-format
+msgid ""
+"Redux will send the debug information found on the %s and your Redux config to "
+"our secure server.  Are you ready to proceed?"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:106
+msgid "WordPress Site Health screen"
+msgstr ""
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:166
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1213
+msgid "Settings Imported!"
+msgstr "تنظیمات درون‌ریزی شد!"
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:187
+msgid "All Defaults Restored!"
+msgstr "تمامی مقادیر پیشفرض بازگردانی شدند !"
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:208
+msgid "Section Defaults Restored!"
+msgstr "تمامی مقادیر پیشفرض این بخش بازگردانی شدند !"
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:229
+msgid "Settings Saved!"
+msgstr "تنظیمات ذخیره شد !"
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:256
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1217
+msgid "Settings have changed, you should save them!"
+msgstr "تنظیمات تغییر کردند ، باید ذخیره شون کنید!"
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:270
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1221
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1527
+msgid "error(s) were found!"
+msgstr "خطا یافت شد!"
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:285
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1225
+msgid "warning(s) were found!"
+msgstr "اخطار(هایی) پیدا شده اند!"
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:405
+msgid ""
+"Your panel has bundled copies of Redux Framework template files that are "
+"outdated!"
+msgstr ""
+"پنل شما نسخه های بسته بندی شده ای از فایل های قالب Redux Framework که منسوخ "
+"شده اند!"
+
+#: src/admin/redux/inc/classes/class-redux-panel.php:405
+msgid "Please update them now as functionality issues could arise."
+msgstr "لطفاً اکنون در صورت بروز مشکلات عملکردی آنها را به روز کنید."
+
+#: src/admin/redux/inc/classes/class-redux-rest-api-builder.php:68
+#: src/admin/redux/inc/classes/class-redux-rest-api-builder.php:83
+msgid "The field type"
+msgstr "نوع فیلد"
+
+#. translators: Number of years
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:99
+#, php-format
+msgid "%s years"
+msgstr "%s سال"
+
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:101
+msgid "a year"
+msgstr "یک سال"
+
+#. translators: Number of weeks
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:108
+#, php-format
+msgid "%s weeks"
+msgstr "%s هفته"
+
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:110
+msgid "a week"
+msgstr "یک هفته"
+
+#. translators: Number of days
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:117
+#, php-format
+msgid "%s days"
+msgstr "%s روز"
+
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:119
+msgid "a day"
+msgstr "یک روز"
+
+#. translators: Number of hours
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:126
+#, php-format
+msgid "%s hours"
+msgstr "%s ساعت"
+
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:128
+msgid "an hour"
+msgstr "یک ساعت"
+
+#. translators: Number of minutes
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:135
+#, php-format
+msgid "%s minutes"
+msgstr "%s دقیقه"
+
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:137
+msgid "a minute"
+msgstr "یک دقیقه"
+
+#. translators: Number of seconds
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:144
+#, php-format
+msgid "%s seconds"
+msgstr "%s ثانیه"
+
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:146
+msgid "a second"
+msgstr "یک ثانیه"
+
+#. translators: 1. Name
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:278
+#, php-format
+msgid "%s WordPress Plugin"
+msgstr "%s افزونه وردپرس"
+
+#. translators: 1. Name
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:282
+#, php-format
+msgid "Are you enjoying %s?"
+msgstr "آیا شما لذت می برید از %s?"
+
+#. translators: 1. Name, 2. Time
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:285
+#, php-format
+msgid ""
+"You have been using %1$s for %2$s now. Would you mind leaving a review to let "
+"us know know what you think? We'd really appreciate it!"
+msgstr ""
+"شما اکنون از%1$s برای%2$s استفاده کرده اید. آیا با ترک یک بررسی اجازه می دهید "
+"تا نظر شما را با ما در میان بگذاریم؟ ما واقعاً قدردان آن خواهیم بود!"
+
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:289
+msgid "Leave a Review"
+msgstr "یک بررسی بگذارید"
+
+#: src/admin/redux/inc/classes/class-redux-user-feedback.php:290
+msgid "No thanks / I already have"
+msgstr "نه ممنون / من قبلاً داشته ام"
+
+#: src/admin/redux/inc/classes/class-redux-wordpress-data.php:358
+msgid "[unassigned]"
+msgstr "[واگذار نشده]"
+
+#: src/admin/redux/inc/extensions/customizer/class-redux-extension-customizer.php:750
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr "شما تغییرات ذخیره نشده ای دارید. آیا می خواهید آنها را ذخیره کنید؟"
+
+#: src/admin/redux/inc/extensions/customizer/class-redux-extension-customizer.php:751
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr "آیا مطمئن هستید ؟ تمام مقادیر وارد شده از بین خواهند رفت."
+
+#: src/admin/redux/inc/extensions/customizer/class-redux-extension-customizer.php:752
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+"تنظیمات های فعلی شما با مقادیر از پیش تعیین شده جایگزین می شوند.  آیا مایل به "
+"ادامه هستید؟"
+
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-panel.php:109
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-panel.php:231
+msgid "Press return or enter to open this panel"
+msgstr "برای باز شدن این پنجره دکمه بازگشت یا اینتر را بزنید"
+
+#. translators: %s is the site/panel title in the Customizer
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-panel.php:138
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-panel.php:197
+msgid "You are customizing"
+msgstr "شما سفارشی هستید"
+
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-panel.php:193
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-section.php:181
+msgid "Back"
+msgstr "بازگشت"
+
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-panel.php:204
+msgid "Help"
+msgstr "راهنمایی"
+
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-section.php:98
+msgid "Press return or enter to expand"
+msgstr "برای بازکردن و توسعه دادن کلید ورود را بفشارید"
+
+#. translators: &#9656; is the unicode right-pointing triangle, and %s is the section title in the Customizer
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-section.php:144
+#, php-format
+msgid "Customizing &#9656; %s"
+msgstr "سفارشی سازی &#9656; %s"
+
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-section.php:146
+msgid "Customizing"
+msgstr "سفارشی سازی"
+
+#: src/admin/redux/inc/extensions/customizer/inc/class-redux-customizer-section.php:175
+msgid "Press return or enter to open"
+msgstr "برای بازکردن کلید ورود را بفشارید"
+
+#: src/admin/redux/inc/extensions/datetime/datetime/class-redux-datetime.php:149
+msgid "Date"
+msgstr "تاریخ"
+
+#: src/admin/redux/inc/extensions/datetime/datetime/class-redux-datetime.php:150
+msgid "Time"
+msgstr "زمان"
+
+#: src/admin/redux/inc/extensions/datetime/datetime/class-redux-datetime.php:152
+msgid "Date / Time"
+msgstr "تاریخ / زمان"
+
+#: src/admin/redux/inc/extensions/import_export/class-redux-extension-import-export.php:84
+msgid "Import / Export"
+msgstr "درون ریزی / برون بری"
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:77
+msgid "Import Options"
+msgstr "درون‌ریزی تنظیمات"
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:83
+msgid "Import from Clipboard"
+msgstr "درون ریزی از کلیپ بورد"
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:89
+msgid "Upload file"
+msgstr "آپلود فایل"
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:96
+msgid "Paste your clipboard data here."
+msgstr "داده های کلیپ بورد خود را در اینجا جای گذاری کنید."
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:109
+msgid "Import"
+msgstr "درون ریزی"
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:112
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+"هشدار! این تمام مقادیر موجود را بازنویسی می کند، لطفا با احتیاط ادامه دهید!"
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:120
+msgid "Export Options"
+msgstr "برون‌ریزی تنظیمات"
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:124
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as you "
+"can use it as a backup should anything go wrong, or you can use it to restore "
+"your settings on this site (or any other site)."
+msgstr ""
+"در اینجا می توانید تنظیمات تنظیمات فعلی خود را کپی / بارگیری کنید. در صورت عدم "
+"استفاده از آن ، به عنوان پشتیبان خود ، این کار را ایمن نگه دارید ، یا می "
+"توانید از آن برای بازیابی تنظیمات خود در این سایت (یا هر سایت دیگر) استفاده "
+"کنید."
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:131
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:133
+msgid "Copy to Clipboard"
+msgstr "کپی به کلیپ بورد"
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:132
+msgid "Copied!"
+msgstr "کپی شد!"
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:136
+msgid "Export File"
+msgstr "فایل برون ریز"
+
+#: src/admin/redux/inc/extensions/import_export/import_export/class-redux-import-export.php:168
+msgid "Your panel has unchanged values, would you like to save them now?"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1230
+#: src/admin/redux/templates/panel/header-stickybar.tpl.php:16
+msgid "Expand"
+msgstr "توسعه دادن"
+
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1533
+msgid "warnings(s) were found!"
+msgstr "هشدار هایی یافت شده است!"
+
+#: src/admin/redux/inc/extensions/metaboxes/class-redux-metaboxes-api.php:636
+msgid ""
+"Unable to create a box due an empty box array or the box variable passed was "
+"not an array."
+msgstr ""
+
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:32
+msgid "Add or Upload File(s)"
+msgstr ""
+
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:123
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:229
+msgid "Remove Image"
+msgstr "حذف تصویر"
+
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:146
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:231
+msgid "File: "
+msgstr "فایل: "
+
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:148
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:232
+msgid "Download"
+msgstr "دانلود"
+
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:148
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:230
+#: src/admin/redux/inc/fields/background/class-redux-background.php:337
+#: src/admin/redux/inc/fields/media/class-redux-media.php:249
+#: src/admin/redux/inc/fields/multi_text/class-redux-multi-text.php:60
+#: src/admin/redux/inc/fields/multi_text/class-redux-multi-text.php:77
+#: src/admin/redux/inc/fields/multi_text/class-redux-multi-text.php:99
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:116
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:251
+msgid "Remove"
+msgstr "حذف"
+
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:228
+msgid "Select File(s)"
+msgstr "انتخاب فایل"
+
+#. translators: %s: Filename.
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:236
+#, php-format
+msgid "%s already exists in your file queue."
+msgstr ""
+
+#. translators: %s: Upload limit.
+#: src/admin/redux/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:239
+#, php-format
+msgid "Maximum upload limit of %s reached/exceeded."
+msgstr ""
+
+#: src/admin/redux/inc/extensions/options_object/class-redux-extension-options-object.php:72
+#: src/admin/redux/inc/extensions/options_object/options_object/class-redux-options-object.php:100
+msgid "Options Object"
+msgstr "آبجکت تنظیمات"
+
+#: src/admin/redux/inc/extensions/options_object/options_object/class-redux-options-object.php:106
+msgid "Show Object in Javascript Console Object"
+msgstr "نمایش آبجکت در کنسول مرورگر"
+
+#: src/admin/redux/inc/extensions/repeater/repeater/class-redux-repeater.php:160
+msgid "The"
+msgstr "این"
+
+#: src/admin/redux/inc/extensions/repeater/repeater/class-redux-repeater.php:160
+msgid "field is not supported within the Repeater field."
+msgstr ""
+
+#: src/admin/redux/inc/extensions/repeater/repeater/class-redux-repeater.php:167
+#: src/admin/redux/inc/extensions/repeater/repeater/class-redux-repeater.php:219
+#: src/admin/redux/inc/extensions/repeater/repeater/class-redux-repeater.php:393
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:215
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:351
+msgid "Delete"
+msgstr "حذف"
+
+#: src/admin/redux/inc/extensions/repeater/repeater/class-redux-repeater.php:242
+msgid "Add"
+msgstr "افزودن"
+
+#: src/admin/redux/inc/extensions/search/class-redux-extension-search.php:101
+msgid "Search for field(s)"
+msgstr "جستجو برای زمینه(ها)"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:121
+#: src/admin/redux/inc/fields/color/class-redux-color.php:76
+#: src/admin/redux/inc/fields/color_gradient/class-redux-color-gradient.php:132
+msgid "Transparent"
+msgstr "شفاف"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:131
+msgid "No Repeat"
+msgstr "بدون تکرار"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:132
+msgid "Repeat All"
+msgstr "تکرار همه"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:133
+msgid "Repeat Horizontally"
+msgstr "تکرار افقی"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:134
+msgid "Repeat Vertically"
+msgstr "تکرار عمودی"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:135
+#: src/admin/redux/inc/fields/background/class-redux-background.php:150
+#: src/admin/redux/inc/fields/background/class-redux-background.php:168
+#: src/admin/redux/inc/fields/background/class-redux-background.php:186
+#: src/admin/redux/inc/fields/background/class-redux-background.php:205
+msgid "Inherit"
+msgstr "به ارث می برند"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:138
+msgid "Background Repeat"
+msgstr "تکرار پس‌زمینه"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:151
+#: src/admin/redux/inc/fields/background/class-redux-background.php:169
+msgid "Border Box"
+msgstr "جعبه مرزی"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:152
+#: src/admin/redux/inc/fields/background/class-redux-background.php:170
+msgid "Content Box"
+msgstr "جعبه محتوا"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:153
+#: src/admin/redux/inc/fields/background/class-redux-background.php:171
+msgid "Padding Box"
+msgstr "پدینگ جعبه"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:156
+msgid "Background Clip"
+msgstr "کلیپ پس‌زمینه"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:174
+msgid "Background Origin"
+msgstr "مبدا پس‌زمینه"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:187
+msgid "Cover"
+msgstr "کاور"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:188
+msgid "Contain"
+msgstr "شامل"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:191
+msgid "Background Size"
+msgstr "اندازه پس زمینه"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:203
+msgid "Fixed"
+msgstr "ثابت"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:204
+msgid "Scroll"
+msgstr "اسکرول"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:208
+msgid "Background Attachment"
+msgstr "الصاق بک گراند"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:220
+msgid "Left Top"
+msgstr "چپ بالا"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:221
+msgid "Left center"
+msgstr "چپ وسط"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:222
+msgid "Left Bottom"
+msgstr "چپ پایین"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:223
+msgid "Center Top"
+msgstr "وسط بالا"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:224
+msgid "Center Center"
+msgstr "وسط وسط"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:225
+msgid "Center Bottom"
+msgstr "وسط پایین"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:226
+msgid "Right Top"
+msgstr "راست بالا"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:227
+msgid "Right center"
+msgstr "راست وسط"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:228
+msgid "Right Bottom"
+msgstr "راست پایین"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:231
+msgid "Background Position"
+msgstr "موقعیت پس‌زمینه"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:285
+#: src/admin/redux/inc/fields/media/class-redux-media.php:89
+msgid "No media selected"
+msgstr "هیچ فایلی انتخاب نشده"
+
+#: src/admin/redux/inc/fields/background/class-redux-background.php:330
+#: src/admin/redux/inc/fields/media/class-redux-media.php:242
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:105
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:249
+msgid "Upload"
+msgstr "بارگذاری"
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:106
+#: src/admin/redux/inc/fields/spacing/class-redux-spacing.php:165
+msgid "All"
+msgstr "همه"
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:123
+#: src/admin/redux/inc/fields/spacing/class-redux-spacing.php:223
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:665
+msgid "Top"
+msgstr "بالا"
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:135
+#: src/admin/redux/inc/fields/spacing/class-redux-spacing.php:239
+msgid "Right"
+msgstr "راست"
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:147
+#: src/admin/redux/inc/fields/spacing/class-redux-spacing.php:255
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:692
+msgid "Bottom"
+msgstr "پایین"
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:159
+#: src/admin/redux/inc/fields/spacing/class-redux-spacing.php:271
+msgid "Left"
+msgstr "چپ"
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:169
+msgid "Solid"
+msgstr "جامد"
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:170
+msgid "Dashed"
+msgstr "نقطه چین"
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:171
+msgid "Dotted"
+msgstr "نقطه چین"
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:172
+msgid "Double"
+msgstr "دو برابر"
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:173
+msgid "None"
+msgstr "هیچ یک"
+
+#: src/admin/redux/inc/fields/border/class-redux-border.php:176
+msgid "Border style"
+msgstr "استایل حاشیه"
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:92
+msgid "Shadow"
+msgstr "سایه"
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:111
+msgid "Horizontal Length "
+msgstr ""
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:120
+msgid "Horizontal Length"
+msgstr "طول افقی"
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:135
+msgid "Vertical Length "
+msgstr ""
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:144
+msgid "Vertical Length"
+msgstr "طول عمودی"
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:159
+msgid "Blur Radius "
+msgstr ""
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:168
+msgid "Blur Radius"
+msgstr "تاری شعاع"
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:183
+msgid "Spread "
+msgstr ""
+
+#: src/admin/redux/inc/fields/box_shadow/class-redux-box-shadow.php:192
+msgid "Spread"
+msgstr "انتشار دادن"
+
+#: src/admin/redux/inc/fields/color_rgba/class-redux-color-rgba.php:42
+msgid "Choose"
+msgstr "انتخاب"
+
+#: src/admin/redux/inc/fields/color_rgba/class-redux-color-rgba.php:43
+msgid "Cancel"
+msgstr "لغو"
+
+#: src/admin/redux/inc/fields/color_rgba/class-redux-color-rgba.php:45
+msgid "Select Color"
+msgstr "انتخاب رنگ"
+
+#: src/admin/redux/inc/fields/dimensions/class-redux-dimensions.php:144
+msgid "Width"
+msgstr "طول"
+
+#: src/admin/redux/inc/fields/dimensions/class-redux-dimensions.php:173
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:583
+msgid "Height"
+msgstr "ارتفاع"
+
+#: src/admin/redux/inc/fields/dimensions/class-redux-dimensions.php:194
+#: src/admin/redux/inc/fields/dimensions/class-redux-dimensions.php:198
+#: src/admin/redux/inc/fields/dimensions/class-redux-dimensions.php:200
+#: src/admin/redux/inc/fields/spacing/class-redux-spacing.php:282
+#: src/admin/redux/inc/fields/spacing/class-redux-spacing.php:283
+msgid "Units"
+msgstr "واحدها"
+
+#: src/admin/redux/inc/fields/gallery/class-redux-gallery.php:48
+msgid "Add/Edit Gallery"
+msgstr "افزودن / ویرایش گالری"
+
+#: src/admin/redux/inc/fields/gallery/class-redux-gallery.php:49
+msgid "Clear Gallery"
+msgstr "پاک کردن گالری"
+
+#: src/admin/redux/inc/fields/link_color/class-redux-link-color.php:65
+msgid "Regular"
+msgstr "معمولی"
+
+#: src/admin/redux/inc/fields/link_color/class-redux-link-color.php:87
+msgid "Hover"
+msgstr "شناور"
+
+#: src/admin/redux/inc/fields/link_color/class-redux-link-color.php:109
+msgid "Visited"
+msgstr "دیده شده"
+
+#: src/admin/redux/inc/fields/link_color/class-redux-link-color.php:131
+msgid "Active"
+msgstr "فعال"
+
+#: src/admin/redux/inc/fields/link_color/class-redux-link-color.php:153
+msgid "Focus"
+msgstr "متمرکز (Focus)"
+
+#: src/admin/redux/inc/fields/multi_text/class-redux-multi-text.php:28
+msgid "Add More"
+msgstr "افزودن"
+
+#: src/admin/redux/inc/fields/password/class-redux-password.php:53
+msgid "Password"
+msgstr "رمز عبور"
+
+#: src/admin/redux/inc/fields/password/class-redux-password.php:54
+msgid "Username"
+msgstr "نام کاربری"
+
+#: src/admin/redux/inc/fields/select/class-redux-select.php:106
+#: src/admin/redux/inc/fields/select_image/class-redux-select-image.php:26
+msgid "Select an item"
+msgstr "انتخاب یک مورد"
+
+#: src/admin/redux/inc/fields/select/class-redux-select.php:183
+#: src/admin/redux/inc/fields/select_image/class-redux-select-image.php:145
+msgid "No items of this type were found."
+msgstr "از این نوع آیتم پیدا نشد."
+
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:32
+msgid "Slide"
+msgstr "اسلايد"
+
+#. translators: New accordion title.
+#. translators:  Content title for new accordion.
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:48
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:233
+#, php-format
+msgid "New %s"
+msgstr "جدید %s"
+
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:152
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:288
+msgid "URL"
+msgstr "نشانی"
+
+#. translators:  Content title for accordion.
+#: src/admin/redux/inc/fields/slides/class-redux-slides.php:363
+#, php-format
+msgid "Add %s"
+msgstr "اضافه کردن %s"
+
+#: src/admin/redux/inc/fields/switch/class-redux-switch.php:37
+msgid "On"
+msgstr "روشن"
+
+#: src/admin/redux/inc/fields/switch/class-redux-switch.php:40
+msgid "Off"
+msgstr "غیرفعال"
+
+#: src/admin/redux/inc/fields/text/class-redux-text.php:27
+msgid ""
+"The Text field accepts any form of text and optionally validates the text "
+"before saving the value."
+msgstr ""
+"قسمت Text هر شکلی از متن را می پذیرد و قبل از ذخیره مقدار ، به صورت اختیاری "
+"متن را تأیید می کند."
+
+#: src/admin/redux/inc/fields/text/class-redux-text.php:29
+msgid "Display a qTip div when active on the text field."
+msgstr "هنگام فعال بودن در قسمت متن ، یک div qTip نمایش دهید."
+
+#: src/admin/redux/inc/fields/text/class-redux-text.php:30
+msgid "Placeholder text."
+msgstr "متن نگهدارنده."
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:309
+msgid "Font Family"
+msgstr "خانواده فونت"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:311
+msgid "Font family"
+msgstr "خانواده فونت"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:350
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:352
+msgid "Backup Font Family"
+msgstr "خانواده قلم پشتیبان"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:371
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:391
+msgid "Font style"
+msgstr "سبک فونت"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:372
+msgid "Font Weight &amp; Style"
+msgstr "عرض فونت  &amp; سبک"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:389
+msgid "Style"
+msgstr "سبک"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:404
+msgid "Font subsets"
+msgstr "زیر مجموعه فونت ها"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:412
+msgid "Font Subsets"
+msgstr "زیر مجموعه های فونت"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:415
+msgid "Subsets"
+msgstr "زیر مجموعه"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:417
+msgid "Font script"
+msgstr "اسکریپت فونت"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:431
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:432
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:434
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:436
+msgid "Text Align"
+msgstr "تراز متن"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:445
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:481
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:507
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:536
+msgid "inherit"
+msgstr "به ارث می برند"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:446
+msgid "left"
+msgstr "چپ"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:447
+msgid "right"
+msgstr "راست"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:448
+msgid "center"
+msgstr "مرکز"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:449
+msgid "justify"
+msgstr "توجیه"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:450
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:480
+msgid "initial"
+msgstr "اولیه"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:462
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:463
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:465
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:467
+msgid "Text Transform"
+msgstr "شکل متن"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:476
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:535
+msgid "none"
+msgstr "هیچ"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:477
+msgid "capitalize"
+msgstr "سرمایه گذاری"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:478
+msgid "uppercase"
+msgstr "بزرگ"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:479
+msgid "lowercase"
+msgstr "حروف کوچک"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:493
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:494
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:496
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:498
+msgid "Font Variant"
+msgstr "متغییر فونت"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:508
+msgid "normal"
+msgstr "معمولی"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:509
+msgid "small-caps"
+msgstr "حروف کوچک"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:521
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:522
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:524
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:526
+msgid "Text Decoration"
+msgstr "دکوراسیون متن"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:537
+msgid "underline"
+msgstr "برجسته کردن"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:538
+msgid "overline"
+msgstr "بیش از حد"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:539
+msgid "line-through"
+msgstr "میان-خط"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:540
+msgid "blink"
+msgstr "چشمک زدن"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:555
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:560
+msgid "Font Size"
+msgstr "اندازه فونت"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:561
+msgid "Size"
+msgstr "اندازه"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:577
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:582
+msgid "Line Height"
+msgstr "ارتفاع خط"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:605
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:610
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:611
+msgid "Word Spacing"
+msgstr "فاصله کلمات"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:628
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:633
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:634
+msgid "Letter Spacing"
+msgstr "فاصله حروف"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:659
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:664
+msgid "Margin Top"
+msgstr "حاشیه بالا"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:686
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:691
+msgid "Margin Bottom"
+msgstr "حاشیه پایین"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:718
+msgid "Font Color"
+msgstr "رنگ فونت"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:725
+msgid "Font color"
+msgstr "رنگ فونت"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:779
+msgid ""
+"Your Google Fonts are out of date. In order to update them you must register "
+"for Redux to enable updates."
+msgstr ""
+"فونت های Google شما از تاریخ گذشته اند. به منظور به روز رسانی آنها شما باید "
+"برای فعال کردن به روز رسانی Redux ثبت نام کنید."
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:781
+msgid "Register"
+msgstr "ثبت نام"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:781
+msgid "to enable font updates"
+msgstr "برای فعال کردن به روزرسانی های قلم"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:786
+msgid "Automated updates"
+msgstr "به روزرسانی خودکار"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:786
+msgid "one-time update"
+msgstr "به روز رسانی یکبار مصرف"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:799
+msgid "Shadow Color"
+msgstr "رنگ سایه"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:804
+msgid "Shadow color"
+msgstr "رنگ سایه"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:816
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:825
+msgid "Horizontal"
+msgstr "افقی"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:833
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:842
+msgid "Vertical"
+msgstr "عمودی"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:850
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:859
+msgid "Blur"
+msgstr "بلور"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:899
+msgid "Downloading Google Fonts..."
+msgstr "در حال دانلود نمودن فونت های گوگل..."
+
+#. translators: Aria title, link title.
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:901
+#, php-format
+msgid "Update Failed|msg. %1$s"
+msgstr "بروزرسانی انجام نشد | msg.%1$s"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:901
+msgid "Retry?"
+msgstr "تلاش مجدد؟"
+
+#. translators: Javascript reload command, link title.
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:903
+#, php-format
+msgid "Updated! %1$s to start using your updated fonts."
+msgstr "به روز شد! %1$s برای شروع استفاده از قلم های به روز شده خود."
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:903
+msgid "Reload the page"
+msgstr "بارگذاری مجدد صفحه"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:1331
+msgid "Standard Fonts"
+msgstr "فونت های استاندارد"
+
+#: src/admin/redux/inc/fields/typography/class-redux-typography.php:1414
+msgid "Google Webfonts"
+msgstr "گوگل Webfonts"
+
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:44
+msgid "Gradient Type "
+msgstr ""
+
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:47
+msgid "Type"
+msgstr "نوع"
+
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:53
+msgid "linear"
+msgstr "خطی"
+
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:54
+msgid "radial"
+msgstr ""
+
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:82
+msgid "From Reach "
+msgstr ""
+
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:91
+msgid "From Reach"
+msgstr ""
+
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:105
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:114
+msgid "To Reach"
+msgstr "دست یابی"
+
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:135
+#: src/admin/redux/inc/lib/gradient-filters/class-redux-gradient-filters.php:144
+msgid "Gradient Angle"
+msgstr "زاویه شیب"
+
+#: src/admin/redux/inc/lib/image-filters/class-redux-image-filters.php:55
+msgid "Filters"
+msgstr "فیلترها"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:43
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:63
+msgid "RECOMMENDED"
+msgstr "توصیه شده"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "If you are submitting to WordPress.org Theme Repository, it is"
+msgstr "اگر در حال ارسال به مخزن قالب WordPress.org هستید ، اینگونه است"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "strongly"
+msgstr "به شدت"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "suggested that you read"
+msgstr "پیشنهاد کرد که بخوانید"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "this document"
+msgstr "این سند"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "or your theme will be rejected because of Redux."
+msgstr "یا تم شما به خاطر Redux رد خواهد شد."
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:50
+msgid "REQUIRED"
+msgstr "ضروری"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:50
+msgid "You MUST delete"
+msgstr "شما باید پاک کنید"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:50
+msgid ""
+"or your theme will be rejected by WP.org theme submission because of Redux."
+msgstr "و یا موضوع شما توسط ارسال تم WP.org رد خواهد شد به دلیل Redux."
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-embedded.php:63
+msgid ""
+"The following arguments MUST be used for WP.org submissions, or you will be "
+"rejected because of your Redux configuration."
+msgstr ""
+"<span class=\"tc-lead tc-recommended\">توصیه شده:</span> استدلال زیر باید برای "
+"تحویل WP.org استفاده شود یا به دلیل پیکربندی Redux شما رد خواهد شد."
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:43
+msgid "Redux localization utilities"
+msgstr "برنامه های محلی سازی ردوکس"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:44
+msgid "Redux Resting Diles"
+msgstr "Redux Resting Diles"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:45
+msgid "Redux Code Styles"
+msgstr "کدهای استایل ردوکس"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:46
+msgid "Redux Unit Testing"
+msgstr "تست واحد ردوکس"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:47
+msgid "Redux Plugin File"
+msgstr "فایل افزونه ردوکس"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:48
+msgid "Redux Boostrap Tests"
+msgstr "تست های بوت استرپ ردوکس"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:49
+msgid "CI Testing FIle"
+msgstr "فایل تست CI"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:50
+msgid "PHP Unit Testing"
+msgstr "تست واحد PHP"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:63
+msgid ""
+"It appears that you have embedded the full Redux package inside your theme. "
+"You need only embed the"
+msgstr ""
+"به نظر می رسد که شما بسته کامل Redux را در داخل تم خود جاسازی کرده اند. تو فقط "
+"بايد جاسازی کني"
+
+#: src/admin/redux/inc/themecheck/checks/class-redux-full-package.php:63
+msgid ""
+"folder. Embedding anything else will get your rejected from theme submission. "
+"Suspected Redux package file(s):"
+msgstr ""
+
+#. translators: %1$s: sanitized value.  %2$s: Old value.
+#: src/admin/redux/inc/validation/color/class-redux-validation-color.php:34
+#, php-format
+msgid ""
+"Invalid HTML color code %1$s. Please enter a valid code. No value was saved."
+msgstr ""
+"کد رنگ HTML نامعتبر است%1$s. لطفاً یک کد معتبر وارد کنید هیچ مقداری ذخیره نشد."
+
+#. translators: %1$s: sanitized value.  %2$s: Old value.
+#: src/admin/redux/inc/validation/color/class-redux-validation-color.php:46
+#, php-format
+msgid "Sanitized value and saved as %1$s instead of %2$s."
+msgstr "مقدار ضد عفونی شده و به جای%1$s به عنوان%2$s ذخیره شد."
+
+#: src/admin/redux/inc/validation/comma_numeric/class-redux-validation-comma-numeric.php:34
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+"شما باید یک لیست که مقادیر عددی با کاما جدا شده باشند را برای این گزینه فراهم  "
+"کنید ."
+
+#: src/admin/redux/inc/validation/css/class-redux-validation-css.php:27
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr "رشته های ناامن در CSS شما یافت نشد و فیلتر شده است."
+
+#: src/admin/redux/inc/validation/date/class-redux-validation-date.php:27
+msgid "This field must be a valid date."
+msgstr "این فیلد باید دارای یک تاریخ معتبر باشد."
+
+#: src/admin/redux/inc/validation/email/class-redux-validation-email.php:27
+msgid "You must provide a valid email for this option."
+msgstr "شما باید یک ایمیل معتبر برای این گزینه فراهم کنید ."
+
+#: src/admin/redux/inc/validation/html_custom/class-redux-validation-html-custom.php:27
+msgid "Unallowed HTML was found in this field and has been removed."
+msgstr "HTML غیرمجاز در این قسمت پیدا شد و حذف شده است."
+
+#: src/admin/redux/inc/validation/js/class-redux-validation-js.php:27
+msgid "Javascript has been successfully escaped."
+msgstr "جاوا اسکریپت با موفقیت فرار کرده است."
+
+#: src/admin/redux/inc/validation/no_html/class-redux-validation-no-html.php:27
+msgid "You must not enter any HTML in this field.  All HTML has been removed."
+msgstr "شما نباید در این قسمت HTML وارد کنید. همه HTML حذف شده است."
+
+#: src/admin/redux/inc/validation/no_special_chars/class-redux-validation-no-special-chars.php:27
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+"شما نباید هیچ کاراکتر خاصی در این قسمت وارد کنید، تمام کاراکترهای خاص حذف شده "
+"اند."
+
+#: src/admin/redux/inc/validation/not_empty/class-redux-validation-not-empty.php:27
+msgid "This field cannot be empty. Please provide a value."
+msgstr "این فیلد نمی تواند خالی باشد لطفا یک مقدار پر کنید."
+
+#: src/admin/redux/inc/validation/numeric/class-redux-validation-numeric.php:27
+msgid "You must provide a numerical value for this option."
+msgstr "شما باید یک عددی برای این گزینه ارائه کنید."
+
+#: src/admin/redux/inc/validation/unique_slug/class-redux-validation-unique-slug.php:29
+msgid "That URL slug is in use, please choose another."
+msgstr "این نامک URL در حال استفاده است ، لطفاً مورد دیگری را انتخاب کنید."
+
+#: src/admin/redux/inc/validation/url/class-redux-validation-url.php:27
+msgid "You must provide a valid URL for this option."
+msgstr "شما باید یک URL معتبر برای این گزینه ارائه کنید."
+
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:96
+msgid "If you like"
+msgstr "در صورت دوست داشتن"
+
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:96
+msgid "please leave us a"
+msgstr "لطفا پیغام بگذارید"
+
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:96
+msgid "rating. A huge thank you in advance!"
+msgstr "رتبه بندی پیشاپیش بسیار سپاسگزارم!"
+
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:113
+msgid "What is Redux Framework?"
+msgstr "فریمورک Redux  چیست؟"
+
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:117
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:192
+msgid "Templates"
+msgstr "قالب ها"
+
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:186
+msgid "What is Redux?"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:261
+msgid "Disable Panel Demo"
+msgstr "غیر فعال کردن پانل پیش فرض"
+
+#: src/admin/redux/inc/welcome/class-redux-welcome.php:267
+msgid "Enable Panel Demo"
+msgstr "فعال سازی پانل پیش فرض"
+
+#: src/admin/redux/inc/welcome/views/about.php:17
+#: src/admin/redux/inc/welcome/views/templates.php:15
+msgid "Welcome to"
+msgstr "خوش آمدید به"
+
+#: src/admin/redux/inc/welcome/views/about.php:21
+#: src/admin/redux/inc/welcome/views/templates.php:19
+msgid ""
+"Redux is the world's most powerful and widely used WordPress interface "
+"builder. We are trusted by millions of developers and end users world-wide."
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/about.php:39
+msgid "Did I install this?"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/about.php:43
+msgid ""
+"Maybe not! These items are using Redux. If you want to keep using them, Redux "
+"will need to remain installed and activated."
+msgstr ""
+
+#. translators: %1$s: URL, %2$s: close tag.
+#: src/admin/redux/inc/welcome/views/about.php:54
+#, php-format
+msgid ""
+"Maybe not! If you want to see what Redux is all about, click here to "
+"%1$sActivate Demo Mode%2$s."
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/about.php:81
+msgid "Version:"
+msgstr "نسخه:"
+
+#: src/admin/redux/inc/welcome/views/about.php:86
+#: src/admin/redux/inc/welcome/views/about.php:139
+msgid "By"
+msgstr "توسط"
+
+#: src/admin/redux/inc/welcome/views/about.php:93
+msgid "Theme"
+msgstr "پوسته"
+
+#: src/admin/redux/inc/welcome/views/about.php:145
+msgid "Plugin"
+msgstr "افزونه"
+
+#. translators: %s: HTML.
+#: src/admin/redux/inc/welcome/views/templates.php:35
+msgid " Template Libraries"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/templates.php:46
+msgid "Extendify Template Library"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/templates.php:50
+msgid "Load Extendify template library"
+msgstr ""
+
+#: src/admin/redux/inc/welcome/views/templates.php:56
+msgid "Redux Template Library"
+msgstr "کتابخانه قالب Redux"
+
+#: src/admin/redux/inc/welcome/views/templates.php:60
+msgid "Load legacy Redux template library"
+msgstr ""
+
+#: src/admin/redux/templates/panel/footer.tpl.php:58
+#: src/admin/redux/templates/panel/header-stickybar.tpl.php:22
+msgid "Save Changes"
+msgstr "ذخيره تغييرات"
+
+#: src/admin/redux/templates/panel/footer.tpl.php:62
+#: src/admin/redux/templates/panel/header-stickybar.tpl.php:26
+msgid "Reset Section"
+msgstr "ریست این بخش"
+
+#: src/admin/redux/templates/panel/footer.tpl.php:63
+#: src/admin/redux/templates/panel/header-stickybar.tpl.php:27
+msgid "Reset All"
+msgstr "ریست همه"
+
+#: src/admin/redux/templates/panel/footer.tpl.php:67
+#: src/admin/redux/templates/panel/header-stickybar.tpl.php:31
+msgid "Working..."
+msgstr "کار ..."
+
+#: src/admin/redux/templates/panel/header.tpl.php:11
+#: src/admin/redux/templates/panel/header.tpl.php:48
+msgid "Developer Mode Enabled"
+msgstr "حالت برنامه نویس فعال"
+
+#: src/admin/redux/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr "حالت دیباگ وردپرس (WP_DEBUG) فعال است"
+
+#: src/admin/redux/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr "شما در یک محیط محلی کار می کنید"
+
+#: src/admin/redux/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr "و"
+
+#: src/admin/redux/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr "این مورد به صورت خودکار فعال شده است چون"
+
+#: src/admin/redux/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+"اگر شما یک برنامه نویس نیستید ، نویسنده قالب / افزونه شما با حالت توسعه دهنده "
+"ارسال شده است. برای رفع آن مستقیماً با آنها تماس بگیرید."
+
+#. Plugin Name of the plugin/theme
+msgid "MasterKelas"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "masterkelas.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "هسته مسترکلاس"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Hamed Ataei"
+msgstr ""

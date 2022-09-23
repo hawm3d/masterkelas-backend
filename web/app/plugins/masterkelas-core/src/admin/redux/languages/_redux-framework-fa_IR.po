@@ -1,0 +1,1818 @@
+# Translation of Plugins - Gutenberg Template and Pattern Library &amp; Redux Framework - Stable (latest release) in Persian
+# This file is distributed under the same license as the Plugins - Gutenberg Template and Pattern Library &amp; Redux Framework - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-06-28 02:08+0430\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.4.3\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - Gutenberg Template and Pattern Library &amp; Redux Framework - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: redux-core/inc/classes/class-redux-enqueue.php:691
+msgid "Your current options will be replaced with the values of this import. Would you like to proceed?"
+msgstr "تنظیمات های فعلی شما با مقادیر این درون ریزی جایگزین می شود. آیا مایل به ادامه هستید؟"
+
+#: redux-core/inc/fields/link_color/class-redux-link-color.php:153
+msgid "Focus"
+msgstr "متمرکز (Focus)"
+
+#: redux-core/inc/fields/color_rgba/class-redux-color-rgba.php:43
+#: redux-templates/assets/js/redux-templates.js:7348
+#: redux-templates/assets/js/redux-templates.js:7416
+#: redux-templates/src/modal-import-wizard/InstallPluginStep.js:111
+#: redux-templates/src/modal-import-wizard/OptionStep.js:40
+msgid "Cancel"
+msgstr "لغو"
+
+#: redux-core/inc/fields/color_rgba/class-redux-color-rgba.php:42
+msgid "Choose"
+msgstr "انتخاب"
+
+#: redux-core/inc/fields/color_rgba/class-redux-color-rgba.php:45
+msgid "Select Color"
+msgstr "انتخاب رنگ"
+
+#: sample/sections/select-fields/select.php:253
+msgid "Users Select Option"
+msgstr "گزینه انتخاب کاربران"
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/redux-framework"
+msgstr "http://wordpress.org/plugins/redux-framework"
+
+#: sample/sample-config.php:579
+msgid "The field desc is NOT visible in customizer."
+msgstr "فیلد توضیحات در بخش سفارشی سازی قابل مشاهده نیست"
+
+#: sample/sample-config.php:578
+msgid "The subtitle is NOT visible in customizer"
+msgstr "زیر عنوان در بخش سفارشی سازی قابل مشاهده نیست"
+
+#: sample/sample-config.php:577
+msgid "Customizer Only Option"
+msgstr "فقط گزینه های سفارشی سازی"
+
+#: sample/sample-config.php:570
+msgid "Customizer Only"
+msgstr "فقط سفارشی سازی"
+
+#: sample/sections/advanced-features/wpml-integration.php:28
+msgid "You can literally translate the values via key."
+msgstr "شما به معنای واقعی کلمه می توانید مقادیر را از طریق کلید ترجمه کنید."
+
+#: sample/sections/advanced-features/wpml-integration.php:27
+msgid "WPML Multi Checkbox"
+msgstr "چک باکس چندگانه WPML"
+
+#: sample/sections/advanced-features/wpml-integration.php:14
+msgid "WPML Integration"
+msgstr "ادغام WPML"
+
+#: sample/sections/advanced-features/wpml-integration.php:21
+msgid "WPML Text"
+msgstr "متن WPML"
+
+#: sample/sections/advanced-features/field-validation.php:158
+msgid "JS will be escaped"
+msgstr "جاواسکریپ اجرا نمی‌شود"
+
+#: sample/sections/advanced-features/field-validation.php:138
+msgid "Custom HTML Allowed (wp_kses)"
+msgstr "HTML دلخواه مجاز است (wp_kses)"
+
+#: sample/sections/advanced-features/field-validation.php:120
+msgid "All HTML will be stripped"
+msgstr "تمام HTML حذف خواهد شد"
+
+#: sample/sections/advanced-features/field-validation.php:119
+msgid "Textarea Option - No HTML Validated"
+msgstr "گزینه متنی - هیچ HTML معتبر نیست"
+
+#: sample/sections/advanced-features/field-validation.php:76
+msgid "This must be a alpha numeric only."
+msgstr "می‌بایست فقط عدد و حروف باشد."
+
+#: sample/sections/advanced-features/field-validation.php:110
+msgid "Text Option - Custom Callback Validated"
+msgstr "گزینه متن - فراخوان سفارشی اعتبارسنجی شده است"
+
+#: sample/sections/advanced-features/field-validation.php:97
+msgid "Text Option - Preg Replace Validated"
+msgstr "گزینه متن - جایگزینی Preg اعتبارسنجی شده است"
+
+#: sample/sections/advanced-features/field-validation.php:86
+msgid "This field's default value was changed by a filter hook!"
+msgstr "مقدار پیش فرض این قسمت توسط یک هوک فیلتر تغییر یافته است!"
+
+#: sample/sections/advanced-features/wpml-integration.php:22
+msgid "This string can be translated via WPML."
+msgstr "این رشته را می توان از طریق WPML ترجمه کرد."
+
+#: sample/sections/advanced-features/field-required-linking.php:14
+msgid "Field Required / Linking"
+msgstr "فیلد اجباری / پیوند"
+
+#: sample/sections/advanced-features/field-validation.php:84
+msgid "Text Option - Str Replace Validated"
+msgstr "گزینه متن - جایگزینی رشته اعتبارسنجی شده است"
+
+#: sample/sections/advanced-features/field-validation.php:58
+msgid "This must be numeric."
+msgstr "باید عدد وارد کنید."
+
+#: sample/sections/advanced-features/field-validation.php:57
+msgid "Text Option - Numeric Validated"
+msgstr "گزینه متن - اعداد اعتبارسنجی شده‌اند"
+
+#: sample/sections/advanced-features/callback.php:14
+msgid "Callback"
+msgstr "فراخوان"
+
+#: sample/sections/additional-types/raw.php:31
+msgid "Standard Raw Field"
+msgstr "فیلد خام استاندارد"
+
+#: sample/sections/additional-types/sorter.php:14
+msgid "Sorter"
+msgstr "جورچین"
+
+#: redux-core/inc/extensions/datetime/datetime/class-redux-datetime.php:149
+#: sample/sections/additional-types/date.php:14
+#: sample/sections/pro-fields/js-button.php:49
+msgid "Date"
+msgstr "تاریخ"
+
+#: sample/sample-config.php:468
+msgid "Additional Types"
+msgstr "انواع اضافی"
+
+#: sample/sections/typography/typography.php:22
+msgid "Body Font"
+msgstr "فونت بدنه"
+
+#: sample/sections/typography/typography.php:14
+msgid "Typography"
+msgstr "تایپوگرافی"
+
+#: sample/sections/slider-spinner/spinner.php:14
+msgid "Spinner"
+msgstr "اسپینر"
+
+#: sample/sections/advanced-features/field-validation.php:49
+msgid "This must be a URL."
+msgstr "باید یک URL باشد."
+
+#: sample/sections/advanced-features/field-validation.php:48
+msgid "Text Option - URL Validated"
+msgstr "گزینه متن - URL اعتبارسنجی شده است"
+
+#: sample/sections/advanced-features/field-validation.php:40
+msgid "Multi Text Option - Color Validated"
+msgstr "گزینه چند متنی - رنگ اعتبارسنجی شده است"
+
+#: sample/sections/advanced-features/field-validation.php:14
+msgid "Field Validation"
+msgstr "اعتباری سنجی زمینه"
+
+#: sample/sections/advanced-features/field-validation.php:22
+msgid "Text Option - Email Validated"
+msgstr "گزینه متن - ایمیل اعتبارسنجی شده است"
+
+#: sample/sections/advanced-features/field-validation.php:75
+msgid "Text Option - No Special Chars Validated"
+msgstr "هیچ کاراکتری معتبر نیست"
+
+#: sample/sections/advanced-features/field-validation.php:67
+msgid "This must be a comma separated string of numerical values."
+msgstr "باید یک متن شامل اعدادی باشد که با کاما (ویرگول) از هم جدا شده باشند."
+
+#: sample/sections/advanced-features/field-validation.php:66
+msgid "Text Option - Comma Numeric Validated"
+msgstr "کاما (ویرگول) عددی تایید شده است"
+
+#: sample/sections/advanced-features/field-validation.php:42
+msgid "If you enter an invalid color it will be removed. Try using the text \"blue\" as a color.  ;)"
+msgstr "درصورت انتخاب رنگ نامعتبر، حذف می شود. از نام رنگ ها به عنوان رنگ استفاده کنید. مثلا blue"
+
+#: sample/sections/advanced-features/field-validation.php:32
+msgid "Text Option with Data Attributes"
+msgstr "گزینه متنی با خصوصیت های اطلاعاتی"
+
+#: sample/sections/additional-types/raw.php:23
+msgid "Raw"
+msgstr "خام"
+
+#: sample/sections/advanced-features/callback.php:23
+msgid "This is a completely unique field type"
+msgstr "این یک فیلد کاملا یکتا است"
+
+#: sample/sections/slider-spinner/slider.php:62
+msgid "This example displays float values"
+msgstr "این مثال مقادیر شناور را نمایش می دهد"
+
+#: sample/sample-config.php:482
+msgid "Advanced Features"
+msgstr "خصوصیات پیشرفته"
+
+#: sample/sections/additional-types/date.php:22
+msgid "Date Option"
+msgstr "تنظیمات تاریخ"
+
+#: sample/sections/advanced-features/field-validation.php:157
+msgid "Textarea Option - JS Validated"
+msgstr "تنظیمات Textarea - JS معتبر است"
+
+#: sample/sections/advanced-features/field-validation.php:129
+msgid "HTML Allowed (wp_kses)"
+msgstr "HTML مجاز (wp_kses)"
+
+#: sample/sections/advanced-features/field-validation.php:128
+msgid "Textarea Option - HTML Validated"
+msgstr "تنظیمات Textarea - معتبر HTML"
+
+#: sample/sections/advanced-features/field-validation.php:85
+#: sample/sections/advanced-features/field-validation.php:98
+#: sample/sections/advanced-features/field-validation.php:111
+msgid "You decide."
+msgstr "شما تصمیم می گیرید."
+
+#: sample/sections/typography/typography.php:23
+#: sample/sections/typography/typography.php:94
+msgid "Specify the body font properties."
+msgstr "خصوصیات فونت بدنه سایت را مشخص کنید."
+
+#: sample/sections/typography/typography.php:49
+msgid "Typography option with each property can be called individually."
+msgstr "تنظیمات تایپوگرافی با هر ویژگی می تواند به صورت جداگانه خوانده شود."
+
+#: sample/sample-config.php:692
+msgid "Section via hook"
+msgstr "بخش از طریق قلاب"
+
+#: redux-core/inc/fields/border/class-redux-border.php:106
+#: redux-core/inc/fields/spacing/class-redux-spacing.php:165
+#: redux-templates/assets/js/redux-templates.js:8307
+#: redux-templates/assets/js/redux-templates.js:8429
+#: redux-templates/assets/js/redux-templates.js:8803
+#: redux-templates/src/modal-library/sidebar/categoryFilter.js:50
+#: redux-templates/src/modal-library/sidebar/dependencyFilter.js:44
+#: redux-templates/src/modal-library/sidebar/priceFilter.js:26
+msgid "All"
+msgstr "همه"
+
+#: redux-core/inc/fields/background/class-redux-background.php:191
+msgid "Background Size"
+msgstr "اندازه پس زمینه"
+
+#: redux-core/inc/fields/border/class-redux-border.php:176
+msgid "Border style"
+msgstr "استایل حاشیه"
+
+#: redux-core/class-redux-core.php:422
+msgid "Browser"
+msgstr "مرورگر"
+
+#: redux-core/inc/extensions/repeater/repeater/class-redux-repeater.php:167
+#: redux-core/inc/extensions/repeater/repeater/class-redux-repeater.php:219
+#: redux-core/inc/extensions/repeater/repeater/class-redux-repeater.php:393
+#: redux-core/inc/fields/slides/class-redux-slides.php:215
+#: redux-core/inc/fields/slides/class-redux-slides.php:351
+msgid "Delete"
+msgstr "حذف"
+
+#: redux-core/templates/panel/header.tpl.php:11
+#: redux-core/templates/panel/header.tpl.php:48
+msgid "Developer Mode Enabled"
+msgstr "حالت برنامه نویس فعال"
+
+#: sample/barebones-config.php:172 sample/sample-config.php:237
+msgid "Extensions"
+msgstr "افزونه‌ها"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:718
+msgid "Font Color"
+msgstr "رنگ فونت"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:725
+msgid "Font color"
+msgstr "رنگ فونت"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:417
+msgid "Font script"
+msgstr "اسکریپت فونت"
+
+#: redux-core/inc/fields/dimensions/class-redux-dimensions.php:173
+#: redux-core/inc/fields/typography/class-redux-typography.php:583
+msgid "Height"
+msgstr "ارتفاع"
+
+#: redux-core/inc/fields/border/class-redux-border.php:159
+#: redux-core/inc/fields/spacing/class-redux-spacing.php:271
+msgid "Left"
+msgstr "چپ"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:628
+#: redux-core/inc/fields/typography/class-redux-typography.php:633
+#: redux-core/inc/fields/typography/class-redux-typography.php:634
+msgid "Letter Spacing"
+msgstr "فاصله حروف"
+
+#: redux-core/inc/classes/class-redux-args.php:277
+#: redux-core/inc/classes/class-redux-args.php:281
+#: redux-core/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:994
+msgid "Options"
+msgstr "تنظیمات"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:561
+msgid "Size"
+msgstr "اندازه"
+
+#: redux-core/inc/welcome/views/about.php:93
+msgid "Theme"
+msgstr "پوسته"
+
+#: redux-core/inc/fields/background/class-redux-background.php:121
+#: redux-core/inc/fields/color/class-redux-color.php:76
+#: redux-core/inc/fields/color_gradient/class-redux-color-gradient.php:132
+msgid "Transparent"
+msgstr "شفاف"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:605
+#: redux-core/inc/fields/typography/class-redux-typography.php:610
+#: redux-core/inc/fields/typography/class-redux-typography.php:611
+msgid "Word Spacing"
+msgstr "فاصله کلمات"
+
+#: redux-core/inc/classes/class-redux-page-render.php:188
+msgid "clicking"
+msgstr "کلیک کردن"
+
+#: sample/barebones-config.php:295 sample/sections/basic-fields/text.php:14
+msgid "Text"
+msgstr "متن"
+
+#: sample/sections/slider-spinner/slider.php:14
+msgid "Slider"
+msgstr "اسلایدر"
+
+#: sample/sample-config.php:452
+msgid "Slider / Spinner"
+msgstr "اسلایدر / اسپینر"
+
+#: sample/sections/pro-fields/taxonomy.php:210
+#: sample/sections/pro-fields/users.php:180
+#: sample/sections/select-fields/image-select.php:97
+msgid "Preset"
+msgstr "از پیش تنظیم شده"
+
+#: sample/sections/slider-spinner/slider.php:21
+msgid "Slider Example 1"
+msgstr "اسلایدر نمونه 1"
+
+#: sample/sections/slider-spinner/slider.php:45
+msgid "Slider Example 3 with two sliders"
+msgstr "نمونه اسلایدر 3 با دو اسلایدر"
+
+#: sample/sections/slider-spinner/slider.php:34
+msgid "This example displays the value in a text box"
+msgstr "این نمونه مقدار را در یک جعبه متنی نشان می دهد"
+
+#: sample/sections/slider-spinner/slider.php:22
+msgid "This slider displays the value as a label."
+msgstr "این اسلایدر مقدار را به عنوان یک برچسب نمایش می دهد"
+
+#: sample/sections/select-fields/select.php:37
+msgid "Theme Stylesheet"
+msgstr "شیوه نامه پوسته"
+
+#: sample/sections/select-fields/select.php:14
+msgid "Select"
+msgstr "انتخاب"
+
+#: sample/sample-config.php:438
+msgid "Select Fields"
+msgstr "انتخاب رشته"
+
+#: sample/sections/switch-button/switch.php:29
+msgid "Switch Off"
+msgstr "خاموش کردن"
+
+#: sample/metaboxes.php:93 sample/sections/switch-button/switch.php:22
+msgid "Switch On"
+msgstr "روشن کردن"
+
+#: sample/sections/switch-button/switch.php:14
+msgid "Switch"
+msgstr "عوض کردن"
+
+#: sample/sections/presentation-fields/section.php:14
+#: redux-templates/assets/js/redux-templates.js:8273
+#: redux-templates/src/modal-library/sidebar/categoryFilter.js:14
+msgid "Section"
+msgstr "بخش"
+
+#: sample/sections/presentation-fields/info.php:14
+msgid "Info"
+msgstr "اطلاعات"
+
+#: redux-core/inc/classes/class-redux-enqueue.php:627
+#: redux-core/inc/extensions/customizer/class-redux-extension-customizer.php:726
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr "تغییرات انجام شده ذخیره نشده اند. آیا میخواهید تغییرات را ذخیره کنید؟"
+
+#: redux-core/inc/classes/class-redux-enqueue.php:643
+#: redux-core/inc/extensions/customizer/class-redux-extension-customizer.php:727
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr "آیا مطمئنید؟ با راه اندازی مجدد ممکن است مقادیر وارد شده از بین بروند."
+
+#: redux-core/inc/classes/class-redux-enqueue.php:706
+msgid "Please Wait"
+msgstr "لطفا منتظر بمانید"
+
+#: redux-core/inc/classes/class-redux-enqueue.php:722
+msgid "There was a problem with your action. Please try again or reload the page."
+msgstr "یک مشکل با اقدام شما وجود دارد. لطفا بارگذاری مجدد صفحه با  دوباره امتحان کنید."
+
+#: redux-core/inc/classes/class-redux-panel.php:256
+#: redux-core/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1217
+msgid "Settings have changed, you should save them!"
+msgstr "تنظیمات تغییر کردند ، باید ذخیره شون کنید!"
+
+#: redux-core/class-redux-core.php:406
+msgid "Redux Framework"
+msgstr "فریمورک ریداکس"
+
+#: redux-core/inc/classes/class-redux-page-render.php:179
+msgid "Disable"
+msgstr "غیرفعال کردن"
+
+#: redux-core/inc/classes/class-redux-page-render.php:186
+msgid "moving the mouse over"
+msgstr "افکت روی ماوس"
+
+#: redux-core/inc/classes/class-redux-admin-notices.php:136
+msgid "Dismiss"
+msgstr "رد"
+
+#: redux-core/inc/extensions/import_export/class-redux-extension-import-export.php:84
+msgid "Import / Export"
+msgstr "درون ریزی / برون بری"
+
+#: redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:112
+msgid "WARNING! This will overwrite all existing option values, please proceed with caution!"
+msgstr "هشدار! این تمام مقادیر موجود موجود را بازنویسی می کند، لطفا با احتیاط ادامه دهید!"
+
+#: redux-core/inc/fields/background/class-redux-background.php:156
+msgid "Background Clip"
+msgstr "کلیپ پس‌زمینه"
+
+#: redux-core/inc/fields/background/class-redux-background.php:174
+msgid "Background Origin"
+msgstr "مبدا پس‌زمینه"
+
+#: redux-core/inc/fields/background/class-redux-background.php:208
+msgid "Background Attachment"
+msgstr "الصاق بک گراند"
+
+#: redux-core/inc/fields/dimensions/class-redux-dimensions.php:194
+#: redux-core/inc/fields/dimensions/class-redux-dimensions.php:198
+#: redux-core/inc/fields/dimensions/class-redux-dimensions.php:200
+#: redux-core/inc/fields/spacing/class-redux-spacing.php:282
+#: redux-core/inc/fields/spacing/class-redux-spacing.php:283
+msgid "Units"
+msgstr "واحدها"
+
+#: redux-core/inc/fields/multi_text/class-redux-multi-text.php:28
+msgid "Add More"
+msgstr "بیشتر اضافه کن"
+
+#: redux-core/inc/fields/password/class-redux-password.php:53
+#: sample/sections/basic-fields/password.php:14
+msgid "Password"
+msgstr "رمز عبور"
+
+#: redux-core/inc/fields/select/class-redux-select.php:106
+#: redux-core/inc/fields/select_image/class-redux-select-image.php:26
+msgid "Select an item"
+msgstr "انتخاب یک مورد"
+
+#: redux-core/inc/fields/select/class-redux-select.php:183
+#: redux-core/inc/fields/select_image/class-redux-select-image.php:145
+msgid "No items of this type were found."
+msgstr "از این نوع آیتم پیدا نشد."
+
+#: redux-core/inc/fields/slides/class-redux-slides.php:32
+msgid "Slide"
+msgstr "اسلايد"
+
+#: redux-core/inc/classes/class-redux-field.php:40
+#: redux-core/inc/fields/slides/class-redux-slides.php:140
+#: redux-core/inc/fields/slides/class-redux-slides.php:276
+#: sample/sections/additional-types/raw.php:33
+#: sample/sections/additional-types/raw.php:42
+#: redux-templates/assets/js/redux-templates.js:11423
+#: redux-templates/src/stores/actionHelper.js:179
+msgid "Description"
+msgstr "توضیح"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:350
+#: redux-core/inc/fields/typography/class-redux-typography.php:352
+msgid "Backup Font Family"
+msgstr "خانواده قلم پشتیبان"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:404
+msgid "Font subsets"
+msgstr "زیر مجموعه فونت ها"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:415
+msgid "Subsets"
+msgstr "زیر مجموعه"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:462
+#: redux-core/inc/fields/typography/class-redux-typography.php:463
+#: redux-core/inc/fields/typography/class-redux-typography.php:465
+#: redux-core/inc/fields/typography/class-redux-typography.php:467
+msgid "Text Transform"
+msgstr "شکل متن"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:493
+#: redux-core/inc/fields/typography/class-redux-typography.php:494
+#: redux-core/inc/fields/typography/class-redux-typography.php:496
+#: redux-core/inc/fields/typography/class-redux-typography.php:498
+msgid "Font Variant"
+msgstr "متغییر فونت"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:521
+#: redux-core/inc/fields/typography/class-redux-typography.php:522
+#: redux-core/inc/fields/typography/class-redux-typography.php:524
+#: redux-core/inc/fields/typography/class-redux-typography.php:526
+msgid "Text Decoration"
+msgstr "دکوراسیون متن"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:1414
+msgid "Google Webfonts"
+msgstr "گوگل Webfonts"
+
+#: redux-core/inc/validation/css/class-redux-validation-css.php:27
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr "رشته های ناامن در CSS شما یافت نشد و فیلتر شده است."
+
+#: redux-core/inc/welcome/class-redux-welcome.php:113
+msgid "What is Redux Framework?"
+msgstr "چارچوب Redux  چیست؟"
+
+#: redux-core/class-redux-core.php:410
+#: redux-core/inc/welcome/views/about.php:25
+#: redux-core/inc/welcome/views/about.php:131
+#: redux-core/inc/welcome/views/templates.php:23
+msgid "Version"
+msgstr "ورژن"
+
+#: redux-core/inc/classes/class-redux-functions.php:483
+msgid "Support hash could not be generated. Please try again later."
+msgstr "دوباره امتحان کنید"
+
+#: redux-core/templates/panel/footer.tpl.php:58
+#: redux-core/templates/panel/header-stickybar.tpl.php:22
+msgid "Save Changes"
+msgstr "ذخيره تغييرات"
+
+#: redux-core/templates/panel/footer.tpl.php:63
+#: redux-core/templates/panel/header-stickybar.tpl.php:27
+msgid "Reset All"
+msgstr "ریست همه"
+
+#: redux-core/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1230
+#: redux-core/templates/panel/header-stickybar.tpl.php:16
+msgid "Expand"
+msgstr "توسعه دادن"
+
+#: class-redux-framework-plugin.php:372
+msgid "Redux Framework has an embedded demo."
+msgstr "چارچوب Redux دارای نسخه ی نمایشی جاسازی شده است."
+
+#: redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:109
+#: redux-templates/assets/js/redux-templates.js:3864
+#: redux-templates/assets/js/redux-templates.js:9693
+#: redux-templates/assets/js/redux-templates.js:9762
+#: redux-templates/src/components/preview-import-button/index.js:32
+#: redux-templates/src/modal-preview/FullyOverlayFooter.js:30
+#: redux-templates/src/modal-preview/FullyOverlayHeader.js:20
+msgid "Import"
+msgstr "درون ریزی"
+
+#: redux-core/inc/validation/no_special_chars/class-redux-validation-no-special-chars.php:27
+msgid "You must not enter any special characters in this field, all special characters have been removed."
+msgstr "شما نباید هیچ کاراکتر خاصی در این قسمت وارد کنید، تمام کاراکترهای خاص حذف شده اند."
+
+#: redux-core/inc/validation/numeric/class-redux-validation-numeric.php:27
+msgid "You must provide a numerical value for this option."
+msgstr "شما باید یک عددی برای این گزینه ارائه کنید."
+
+#: redux-core/inc/validation/url/class-redux-validation-url.php:27
+msgid "You must provide a valid URL for this option."
+msgstr "شما باید یک URL معتبر برای این گزینه ارائه کنید."
+
+#: sample/sections/select-fields/select.php:112
+msgid "Pages Select Option"
+msgstr "گزینه انتخاب صفحات"
+
+#: sample/sections/presentation-fields/info.php:28
+#: sample/sections/presentation-fields/info.php:35
+#: sample/sections/presentation-fields/info.php:43
+#: sample/sections/presentation-fields/info.php:51
+#: sample/sections/presentation-fields/info.php:60
+#: sample/sections/presentation-fields/info.php:67
+#: sample/sections/presentation-fields/info.php:75
+#: sample/sections/presentation-fields/info.php:84
+#: sample/sections/presentation-fields/info.php:93
+#: sample/sections/presentation-fields/info.php:102
+msgid "This is a title."
+msgstr "این یک عنوان است"
+
+#: sample/sections/media-uploads/gallery.php:14
+msgid "Gallery"
+msgstr "گالری"
+
+#: sample/sample-config.php:388
+msgid "Media Uploads"
+msgstr "بارگذاری مدیا"
+
+#. translators: %s: CDN handle.
+#: redux-core/inc/classes/class-redux-cdn.php:134
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr "CDN %s در دسترس نیست. بعضی از فیلد ها ممکن است درست کار نکنند."
+
+#: redux-core/inc/fields/link_color/class-redux-link-color.php:131
+msgid "Active"
+msgstr "فعال"
+
+#: redux-core/inc/classes/class-redux-panel.php:187
+msgid "All Defaults Restored!"
+msgstr "تمامی مقادیر پیشفرض بازگردانی شدند !"
+
+#: redux-core/inc/extensions/customizer/inc/class-redux-customizer-panel.php:193
+#: redux-core/inc/extensions/customizer/inc/class-redux-customizer-section.php:181
+msgid "Back"
+msgstr "بازگشت"
+
+#: redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:120
+msgid "Export Options"
+msgstr "برون‌ریزی تنظیمات"
+
+#. translators: %1$s: Upload URL.  %2$s: Codex URL.
+#: redux-core/inc/classes/class-redux-filesystem.php:142
+#: redux-core/inc/classes/class-redux-filesystem.php:436
+msgid "File Permission Issues"
+msgstr "مشکل دسترسی به فایل"
+
+#: redux-core/inc/extensions/customizer/inc/class-redux-customizer-panel.php:204
+msgid "Help"
+msgstr "راهنمایی"
+
+#: redux-core/inc/classes/class-redux-page-render.php:198
+msgid "Hints"
+msgstr "راهنمایی ها"
+
+#: redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:77
+msgid "Import Options"
+msgstr "درون‌ریزی تنظیمات"
+
+#: redux-core/inc/classes/class-redux-ajax-save.php:52
+#: redux-core/inc/classes/class-redux-ajax-select2.php:42
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr "نقش کاربری نامعتبر. لطفا صفحه را مجددا بارگزاری کرده و دوباره امتحان کنید."
+
+#: redux-core/inc/fields/switch/class-redux-switch.php:40
+#: sample/metaboxes.php:194
+msgid "Off"
+msgstr "غیرفعال"
+
+#: redux-core/inc/classes/class-redux-cdn.php:127
+msgid "Please wait a few minutes, then try refreshing the page. Unable to load some remotely hosted scripts."
+msgstr "لطفا بعد از چند دقیقه صبر کردن صفحه را دوباره لود کنید. در بارگزاری چند اسکریپت با خطا مواجه شدیم."
+
+#. translators: %s: CDN handle.
+#: redux-core/inc/classes/class-redux-cdn.php:134
+msgid "Redux Framework Warning"
+msgstr "اخطار فریمورک رداکس"
+
+#: redux-core/inc/fields/link_color/class-redux-link-color.php:65
+msgid "Regular"
+msgstr "معمولی"
+
+#: redux-core/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:148
+#: redux-core/inc/extensions/multi_media/multi_media/class-redux-multi-media.php:230
+#: redux-core/inc/fields/background/class-redux-background.php:337
+#: redux-core/inc/fields/media/class-redux-media.php:249
+#: redux-core/inc/fields/multi_text/class-redux-multi-text.php:60
+#: redux-core/inc/fields/multi_text/class-redux-multi-text.php:77
+#: redux-core/inc/fields/multi_text/class-redux-multi-text.php:99
+#: redux-core/inc/fields/slides/class-redux-slides.php:116
+#: redux-core/inc/fields/slides/class-redux-slides.php:251
+msgid "Remove"
+msgstr "حذف"
+
+#: redux-core/inc/fields/border/class-redux-border.php:135
+#: redux-core/inc/fields/spacing/class-redux-spacing.php:239
+msgid "Right"
+msgstr "راست"
+
+#: redux-core/inc/classes/class-redux-panel.php:208
+msgid "Section Defaults Restored!"
+msgstr "تمامی مقادیر پیشفرض این بخش بازگردانی شدند !"
+
+#: redux-core/inc/classes/class-redux-panel.php:166
+#: redux-core/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1213
+msgid "Settings Imported!"
+msgstr "تنظیمات درون‌ریزی شد!"
+
+#: redux-core/inc/classes/class-redux-panel.php:229
+msgid "Settings Saved!"
+msgstr "تنظیمات ذخیره شد !"
+
+#: redux-core/inc/extensions/options_object/options_object/class-redux-options-object.php:106
+msgid "Show Object in Javascript Console Object"
+msgstr "نمایش آبجکت در کنسول مرورگر"
+
+#: redux-core/inc/classes/class-redux-field.php:39
+#: sample/barebones-config.php:304 sample/barebones-config.php:323
+#: sample/sections/additional-types/raw.php:32
+#: sample/sections/additional-types/raw.php:41
+#: sample/sections/basic-fields/text.php:24
+#: sample/sections/basic-fields/text.php:32
+#: sample/sections/basic-fields/text.php:44
+#: sample/sections/basic-fields/textarea.php:23
+msgid "Subtitle"
+msgstr "زیرنویس"
+
+#: redux-core/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr "این مورد به صورت خودکار فعال شده است چون"
+
+#: redux-core/inc/classes/class-redux-field.php:38
+#: redux-core/inc/extensions/repeater/repeater/class-redux-repeater.php:143
+#: redux-core/inc/fields/slides/class-redux-slides.php:128
+#: redux-core/inc/fields/slides/class-redux-slides.php:263
+#: sample/sections/repeater/repeater.php:32
+#: sample/sections/repeater/repeater.php:39
+msgid "Title"
+msgstr "عنوان"
+
+#: redux-core/inc/fields/border/class-redux-border.php:123
+#: redux-core/inc/fields/spacing/class-redux-spacing.php:223
+#: redux-core/inc/fields/typography/class-redux-typography.php:665
+msgid "Top"
+msgstr "بالا"
+
+#: redux-core/inc/fields/password/class-redux-password.php:54
+msgid "Username"
+msgstr "نام کاربری"
+
+#: redux-core/inc/fields/link_color/class-redux-link-color.php:109
+msgid "Visited"
+msgstr "دیده شده"
+
+#: redux-core/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr "حالت دیباگ وردپرس (WP_DEBUG) فعال است"
+
+#: redux-core/inc/classes/class-redux-panel.php:86
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr "اخطار - این پنل تنظیمات بدون جاوااسکریپت به درستی کار نمی کند !"
+
+#: redux-core/inc/fields/dimensions/class-redux-dimensions.php:144
+msgid "Width"
+msgstr "طول"
+
+#: redux-core/inc/classes/class-redux-ajax-save.php:114
+msgid "Your panel has no fields. Nothing to save."
+msgstr "پنل تنظیمات شما هیچ فیلدی برای ذخیره ندارد‌."
+
+#: redux-core/inc/classes/class-redux-panel.php:270
+#: redux-core/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1221
+#: redux-core/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1527
+msgid "error(s) were found!"
+msgstr "خطا های یافت شد!"
+
+#: sample/sections/select-fields/select.php:243
+msgid "Elusive Icons Select Option"
+msgstr "گزینه انتخاب آیکون های Elusive"
+
+#: sample/sections/select-fields/select.php:199
+msgid "Post Type Multi Select Option + Sortable"
+msgstr "انتخاب چند پست تایپ + مرتب سازی"
+
+#: sample/sections/presentation-fields/section.php:29
+#: sample/sections/presentation-fields/section.php:35
+msgid "Field Title"
+msgstr "عنوان فیلد"
+
+#: redux-core/inc/extensions/customizer/inc/class-redux-customizer-panel.php:109
+#: redux-core/inc/extensions/customizer/inc/class-redux-customizer-panel.php:231
+msgid "Press return or enter to open this panel"
+msgstr "برای باز شدن این پنجره دکمه بازگشت یا اینتر را بزنید"
+
+#: redux-core/inc/extensions/customizer/inc/class-redux-customizer-section.php:175
+msgid "Press return or enter to open"
+msgstr "برای بازکردن کلید ورود را بفشارید"
+
+#: redux-core/inc/extensions/customizer/inc/class-redux-customizer-section.php:98
+msgid "Press return or enter to expand"
+msgstr "برای بازکردن و توسعه دادن کلید ورود را بفشارید"
+
+#: sample/sections/select-fields/image-select.php:59
+msgid "Images Option (with tiles => true)"
+msgstr "تنظیمات تصاویر(with tiles => true)"
+
+#: sample/sections/select-fields/image-select.php:14
+msgid "Image Select"
+msgstr "تصویر را انتخاب کنید"
+
+#: sample/sections/switch-button/button-set.php:14
+msgid "Button Set"
+msgstr "تنظیم دکمه"
+
+#: sample/sections/presentation-fields/section.php:46
+msgid "And now you can add more fields below and outside of the indent."
+msgstr "و اکنون می توانید قسمت های بیشتری را در زیر و خارج از تورفتگی اضافه کنید."
+
+#: sample/sections/presentation-fields/section.php:30
+#: sample/sections/presentation-fields/section.php:36
+msgid "Field Subtitle"
+msgstr "زیرعنوان فیلد"
+
+#: sample/sections/presentation-fields/section.php:22
+msgid "Section Example"
+msgstr "مثال بخش"
+
+#: sample/sections/presentation-fields/divide.php:16
+msgid "The spacer to the section menu as seen to the left (after this section block) is the divide \"section\". Also the divider below is the divide \"field\"."
+msgstr "فاصله برای منوی بخش همانطور که در سمت چپ مشاهده می شود (پس از این بخش) بخش \"تقسیم\" است. همچنین تقسیم کننده زیر قسمت \"تقسیم\" است."
+
+#: sample/sections/presentation-fields/divide.php:14
+msgid "Divide"
+msgstr "جدا کنند"
+
+#: sample/sample-config.php:403
+msgid "Presentation Fields"
+msgstr "فیلد های ارائه"
+
+#: sample/sections/media-uploads/slides.php:14
+msgid "Slides"
+msgstr "اسلایدها"
+
+#: sample/sections/media-uploads/media.php:53
+msgid "Upload Anything - Disabled Mode"
+msgstr "هر چیزی را بارگذاری کنید - حالت غیرفعال"
+
+#: sample/sections/media-uploads/media.php:14
+msgid "Media"
+msgstr "رسانه ها"
+
+#: sample/sections/design-fields/spacing.php:14
+msgid "Spacing"
+msgstr "فاصله"
+
+#: sample/sections/design-fields/dimensions.php:37
+msgid "Dimensions (Width) Option"
+msgstr "تنظیمات ابعاد (عرض)"
+
+#: sample/sections/design-fields/dimensions.php:14
+msgid "Dimensions"
+msgstr "ابعاد"
+
+#: sample/sections/design-fields/border.php:14
+msgid "Border"
+msgstr "کادر"
+
+#: sample/sections/design-fields/background.php:14
+msgid "Background"
+msgstr "پس زمینه"
+
+#: sample/sample-config.php:372
+msgid "Design Fields"
+msgstr "فیلد های طراحی"
+
+#: sample/sections/color-selection/palette.php:22
+msgid "Palette Color Option"
+msgstr "تنظیمات پالت رنگ"
+
+#: sample/sections/color-selection/link-color.php:14
+msgid "Link Color"
+msgstr "رنگ لینک"
+
+#: sample/sections/color-selection/color-gradient.php:14
+msgid "Color Gradient"
+msgstr "رنگ گرادینت"
+
+#: sample/sections/color-selection/color.php:27
+msgid "Pick a title color for the theme (default: #000)."
+msgstr "یک عنوان رنگی برای قالب انتخاب کنید(پیشفرض: #000)."
+
+#: sample/sections/color-selection/color.php:26
+msgid "Site Title Color"
+msgstr "رنگ عنوان سایت"
+
+#: sample/sections/color-selection/color.php:14
+msgid "Color"
+msgstr "رنگ"
+
+#: sample/sample-config.php:355
+msgid "Color Selection"
+msgstr "انتخاب رنگ"
+
+#: sample/sections/editors/ace-editor.php:46
+msgid "Paste your PHP code here."
+msgstr "کد PHP خود را در اینجا جایگذاری کنید."
+
+#: sample/sections/editors/ace-editor.php:45
+msgid "PHP Code"
+msgstr "کد PHP"
+
+#: sample/sections/editors/ace-editor.php:35
+msgid "Paste your JS code here."
+msgstr "کد JS خود را در اینجا جایگذاری کنید."
+
+#: sample/sections/editors/ace-editor.php:34
+msgid "JS Code"
+msgstr "کد JS"
+
+#: sample/sections/editors/ace-editor.php:17
+msgid "For full documentation on the this field, visit: "
+msgstr "برای مستندات کامل در مورد این زمینه ، بازدید کنید: "
+
+#: sample/sections/editors/ace-editor.php:14
+msgid "ACE Editor"
+msgstr "ویرایشگر ACE"
+
+#: sample/sections/editors/wordpress-editor.php:42
+msgid "Editor - Full Width"
+msgstr "ویرایشگر - تمام عرض"
+
+#: sample/sections/editors/wordpress-editor.php:29
+msgid "Editor w/o Media Button"
+msgstr "ویرایشگر W / O دکمه های رسانه ای"
+
+#: sample/sections/editors/wordpress-editor.php:23
+msgid "Use any of the features of WordPress editor inside your panel!"
+msgstr "از هر یک از ویژگی های ویرایشگر وردپرس در داخل پنل خود استفاده کنید!"
+
+#: sample/sections/editors/wordpress-editor.php:22
+msgid "Editor"
+msgstr "ویرایشگر"
+
+#: sample/sections/editors/wordpress-editor.php:14
+msgid "WordPress Editor"
+msgstr "ویرایشگر وردپرس"
+
+#: sample/sample-config.php:341
+msgid "Editors"
+msgstr "ویرایشگران"
+
+#: sample/sections/basic-fields/textarea.php:14
+msgid "Textarea"
+msgstr "Textarea"
+
+#: sample/sections/basic-fields/multi-text.php:24
+msgid "Field Decription"
+msgstr "توضیحات فیلد"
+
+#: sample/sections/basic-fields/multi-text.php:23
+msgid "Field subtitle"
+msgstr "زیرنویس فیلد"
+
+#: sample/sections/basic-fields/multi-text.php:22
+msgid "Multi Text Option"
+msgstr "تنظیمات متن چندگانه"
+
+#: sample/sections/basic-fields/multi-text.php:14
+msgid "Multi Text"
+msgstr "متن چندگانه"
+
+#: sample/sections/basic-fields/text.php:31
+msgid "Text Field w/ Hint"
+msgstr "فیلد متن w/ اشاره"
+
+#: sample/sections/basic-fields/sortable.php:14
+msgid "Sortable"
+msgstr "قابل مرتب سازی"
+
+#: sample/sections/basic-fields/radio.php:38
+msgid "Radio Option w/ Menu Data"
+msgstr "تنظیمات دکمه های رادیویی w/ داده های منو"
+
+#: sample/sections/basic-fields/radio.php:14
+msgid "Radio"
+msgstr "دکمه های رادیویی"
+
+#: sample/metaboxes.php:36 sample/sections/basic-fields/checkbox.php:14
+msgid "Checkbox"
+msgstr "چک باکس"
+
+#: sample/sample-config.php:323
+msgid "These are really basic fields!"
+msgstr "اینها زمینه های اساسی هستند!"
+
+#: sample/sections/presentation-fields/info.php:22
+msgid "This is the info field, if you want to break sections up."
+msgstr "اگر می خواهید بخش ها را خراب کنید ، این قسمت اطلاعات است."
+
+#: sample/sections/switch-button/button-set.php:37
+msgid "Button Set, Multi Select"
+msgstr "تنظیم دکمه ، چند انتخاب"
+
+#: sample/sections/pro-fields/taxonomy.php:57
+#: sample/sections/switch-button/button-set.php:22
+msgid "Button Set Option"
+msgstr "تنظیمات تنظیم دکمه"
+
+#: sample/sections/select-fields/select.php:224
+msgid "User Role Select Option"
+msgstr "تنظیمات نقش کاربر  را انتخاب کنید"
+
+#: sample/sections/select-fields/select.php:163
+msgid "Menus Select Option"
+msgstr "تنظیمات فهرست ها را انتخاب کنید"
+
+#: sample/sections/select-fields/select.php:129
+msgid "Tags Select Option"
+msgstr "تنظیمات برچسب ها را انتخاب کنید"
+
+#: sample/sections/select-fields/select.php:104
+msgid "Categories Multi Select Option"
+msgstr "تنظیمات چند دسته بندی ها را انتخاب کنید"
+
+#: sample/sections/select-fields/select.php:95
+msgid "Categories Select Option"
+msgstr "تنظیمات دسته بندی ها را انتخاب کنید"
+
+#: sample/sections/select-fields/select.php:89
+msgid "You can easily add a variety of data from WordPress."
+msgstr "به راحتی می توانید داده های متنوعی از وردپرس اضافه کنید."
+
+#: sample/sections/select-fields/select-image.php:14
+#: sample/sections/select-fields/select-image.php:23
+#: sample/sections/select-fields/select-image.php:45
+msgid "Select Image"
+msgstr "تصویر را انتخاب کنید"
+
+#: sample/sections/select-fields/select.php:74
+msgid "Multi Select Option"
+msgstr "تنظیمات چندگانه را انتخاب کنید"
+
+#: sample/sections/select-fields/select.php:48
+msgid "Select Option with optgroup"
+msgstr "تنظیمات را با optgroup انتخاب کنید"
+
+#: sample/sections/select-fields/select.php:22
+msgid "Select Option"
+msgstr "تنظیمات را انتخاب کنید"
+
+#: sample/sections/basic-fields/sortable.php:23
+#: sample/sections/basic-fields/sortable.php:37
+msgid "Define and reorder these however you want."
+msgstr "به هر حال شما می خواهید این موارد را تعریف و ترتیب بندی کنید."
+
+#: sample/sections/basic-fields/sortable.php:22
+msgid "Sortable Text Option"
+msgstr "تنظیمات متن قابل مرتب سازی"
+
+#: sample/sections/select-fields/image-select.php:22
+msgid "Images Option for Layout"
+msgstr "تنظیمات تصاویر برای طرح بندی"
+
+#: sample/sections/select-fields/image-select.php:67
+msgid "Images Option"
+msgstr "تنظیمات تصاویر"
+
+#: sample/sections/basic-fields/radio.php:23
+msgid "Radio Option"
+msgstr "تنظیمات رادیویی(Radio Option)"
+
+#: sample/sections/basic-fields/checkbox.php:58
+msgid "Multi Checkbox Option (with sidebar data)"
+msgstr "تنظیمات چک باکس چندگانه(با داده های سایدبار)"
+
+#: sample/sections/basic-fields/checkbox.php:50
+msgid "Multi Checkbox Option (with menu data)"
+msgstr "تنظیمات چک باکس چندگانه(با داده های فهرست)"
+
+#: sample/sections/basic-fields/checkbox.php:31
+msgid "Multi Checkbox Option"
+msgstr "تنظیمات چک باکس چندگانه"
+
+#: sample/sections/basic-fields/checkbox.php:23
+#: sample/sections/disabling/disable-field.php:23
+#: sample/sections/disabling/disable-section.php:24
+msgid "Checkbox Option"
+msgstr "تنظیمات چک باکس"
+
+#: sample/sections/advanced-features/field-validation.php:137
+#: sample/sections/basic-fields/textarea.php:22
+msgid "Textarea Option - HTML Validated Custom"
+msgstr "تنظیمات Textarea - سفارشی معتبر HTML"
+
+#: sample/sections/additional-types/date.php:23
+#: sample/sections/basic-fields/checkbox.php:24
+#: sample/sections/basic-fields/checkbox.php:32
+#: sample/sections/basic-fields/checkbox.php:51
+#: sample/sections/basic-fields/checkbox.php:59
+#: sample/sections/basic-fields/radio.php:24
+#: sample/sections/basic-fields/radio.php:39
+#: sample/sections/disabling/disable-field.php:24
+#: sample/sections/disabling/disable-section.php:25
+#: sample/sections/pro-fields/taxonomy.php:58
+#: sample/sections/select-fields/image-select.php:23
+#: sample/sections/select-fields/image-select.php:68
+#: sample/sections/select-fields/select.php:23
+#: sample/sections/select-fields/select.php:49
+#: sample/sections/select-fields/select.php:75
+#: sample/sections/select-fields/select.php:96
+#: sample/sections/select-fields/select.php:105
+#: sample/sections/select-fields/select.php:113
+#: sample/sections/select-fields/select.php:122
+#: sample/sections/select-fields/select.php:130
+#: sample/sections/select-fields/select.php:139
+#: sample/sections/select-fields/select.php:147
+#: sample/sections/select-fields/select.php:156
+#: sample/sections/select-fields/select.php:164
+#: sample/sections/select-fields/select.php:173
+#: sample/sections/select-fields/select.php:181
+#: sample/sections/select-fields/select.php:190
+#: sample/sections/select-fields/select.php:208
+#: sample/sections/select-fields/select.php:217
+#: sample/sections/select-fields/select.php:225
+#: sample/sections/select-fields/select.php:236
+#: sample/sections/select-fields/select.php:244
+#: sample/sections/select-fields/select.php:254
+#: sample/sections/select-fields/select.php:263
+#: sample/sections/switch-button/button-set.php:23
+#: sample/sections/switch-button/button-set.php:38
+msgid "No validation can be done on this field type"
+msgstr "هیچ گونه اعتبار سنجی در این نوع فیلد قابل انجام نیست"
+
+#: sample/sections/design-fields/dimensions.php:26
+#: sample/sections/design-fields/dimensions.php:39
+msgid "You can enable or disable any piece of this field. Width, Height, or Units."
+msgstr "می توانید هر قطعه از این قسمت را فعال یا غیرفعال کنید. عرض ، ارتفاع یا واحدها."
+
+#: sample/sections/design-fields/dimensions.php:25
+#: sample/sections/design-fields/dimensions.php:38
+msgid "Allow your users to choose width, height, and/or unit."
+msgstr "به کاربران خود اجازه دهید عرض ، ارتفاع و / یا واحد را انتخاب کنند."
+
+#: sample/sections/design-fields/dimensions.php:24
+msgid "Dimensions (Width/Height) Option"
+msgstr "تنظیمات ابعاد (عرض / ارتفاع)"
+
+#: sample/sections/design-fields/spacing.php:36
+#: sample/sections/design-fields/spacing.php:62
+msgid "Allow your users to choose the spacing or margin they want."
+msgstr "به کاربران خود اجازه دهید فاصله یا فاصله بیرونی (margin) مورد نظر خود را انتخاب کنند."
+
+#: sample/sections/design-fields/spacing.php:35
+#: sample/sections/design-fields/spacing.php:61
+msgid "Padding/Margin Option"
+msgstr "تنظیمات فاصله درونی (padding) و فاصله بیرونی (Margin)"
+
+#: sample/sections/design-fields/border.php:22
+msgid "Header Border Option"
+msgstr "تنظیمات مرزبندی سربرگ(Header Border)"
+
+#: sample/sections/color-selection/link-color.php:22
+msgid "Links Color Option"
+msgstr "تنظیمات رنگ لینک ها"
+
+#: sample/sections/color-selection/color-gradient.php:23
+#: sample/sections/color-selection/link-color.php:23
+#: sample/sections/color-selection/palette.php:23
+#: sample/sections/design-fields/border.php:23
+#: sample/sections/design-fields/border.php:39
+msgid "Only color validation can be done on this field type"
+msgstr "فقط اعتبار سنجی رنگ در این نوع فیلد قابل انجام است"
+
+#: sample/sections/color-selection/color-gradient.php:22
+msgid "Header Gradient Color Option"
+msgstr "تنظیمات رنگ گرادینت سربرگ"
+
+#: sample/sections/color-selection/color-rgba.php:23
+msgid "Gives you the RGBA color."
+msgstr "به شما رنگ RGBA می دهد."
+
+#: sample/sections/color-selection/color-rgba.php:14
+#: sample/sections/color-selection/color-rgba.php:22
+msgid "Color RGBA"
+msgstr "رنگ RGBA"
+
+#: sample/sections/color-selection/color.php:35
+msgid "Pick a background color for the footer (default: #dd9933)."
+msgstr "یک رنگ پس زمینه را برای پاورقی انتخاب کنید(پیشفرض: #dd9933)."
+
+#: sample/sections/color-selection/color.php:34
+msgid "Footer Background Color"
+msgstr "رنگ پس زمینه پاورقی"
+
+#: sample/sections/design-fields/background.php:30
+msgid "Body background with image, color, etc."
+msgstr "پس زمینه بدنه سایت با تصویر ، رنگ و غیره."
+
+#: sample/sections/design-fields/background.php:29
+msgid "Body Background"
+msgstr "پس زمینه بدنه اصلی قالب"
+
+#: sample/sections/select-fields/select.php:38
+msgid "Select your themes alternative color scheme."
+msgstr "طرح های جایگزین طرح های زمینه را انتخاب کنید."
+
+#: sample/sections/editors/ace-editor.php:23
+msgid "Paste your CSS code here."
+msgstr "کد CSS خود را در اینجا جایگذاری کنید."
+
+#: sample/sections/editors/ace-editor.php:22
+msgid "CSS Code"
+msgstr "کد CSS"
+
+#: sample/sections/media-uploads/slides.php:28
+msgid "Give us a link!"
+msgstr "به ما یک لینک دهید!"
+
+#: sample/sections/media-uploads/slides.php:27
+msgid "Description Here"
+msgstr "توضیحات در اینجا"
+
+#: sample/sections/media-uploads/slides.php:26
+msgid "This is a title"
+msgstr "این یک عنوان است"
+
+#: sample/metaboxes.php:166 sample/sections/media-uploads/slides.php:24
+msgid "This field will store all slides values into a multidimensional array to use into a foreach loop."
+msgstr "این قسمت تمام مقادیر اسلایدها را در یک آرایه چند بعدی برای استفاده در یک حلقه foreach ذخیره می کند."
+
+#: sample/metaboxes.php:165 sample/sections/media-uploads/slides.php:23
+msgid "Unlimited slides with drag and drop sortings."
+msgstr "اسلایدها نامحدود با مرتب سازی درگ و رها."
+
+#: sample/metaboxes.php:164 sample/sections/media-uploads/slides.php:22
+msgid "Slides Options"
+msgstr "تنظیمات اسلایدها"
+
+#: sample/sections/select-fields/image-select.php:60
+msgid "Select a background pattern."
+msgstr "انتخاب الگوی پس زمینه."
+
+#: sample/sections/switch-button/switch.php:55
+msgid "Switch2 - Enable the above switch and this one for patterns to show"
+msgstr "Switch2 - سوئیچ بالا و این یکی را برای نمایش الگوهای فعال کنید"
+
+#: sample/sections/pro-fields/taxonomy.php:173
+#: sample/sections/pro-fields/users.php:149
+#: sample/sections/switch-button/switch.php:48
+#: sample/sections/switch-button/switch.php:57
+msgid "Items set with a fold to this ID will hide unless this is set to the appropriate value."
+msgstr "موارد تنظیم شده با این شناسه پنهان می شوند ، مگر اینکه این مقدار به مقدار مناسب تنظیم شود."
+
+#: sample/sections/pro-fields/taxonomy.php:172
+#: sample/sections/pro-fields/users.php:148
+#: sample/sections/switch-button/switch.php:47
+#: sample/sections/switch-button/switch.php:56
+msgid "Also called a \"fold\" parent."
+msgstr "همچنین به اولیای \"برابر\" گفته می شود."
+
+#: sample/sections/pro-fields/taxonomy.php:171
+#: sample/sections/pro-fields/users.php:147
+#: sample/sections/switch-button/switch.php:46
+msgid "Switch - This and the next switch required for patterns to show"
+msgstr "سوئیچ - این و سوئیچ بعدی برای نمایش الگوهای مورد نیاز است"
+
+#: sample/sections/pro-fields/taxonomy.php:162
+#: sample/sections/pro-fields/users.php:138
+#: sample/sections/switch-button/switch.php:37
+msgid "Look, it's on! Also hidden child elements!"
+msgstr "ببین ، روشن است! همچنین عناصر کودک پنهان!"
+
+#: sample/sections/pro-fields/taxonomy.php:161
+#: sample/sections/pro-fields/users.php:137
+#: sample/sections/switch-button/switch.php:36
+msgid "Switch - Nested Children, Enable to show"
+msgstr "سوئیچ - کودکان تو در تو ، نمایش برای فعال کردن"
+
+#: sample/metaboxes.php:94 sample/sections/switch-button/switch.php:23
+#: sample/sections/switch-button/switch.php:30
+msgid "Look, it's on!"
+msgstr "ببین ، روشن است!"
+
+#: sample/metaboxes.php:66 sample/sections/media-uploads/gallery.php:23
+#: sample/sections/pro-fields/taxonomy.php:125
+#: sample/sections/pro-fields/users.php:101
+msgid "Create a new Gallery by selecting existing or uploading new images using the WordPress native uploader"
+msgstr "با انتخاب تصاویر جدید یا آپلود تصاویر جدید با استفاده از آپلودکننده بومی وردپرس ، یک گالری جدید ایجاد کنید"
+
+#: sample/sections/media-uploads/media.php:42
+#: sample/sections/pro-fields/taxonomy.php:117
+#: sample/sections/pro-fields/users.php:93
+msgid "Media No Preview"
+msgstr "رسانه بدون پیش نمایش"
+
+#: sample/sections/media-uploads/media.php:33
+#: sample/sections/media-uploads/media.php:43
+#: sample/sections/media-uploads/media.php:98
+#: sample/sections/pro-fields/taxonomy.php:110
+#: sample/sections/pro-fields/taxonomy.php:118
+#: sample/sections/pro-fields/users.php:86
+#: sample/sections/pro-fields/users.php:94
+msgid "This represents the minimalistic view. It does not have the preview box or the display URL in an input box. "
+msgstr "این نمایانگر دیدگاه حداقلی است. جعبه پیش نمایش یا آدرس اینترنتی نمایش در جعبه ورودی ندارد. "
+
+#: sample/sections/media-uploads/media.php:32
+#: sample/sections/media-uploads/media.php:97
+#: sample/sections/pro-fields/taxonomy.php:109
+#: sample/sections/pro-fields/users.php:85
+msgid "Media w/o URL"
+msgstr "رسانه ها w/o آدرس اینترنتی"
+
+#: sample/metaboxes.php:56 sample/sections/media-uploads/media.php:23
+#: sample/sections/media-uploads/media.php:66
+#: sample/sections/pro-fields/taxonomy.php:95
+#: sample/sections/pro-fields/users.php:71
+msgid "Media w/ URL"
+msgstr "رسانه w/ آدرس اینترنتی"
+
+#: sample/metaboxes.php:58 sample/sections/media-uploads/media.php:25
+#: sample/sections/media-uploads/media.php:59
+#: sample/sections/media-uploads/media.php:68
+#: sample/sections/pro-fields/taxonomy.php:81
+#: sample/sections/pro-fields/taxonomy.php:97
+#: sample/sections/pro-fields/users.php:57
+#: sample/sections/pro-fields/users.php:73
+msgid "Basic media uploader with disabled URL input field."
+msgstr "بارگذاری کننده رسانه اصلی با زمینه ورودی آدرس اینترنتی غیرفعال است."
+
+#: sample/metaboxes.php:67 sample/sections/additional-types/date.php:24
+#: sample/sections/advanced-features/field-sanitizing.php:25
+#: sample/sections/advanced-features/field-sanitizing.php:34
+#: sample/sections/advanced-features/field-sanitizing.php:43
+#: sample/sections/advanced-features/field-validation.php:24
+#: sample/sections/advanced-features/field-validation.php:34
+#: sample/sections/advanced-features/field-validation.php:43
+#: sample/sections/advanced-features/field-validation.php:50
+#: sample/sections/advanced-features/field-validation.php:59
+#: sample/sections/advanced-features/field-validation.php:68
+#: sample/sections/advanced-features/field-validation.php:77
+#: sample/sections/advanced-features/field-validation.php:99
+#: sample/sections/advanced-features/field-validation.php:121
+#: sample/sections/advanced-features/field-validation.php:130
+#: sample/sections/advanced-features/field-validation.php:139
+#: sample/sections/advanced-features/field-validation.php:159
+#: sample/sections/basic-fields/checkbox.php:25
+#: sample/sections/basic-fields/checkbox.php:33
+#: sample/sections/basic-fields/checkbox.php:52
+#: sample/sections/basic-fields/checkbox.php:60
+#: sample/sections/basic-fields/radio.php:25
+#: sample/sections/basic-fields/radio.php:40
+#: sample/sections/basic-fields/sortable.php:24
+#: sample/sections/basic-fields/sortable.php:38
+#: sample/sections/basic-fields/textarea.php:24
+#: sample/sections/color-selection/color-gradient.php:24
+#: sample/sections/color-selection/color-palette.php:51
+#: sample/sections/color-selection/color-palette.php:63
+#: sample/sections/color-selection/color-palette.php:77
+#: sample/sections/color-selection/color-palette.php:89
+#: sample/sections/color-selection/link-color.php:24
+#: sample/sections/color-selection/palette.php:24
+#: sample/sections/design-fields/border.php:25
+#: sample/sections/design-fields/border.php:42
+#: sample/sections/design-fields/box-shadow.php:39
+#: sample/sections/disabling/disable-field.php:25
+#: sample/sections/disabling/disable-section.php:26
+#: sample/sections/media-uploads/gallery.php:24
+#: sample/sections/pro-fields/taxonomy.php:59
+#: sample/sections/pro-fields/taxonomy.php:126
+#: sample/sections/pro-fields/users.php:102
+#: sample/sections/select-fields/image-select.php:69
+#: sample/sections/select-fields/select.php:24
+#: sample/sections/select-fields/select.php:50
+#: sample/sections/select-fields/select.php:76
+#: sample/sections/select-fields/select.php:97
+#: sample/sections/select-fields/select.php:106
+#: sample/sections/select-fields/select.php:114
+#: sample/sections/select-fields/select.php:123
+#: sample/sections/select-fields/select.php:131
+#: sample/sections/select-fields/select.php:140
+#: sample/sections/select-fields/select.php:148
+#: sample/sections/select-fields/select.php:157
+#: sample/sections/select-fields/select.php:165
+#: sample/sections/select-fields/select.php:174
+#: sample/sections/select-fields/select.php:182
+#: sample/sections/select-fields/select.php:191
+#: sample/sections/select-fields/select.php:201
+#: sample/sections/select-fields/select.php:209
+#: sample/sections/select-fields/select.php:218
+#: sample/sections/select-fields/select.php:226
+#: sample/sections/select-fields/select.php:237
+#: sample/sections/select-fields/select.php:255
+#: sample/sections/switch-button/button-set.php:24
+#: sample/sections/switch-button/button-set.php:39
+msgid "This is the description field, again good for additional info."
+msgstr "این قسمت توضیحات است ، برای اطلاعات بیشتر خوب است."
+
+#: sample/metaboxes.php:59 sample/sections/media-uploads/media.php:26
+#: sample/sections/media-uploads/media.php:34
+#: sample/sections/media-uploads/media.php:44
+#: sample/sections/media-uploads/media.php:60
+#: sample/sections/media-uploads/media.php:69
+#: sample/sections/media-uploads/media.php:99
+#: sample/sections/pro-fields/taxonomy.php:82
+#: sample/sections/pro-fields/taxonomy.php:98
+#: sample/sections/pro-fields/taxonomy.php:111
+#: sample/sections/pro-fields/taxonomy.php:119
+#: sample/sections/pro-fields/users.php:58
+#: sample/sections/pro-fields/users.php:74
+#: sample/sections/pro-fields/users.php:87
+#: sample/sections/pro-fields/users.php:95
+msgid "Upload any media using the WordPress native uploader"
+msgstr "هر رسانه ای را با استفاده از آپلودکننده بومی وردپرس بارگذاری کنید"
+
+#: sample/barebones-config.php:322
+msgid "Text Area Field"
+msgstr "فیلد منطقه متن"
+
+#: sample/barebones-config.php:314
+msgid "Text Area"
+msgstr "منطقه متن"
+
+#: sample/barebones-config.php:305 sample/barebones-config.php:324
+#: sample/sections/basic-fields/text.php:25
+#: sample/sections/basic-fields/text.php:33
+#: sample/sections/basic-fields/text.php:45
+msgid "Field Description"
+msgstr "توضیحات زمینه"
+
+#: sample/barebones-config.php:303 sample/metaboxes.php:108
+#: sample/sections/basic-fields/text.php:23
+#: sample/sections/repeater/repeater.php:37
+#: sample/sections/repeater/repeater.php:61
+#: sample/sections/repeater/repeater.php:63
+msgid "Text Field"
+msgstr "فیلد متن"
+
+#: sample/barebones-config.php:288
+msgid "Basic fields as subsections."
+msgstr "زمینه های اصلی به عنوان زیرمجموعه ها."
+
+#: sample/barebones-config.php:286 sample/metaboxes.php:28
+#: sample/sample-config.php:321
+msgid "Basic Fields"
+msgstr "فیلد های اصلی"
+
+#: sample/barebones-config.php:267
+msgid "Basic field with no subsections."
+msgstr "زمینه اصلی و بدون زیر مجموعه."
+
+#: sample/barebones-config.php:265
+msgid "Basic Field"
+msgstr "فیلد اصلی"
+
+#: sample/barebones-config.php:160 sample/sample-config.php:225
+#: sample/sample-config.php:552
+msgid "Documentation"
+msgstr "مستندات"
+
+#: sample/barebones-config.php:44 sample/barebones-config.php:45
+#: sample/sample-config.php:89 sample/sample-config.php:92
+msgid "Sample Options"
+msgstr "تنظیمات های نمونه"
+
+#: sample/barebones-config.php:231 sample/sample-config.php:298
+msgid "Theme Information 2"
+msgstr "اطلاعات قالب 2"
+
+#: sample/barebones-config.php:296 sample/barebones-config.php:315
+#: sample/sample-config.php:525
+#: sample/sections/additional-types/date-time-picker.php:16
+#: sample/sections/additional-types/date.php:16
+#: sample/sections/additional-types/raw.php:25
+#: sample/sections/additional-types/sorter.php:16
+#: sample/sections/advanced-features/callback.php:16
+#: sample/sections/basic-fields/checkbox.php:18
+#: sample/sections/basic-fields/multi-text.php:16
+#: sample/sections/basic-fields/password.php:16
+#: sample/sections/basic-fields/radio.php:18
+#: sample/sections/basic-fields/sortable.php:17
+#: sample/sections/basic-fields/text.php:15
+#: sample/sections/basic-fields/textarea.php:16
+#: sample/sections/color-selection/color-gradient.php:15
+#: sample/sections/color-selection/color-palette.php:16
+#: sample/sections/color-selection/color-rgba.php:15
+#: sample/sections/color-selection/color.php:16
+#: sample/sections/color-selection/link-color.php:15
+#: sample/sections/color-selection/palette.php:15
+#: sample/sections/design-fields/background.php:16
+#: sample/sections/design-fields/border.php:16
+#: sample/sections/design-fields/box-shadow.php:16
+#: sample/sections/design-fields/dimensions.php:16
+#: sample/sections/design-fields/spacing.php:16
+#: sample/sections/disabling/disable-field.php:18
+#: sample/sections/disabling/disable-section.php:19
+#: sample/sections/editors/wordpress-editor.php:16
+#: sample/sections/media-uploads/gallery.php:16
+#: sample/sections/media-uploads/media.php:16
+#: sample/sections/media-uploads/multi-media.php:16
+#: sample/sections/media-uploads/slides.php:16
+#: sample/sections/presentation-fields/divide.php:16
+#: sample/sections/presentation-fields/info.php:16
+#: sample/sections/presentation-fields/section.php:16
+#: sample/sections/pro-fields/accordion.php:16
+#: sample/sections/pro-fields/color-scheme.php:16
+#: sample/sections/pro-fields/custom-fonts.php:16
+#: sample/sections/pro-fields/google-maps.php:15
+#: sample/sections/pro-fields/icon-select.php:17
+#: sample/sections/pro-fields/js-button.php:16
+#: sample/sections/pro-fields/social-profiles.php:15
+#: sample/sections/repeater/repeater.php:16
+#: sample/sections/search/search.php:17
+#: sample/sections/select-fields/image-select.php:16
+#: sample/sections/select-fields/select-image.php:16
+#: sample/sections/select-fields/select.php:16
+#: sample/sections/shortcodes/shortcodes.php:20
+#: sample/sections/slider-spinner/slider.php:16
+#: sample/sections/slider-spinner/spinner.php:16
+#: sample/sections/switch-button/button-set.php:16
+#: sample/sections/switch-button/switch.php:16
+#: sample/sections/typography/typography.php:16
+msgid "For full documentation on this field, visit: "
+msgstr "برای مستندات کامل در این زمینه ، به این آدرس مراجعه کنید: "
+
+#: sample/barebones-config.php:225 sample/sample-config.php:293
+msgid "Theme Information 1"
+msgstr "اطلاعات قالب 1"
+
+#: sample/barebones-config.php:275
+msgid "Example subtitle."
+msgstr "عنوان زیرنویس."
+
+#: sample/barebones-config.php:274
+msgid "Example description."
+msgstr "توضیحات مثال."
+
+#: sample/barebones-config.php:273
+msgid "Example Text"
+msgstr "متن نمونه"
+
+#: class-redux-framework-plugin.php:372
+msgid "Click here to activate the sample config file."
+msgstr "برای فعال کردن پرونده پیکربندی نمونه اینجا را کلیک کنید."
+
+#: redux-core/templates/panel/header.tpl.php:36
+msgid "If you are not a developer, your theme/plugin author shipped with developer mode enabled. Contact them directly to fix it."
+msgstr "اگر شما یک برنامه نویس نیستید ، نویسنده قالب / افزونه شما با حالت توسعه دهنده ارسال شده است. برای رفع آن مستقیماً با آنها تماس بگیرید."
+
+#: redux-core/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr "و"
+
+#: redux-core/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr "شما در یک محیط محلی کار می کنید"
+
+#: redux-core/templates/panel/footer.tpl.php:67
+#: redux-core/templates/panel/header-stickybar.tpl.php:31
+msgid "Working..."
+msgstr "کار ..."
+
+#: redux-core/templates/panel/footer.tpl.php:62
+#: redux-core/templates/panel/header-stickybar.tpl.php:26
+msgid "Reset Section"
+msgstr "بازگردانی پیش فرض بخش"
+
+#: sample/barebones-config.php:166 sample/sample-config.php:231
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:132
+#: extendify-sdk/public/build/extendify.js:2
+#: extendify-sdk/src/Library/components/DevHelpers.js:23
+msgid "Copied!"
+msgstr "کپی شد!"
+
+#: redux-core/inc/validation/not_empty/class-redux-validation-not-empty.php:27
+msgid "This field cannot be empty. Please provide a value."
+msgstr "این فیلد نمی تواند خالی باشد لطفا یک مقدار پر کنید."
+
+#: redux-core/inc/validation/email/class-redux-validation-email.php:27
+msgid "You must provide a valid email for this option."
+msgstr "شما باید یک ایمیل معتبر برای این گزینه فراهم کنید ."
+
+#: redux-core/inc/validation/date/class-redux-validation-date.php:27
+msgid "This field must be a valid date."
+msgstr "این فیلد باید دارای یک تاریخ معتبر باشد."
+
+#: redux-core/inc/validation/comma_numeric/class-redux-validation-comma-numeric.php:34
+msgid "You must provide a comma separated list of numerical values for this option."
+msgstr "شما باید یک لیست که مقادیر عددی با کاما جدا شده باشند را برای این گزینه فراهم  کنید ."
+
+#: redux-core/inc/themecheck/checks/class-redux-full-package.php:50
+msgid "PHP Unit Testing"
+msgstr "تست واحد PHP"
+
+#: redux-core/inc/themecheck/checks/class-redux-full-package.php:49
+msgid "CI Testing FIle"
+msgstr "فایل تست CI"
+
+#: redux-core/inc/themecheck/checks/class-redux-full-package.php:48
+msgid "Redux Boostrap Tests"
+msgstr "تست های بوت استرپ ردوکس"
+
+#: redux-core/inc/themecheck/checks/class-redux-full-package.php:47
+msgid "Redux Plugin File"
+msgstr "فایل افزونه ردوکس"
+
+#: redux-core/inc/themecheck/checks/class-redux-full-package.php:46
+msgid "Redux Unit Testing"
+msgstr "تست واحد ردوکس"
+
+#: redux-core/inc/themecheck/checks/class-redux-full-package.php:45
+msgid "Redux Code Styles"
+msgstr "کدهای استایل ردوکس"
+
+#: redux-core/inc/themecheck/checks/class-redux-full-package.php:44
+msgid "Redux Resting Diles"
+msgstr "Redux Resting Diles"
+
+#: redux-core/inc/themecheck/checks/class-redux-full-package.php:43
+msgid "Redux localization utilities"
+msgstr "برنامه های محلی سازی ردوکس"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:1331
+msgid "Standard Fonts"
+msgstr "فونت های استاندارد"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:577
+#: redux-core/inc/fields/typography/class-redux-typography.php:582
+msgid "Line Height"
+msgstr "ارتفاع خط"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:555
+#: redux-core/inc/fields/typography/class-redux-typography.php:560
+msgid "Font Size"
+msgstr "اندازه فونت"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:431
+#: redux-core/inc/fields/typography/class-redux-typography.php:432
+#: redux-core/inc/fields/typography/class-redux-typography.php:434
+#: redux-core/inc/fields/typography/class-redux-typography.php:436
+msgid "Text Align"
+msgstr "تراز متن"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:412
+msgid "Font Subsets"
+msgstr "زیر مجموعه های فونت"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:389
+msgid "Style"
+msgstr "سبک"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:372
+msgid "Font Weight &amp; Style"
+msgstr "عرض فونت  &amp; سبک"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:371
+#: redux-core/inc/fields/typography/class-redux-typography.php:391
+msgid "Font style"
+msgstr "سبک فونت"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:311
+msgid "Font family"
+msgstr "خانواده فونت"
+
+#: redux-core/inc/fields/typography/class-redux-typography.php:309
+msgid "Font Family"
+msgstr "خانواده فونت"
+
+#: redux-core/inc/fields/switch/class-redux-switch.php:37
+#: sample/metaboxes.php:193
+msgid "On"
+msgstr "روشن"
+
+#. translators:  Content title for accordion.
+#: redux-core/inc/fields/slides/class-redux-slides.php:363
+msgid "Add %s"
+msgstr "اضافه کردن %s"
+
+#: redux-core/inc/fields/slides/class-redux-slides.php:152
+#: redux-core/inc/fields/slides/class-redux-slides.php:288
+msgid "URL"
+msgstr "نشانی"
+
+#. translators: New accordion title.
+#. translators:  Content title for new accordion.
+#: redux-core/inc/fields/slides/class-redux-slides.php:48
+#: redux-core/inc/fields/slides/class-redux-slides.php:233
+msgid "New %s"
+msgstr "جدید %s"
+
+#: redux-core/inc/fields/link_color/class-redux-link-color.php:87
+msgid "Hover"
+msgstr "شناور"
+
+#: redux-core/inc/fields/gallery/class-redux-gallery.php:49
+msgid "Clear Gallery"
+msgstr "پاک کردن گالری"
+
+#: redux-core/inc/fields/gallery/class-redux-gallery.php:48
+#: sample/metaboxes.php:65 sample/sections/media-uploads/gallery.php:22
+#: sample/sections/pro-fields/taxonomy.php:124
+#: sample/sections/pro-fields/users.php:100
+msgid "Add/Edit Gallery"
+msgstr "افزودن / ویرایش گالری"
+
+#: redux-core/inc/fields/background/class-redux-background.php:330
+#: redux-core/inc/fields/media/class-redux-media.php:242
+#: redux-core/inc/fields/slides/class-redux-slides.php:105
+#: redux-core/inc/fields/slides/class-redux-slides.php:249
+#: redux-templates/assets/js/redux-templates.js:796
+#: redux-templates/src/blocks/import/components/edit.js:119
+msgid "Upload"
+msgstr "بارگذاری"
+
+#: redux-core/inc/fields/background/class-redux-background.php:285
+#: redux-core/inc/fields/media/class-redux-media.php:89
+msgid "No media selected"
+msgstr "هیچ فایلی انتخاب نشده"
+
+#: redux-core/inc/fields/background/class-redux-background.php:231
+msgid "Background Position"
+msgstr "موقعیت پس‌زمینه"
+
+#: redux-core/inc/fields/background/class-redux-background.php:138
+msgid "Background Repeat"
+msgstr "تکرار پس‌زمینه"
+
+#: redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:124
+msgid "Here you can copy/download your current option settings. Keep this safe as you can use it as a backup should anything go wrong, or you can use it to restore your settings on this site (or any other site)."
+msgstr "در اینجا می توانید تنظیمات تنظیمات فعلی خود را کپی / بارگیری کنید. در صورت عدم استفاده از آن ، به عنوان پشتیبان خود ، این کار را ایمن نگه دارید ، یا می توانید از آن برای بازیابی تنظیمات خود در این سایت (یا هر سایت دیگر) استفاده کنید."
+
+#: redux-core/inc/extensions/customizer/class-redux-extension-customizer.php:752
+msgid "Your current options will be replaced with the values of this preset.  Would you like to proceed?"
+msgstr "تنظیمات های فعلی شما با مقادیر از پیش تعیین شده جایگزین می شوند.  آیا مایل به ادامه هستید؟"
+
+#: redux-core/inc/extensions/customizer/class-redux-extension-customizer.php:751
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr "آیا مطمئن هستید ؟ تمام مقادیر وارد شده از بین خواهند رفت."
+
+#: redux-core/inc/extensions/customizer/class-redux-extension-customizer.php:750
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr "شما تغییرات ذخیره نشده ای دارید. آیا می خواهید آنها را ذخیره کنید؟"
+
+#: redux-core/inc/extensions/options_object/class-redux-extension-options-object.php:72
+#: redux-core/inc/extensions/options_object/options_object/class-redux-options-object.php:100
+msgid "Options Object"
+msgstr "تنظیمات اشیاء"
+
+#: redux-core/inc/classes/class-redux-ajax-save.php:42
+#: redux-core/inc/classes/class-redux-ajax-select2.php:38
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr "اعتبارنامه امنیتی نامعتبر است.  لطفا صفحه را مجددا بارگذاری کنید و دوباره تلاش کنید."
+
+#: redux-core/inc/classes/class-redux-field.php:43
+#: redux-core/inc/classes/class-redux-page-render.php:993
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: redux-core/inc/classes/class-redux-page-render.php:174
+msgid "Enable"
+msgstr "فعال"
+
+#: redux-core/inc/classes/class-redux-panel.php:285
+#: redux-core/inc/extensions/metaboxes/class-redux-extension-metaboxes.php:1225
+msgid "warning(s) were found!"
+msgstr "اخطار(هایی) پیدا شده اند!"
+
+#: redux-core/inc/classes/class-redux-enqueue.php:718
+msgid "There was an error saving. Here is the result of your action:"
+msgstr "هنگام ذخیره خطایی روی داد در اینجا نتیجه عمل شما آمده است:"
+
+#: redux-core/inc/classes/class-redux-enqueue.php:675
+#: redux-core/inc/extensions/customizer/class-redux-extension-customizer.php:728
+msgid "Your current options will be replaced with the values of this preset. Would you like to proceed?"
+msgstr "تنظیمات های فعلی شما با مقادیر از پیش تعیین شده جایگزین می شوند. آیا مایل به ادامه هستید؟"
+
+#: redux-core/inc/classes/class-redux-enqueue.php:659
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr "آیا مطمئن هستید ؟ تمام مقادیر وارد شده در این بخش از بین خواهند رفت."
+
+#: redux-core/inc/fields/border/class-redux-border.php:147
+#: redux-core/inc/fields/spacing/class-redux-spacing.php:255
+#: redux-core/inc/fields/typography/class-redux-typography.php:692
+msgid "Bottom"
+msgstr "پایین"
+
+#: sample/sections/select-fields/select.php:216
+msgid "Posts Multi Select Option"
+msgstr "تنظیمات چندگانه را انتخاب کنید"
