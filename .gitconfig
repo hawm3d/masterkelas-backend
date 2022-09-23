@@ -1,6 +1,7 @@
 [alias]
 	tree-plugins = "!git subtree push --prefix=web/app/plugins masterkelas-plugins main"
 	tree-scripts = "!git subtree push --prefix=scripts wp-scripts main"
+	sync-trees = "!git tree-plugins && git tree-scripts"
 	push-plugins-m = "!f() { git add . && git commit -m \"$1\" && git push && git tree-plugins; }; f"
 	push-plugins = "!f() { git add . && git commit && git push && git tree-plugins; }; f"
 	update-plugin = "!f() { X=($1); git push-plugins-m \"Update Plugin: ${X[@]^}${2:+ (v$2)}\"; }; f"
