@@ -18,7 +18,7 @@ class Scheduler {
 
   public static function hooks() {
     add_action('test_queue', [__CLASS__, "test_queue"]);
-    add_action('init', [__CLASS__, "disable_default_runner"], 10);
+    // add_action('init', [__CLASS__, "disable_default_runner"], 10);
 
     $jobs = self::jobs();
     foreach ($jobs as $job => $action) {
@@ -29,10 +29,6 @@ class Scheduler {
         isset($action["args"]) ? $action["args"] : 1,
       );
     }
-  }
-
-  public static function test_queue($args) {
-    MasterLog::queue()->info("hi", $args);
   }
 
   public static function jobs() {

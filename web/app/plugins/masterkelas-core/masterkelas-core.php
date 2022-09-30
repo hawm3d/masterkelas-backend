@@ -189,10 +189,10 @@ endif;
 /**
  * Load Action Scheduler.
  */
-function load_as() {
-	require_once(plugin_dir_path(__FILE__) . 'vendor/woocommerce/action-scheduler/action-scheduler.php');
-}
-add_action('plugins_loaded', 'load_as', -10);
+// function load_as() {
+// 	require_once(plugin_dir_path(__FILE__) . 'vendor/woocommerce/action-scheduler/action-scheduler.php');
+// }
+// add_action('plugins_loaded', 'load_as', -10);
 
 /**
  * Start MasterKelas.
