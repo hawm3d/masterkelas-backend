@@ -8,6 +8,7 @@ use MasterKelas\Admin;
 use MasterKelas\MasterException;
 use MasterKelas\Validator;
 use MasterKelas\Queue;
+use MasterKelas\Queue\Task;
 use PasswordHash;
 
 /**
@@ -177,16 +178,21 @@ class OTP {
     $job_name = "send_otp_to_{$this->type}";
     $group = "otp";
 
-    if ($async)
-      return Queue::async($job_name, $data, $group, $hook);
+    if ($timestamp > 0) {
+      sleep(1);
+    }
 
-    return Queue::single($timestamp, $job_name, $data, $group, $hook);
+    return Task::send_otp($this->type, $data);
+    // if ($async)
+    //   return Queue::async($job_name, $data, $group, $hook);
+
+    // return Queue::single($timestamp, $job_name, $data, $group, $hook);
   }
 
   public function create_token() {
     $token_length = self::get_code_length($this->type);
-    $token = substr('123456789', 0, $token_length);
-    // $token = substr(number_format(time() * rand(), 0, '', ''), 0, $token_length);
+    // $token = substr('123456789', 0, $token_length);
+    $token = substr(number_format(time() * rand(), 0, '', ''), 0, $token_length);
 
     // return wp_hash_password($token);
     return $token;

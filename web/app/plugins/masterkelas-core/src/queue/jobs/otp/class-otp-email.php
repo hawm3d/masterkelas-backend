@@ -4,6 +4,7 @@ namespace MasterKelas\Queue\Job;
 
 use Carbon\Carbon;
 use MasterKelas\Database\OTP_Query;
+use MasterKelas\MasterLog;
 
 /**
  * Send OTP to recipient email address
@@ -15,6 +16,7 @@ use MasterKelas\Database\OTP_Query;
  */
 class OTP_Email {
   public static function process($otp_id) {
+    MasterLog::queue()->info("OTP_Email", [$otp_id]);
     $max_attempts = 3;
 
     $otp = (new OTP_Query())->get_item($otp_id);
@@ -69,7 +71,7 @@ class OTP_Email {
 
       $status = 1;
     } catch (\Throwable $th) {
-      error_log($th);
+      MasterLog::queue()->error("OTP Email Provider Error: " . $th->getMessage());
       $status = 2;
       $data['provider-status'] = 2;
       $data['provider-response'] = $th->getMessage();

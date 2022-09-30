@@ -2,6 +2,7 @@
 
 namespace MasterKelas\Region;
 
+use GeoIp2\Database\Reader;
 use MasterKelas\Region\RegionProviderTrait;
 
 /**
@@ -13,34 +14,15 @@ use MasterKelas\Region\RegionProviderTrait;
  * @author     Hamed Ataei <setayan.com@gmail.com>
  */
 class MaxmindProvider implements RegionProviderTrait {
-
   public function fetch($ip) {
     $data = [];
-    $client = new \GuzzleHttp\Client([
-      'curl' => array(CURLOPT_SSL_VERIFYPEER => false),
-      'headers' => ['Content-Type' => 'application/json'],
-    ]);
+    $reader = new Reader(PRIVATE_STORAGE_DIR . '/geolite2/country.mmdb');
+    $record = $reader->country($ip);
 
-    $response = $client->request('GET', 'http://www.geoplugin.net/json.gp', [
-      'http_errors' => false,
-      'query' => [
-        'ip' => $ip
-      ]
-    ]);
-
-    if ($response->getStatusCode() == 200) {
-      $data = json_decode($response->getBody(), true);
-
-      if (
-        is_array($data) &&
-        !empty($data) &&
-        isset($data['geoplugin_request'], $data['geoplugin_countryName'], $data['geoplugin_countryCode'], $data['geoplugin_timezone']) &&
-        esc_textarea($data['geoplugin_request']) === $ip
-      ) {
-        $data['name'] = esc_textarea($data['geoplugin_countryName']);
-        $data['iso_code'] = esc_textarea($data['geoplugin_countryCode']);
-        $data['timezone'] = esc_textarea($data['geoplugin_timezone']);
-      }
+    if (!empty($record->country->name) && !empty($record->country->isoCode)) {
+      $data['name'] = esc_textarea($record->country->name);
+      $data['iso_code'] = esc_textarea($record->country->isoCode);
+      $data['timezone'] = esc_textarea(\DateTimeZone::listIdentifiers(\DateTimeZone::PER_COUNTRY, $record->country->isoCode)[0]);
     }
 
     return $data;

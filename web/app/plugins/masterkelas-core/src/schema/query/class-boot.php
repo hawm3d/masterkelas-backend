@@ -2,6 +2,7 @@
 
 namespace MasterKelas\Schema\Query;
 
+use MasterKelas\Queue\Task;
 use MasterKelas\RemoteAddress;
 use MasterKelas\Schema;
 use MasterKelas\Schema\MasterContext;

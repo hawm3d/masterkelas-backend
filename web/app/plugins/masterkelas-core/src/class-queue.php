@@ -1,4 +1,5 @@
 <?php
+
 namespace MasterKelas;
 
 use MasterKelas\Queue\Scheduler;
@@ -11,8 +12,7 @@ use MasterKelas\Queue\Scheduler;
  * @subpackage Mk
  * @author     Hamed Ataei <setayan.com@gmail.com>
  */
-class Queue
-{
+class Queue {
   public static function get_group($group = '') {
     return Scheduler::$queue_name . (!empty($group) ? ".{$group}" : "");
   }
@@ -28,8 +28,9 @@ class Queue
     if (!$hook)
       return as_enqueue_async_action($name, $data, $group);
 
-    add_action('init', 
-      function () use($name, $data, $group) {
+    add_action(
+      'init',
+      function () use ($name, $data, $group) {
         as_enqueue_async_action($name, $data, $group);
       }
     );
@@ -42,8 +43,9 @@ class Queue
     if (!$hook)
       return as_schedule_single_action($timestamp, $name, $data, $group);
 
-    add_action('init', 
-      function () use($timestamp, $name, $data, $group) {
+    add_action(
+      'init',
+      function () use ($timestamp, $name, $data, $group) {
         as_schedule_single_action($timestamp, $name, $data, $group);
       }
     );
@@ -53,8 +55,9 @@ class Queue
     $name = self::get_job_name($name);
     $group = self::get_group($group);
 
-    add_action('init', 
-      function () use($timestamp, $interval_in_seconds,$name, $data, $group) {
+    add_action(
+      'init',
+      function () use ($timestamp, $interval_in_seconds, $name, $data, $group) {
         as_schedule_recurring_action($timestamp, $interval_in_seconds, $name, $data, $group);
       }
     );
@@ -64,8 +67,9 @@ class Queue
     $name = self::get_job_name($name);
     $group = self::get_group($group);
 
-    add_action('init', 
-      function () use($timestamp, $schedule,$name, $data, $group) {
+    add_action(
+      'init',
+      function () use ($timestamp, $schedule, $name, $data, $group) {
         as_schedule_cron_action($timestamp, $schedule, $name, $data, $group);
       }
     );
@@ -75,8 +79,9 @@ class Queue
     $name = self::get_job_name($name);
     $group = self::get_group($group);
 
-    add_action('init', 
-      function () use($name, $data, $group) {
+    add_action(
+      'init',
+      function () use ($name, $data, $group) {
         as_unschedule_action($name, $data, $group);
       }
     );
@@ -86,8 +91,9 @@ class Queue
     $name = self::get_job_name($name);
     $group = self::get_group($group);
 
-    add_action('init', 
-      function () use($name, $data, $group) {
+    add_action(
+      'init',
+      function () use ($name, $data, $group) {
         as_unschedule_all_actions($name, $data, $group);
       }
     );
@@ -97,8 +103,9 @@ class Queue
     $name = self::get_job_name($name);
     $group = self::get_group($group);
 
-    add_action('init', 
-      function () use($name, $data, $group) {
+    add_action(
+      'init',
+      function () use ($name, $data, $group) {
         as_next_scheduled_action($name, $data, $group);
       }
     );
@@ -108,8 +115,9 @@ class Queue
     $name = self::get_job_name($name);
     $group = self::get_group($group);
 
-    add_action('init', 
-      function () use($name, $data, $group) {
+    add_action(
+      'init',
+      function () use ($name, $data, $group) {
         as_has_scheduled_action($name, $data, $group);
       }
     );

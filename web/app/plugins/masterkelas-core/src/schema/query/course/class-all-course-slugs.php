@@ -2,6 +2,7 @@
 
 namespace MasterKelas\Schema\Query;
 
+use MasterKelas\Model\Course;
 use MasterKelas\Schema;
 
 /**
@@ -29,21 +30,8 @@ class CourseSlugs {
         "resolve" => function ($_, $__) {
           $slugs = [];
 
-          try {
-            $query = new \WP_Query([
-              "post_type" => "sfwd-courses",
-              "post_status" => "publish",
-              "posts_per_page" => -1,
-              "fields" => "post_names",
-            ]);
-
-            if ($query instanceof \WP_Query && $query->have_posts())
-              foreach ($query->posts as $course)
-                if (!empty($course->post_name))
-                  $slugs[] = $course->post_name;
-          } catch (\Throwable $th) {
-            $slugs = [];
-          }
+          foreach (Course::paths() as $path)
+            $slugs[] = $path['course'];
 
           return $slugs;
         }

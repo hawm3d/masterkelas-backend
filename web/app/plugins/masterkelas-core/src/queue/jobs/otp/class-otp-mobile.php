@@ -4,6 +4,7 @@ namespace MasterKelas\Queue\Job;
 
 use Carbon\Carbon;
 use MasterKelas\Database\OTP_Query;
+use MasterKelas\MasterLog;
 
 /**
  * Send OTP to recipient mobile number
@@ -15,6 +16,7 @@ use MasterKelas\Database\OTP_Query;
  */
 class OTP_Mobile {
   public static function process($otp_id) {
+    MasterLog::queue()->info("OTP_Mobile", [$otp_id]);
     $max_attempts = 3;
 
     $otp = (new OTP_Query())->get_item($otp_id);
@@ -56,9 +58,9 @@ class OTP_Mobile {
 
     try {
       $api = new \Kavenegar\KavenegarApi("6372644B69796C4353414F42495268594E644A582B64743162574E382B67784A6B677A30673944644E68553D");
-      $sender = "10008545";
+      $sender = "2000500666";
       $message = "Code: {$otp->token}";
-      $result = $api->Send($sender, [$otp->recipient], $message);
+      $result = $api->VerifyLookup($otp->recipient, $otp->token, null, null, "master", $message);
 
       // Send request to provider
       // throw new \Exception("provider.fail.msg");
@@ -67,7 +69,7 @@ class OTP_Mobile {
       $data['provider-status'] = $result[0]->status;
       $data['provider-response'] = $result[0]->messageid;
     } catch (\Throwable $th) {
-      error_log($th);
+      MasterLog::queue()->error("OTP Mobile Provider Error: " . $th->getMessage());
       $status = 2;
       $data['provider-status'] = 2;
       $data['provider-response'] = $th->getMessage();

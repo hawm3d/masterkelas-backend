@@ -37,6 +37,9 @@
     "psr/simple-cache": "^1.0",
     "firebase/php-jwt": "^6.2",
     "hidehalo/nanoid-php": "^1.1",
-    "jenssegers/optimus": "^1.1"
+    "jenssegers/optimus": "^1.1",
+    "geoip2/geoip2": "~2.0",
+    "php-amqplib/php-amqplib": "^3.2",
+    "monolog/monolog": "^2.8"
   }
 }

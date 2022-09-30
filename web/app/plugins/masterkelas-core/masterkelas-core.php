@@ -52,6 +52,7 @@ if (!class_exists('\MasterKelas')) :
 			if (!isset(self::$instance) && !(self::$instance instanceof MasterKelas)) {
 				self::$instance = new MasterKelas;
 				self::$instance->setup();
+				self::$instance->run_queues();
 				self::$instance->includes();
 			}
 
@@ -110,6 +111,22 @@ if (!class_exists('\MasterKelas')) :
 			if (!defined('MASTERKELAS_WEB_APP_ID')) {
 				define('MASTERKELAS_WEB_APP_ID', '62cb2a6d033a0c47e499faf5');
 			}
+
+			// Master Queue Group
+			if (!defined('MASTER_QUEUE_GROUP')) {
+				define('MASTER_QUEUE_GROUP', 'master-queue');
+			}
+		}
+
+		/**
+		 * Start queues
+		 *
+		 * @access private
+		 * @since  1.0.0
+		 * @return void
+		 */
+		private function run_queues() {
+			// add_action('plugins_loaded', ['\MasterKelas\Queue\Task', "init"], 9);
 		}
 
 		/**
@@ -135,6 +152,10 @@ if (!class_exists('\MasterKelas')) :
 			\MasterKelas\Admin::init();
 			\MasterKelas\DB::install();
 			\MasterKelas\GraphQL::hooks();
+
+			if (defined('WP_CLI') && \WP_CLI) {
+				\MasterKelas\Commands::init();
+			}
 		}
 
 		/**
@@ -205,9 +226,11 @@ function init() {
 		return;
 	}
 
-	return MasterKelas::instance();
+	// return MasterKelas::instance();
 }
 add_action('plugins_loaded', 'init', 1);
+
+MasterKelas::instance();
 
 // /**
 //  * The code that runs during plugin activation.

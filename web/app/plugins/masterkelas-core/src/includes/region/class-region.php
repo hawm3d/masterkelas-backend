@@ -25,7 +25,8 @@ class Region {
   public $cache_ttl = DAY_IN_SECONDS;
   public $allowed_iso_codes = ["IR"];
   public $providers = [
-    '\MasterKelas\Region\MaxmindProvider'
+    '\MasterKelas\Region\MaxmindProvider',
+    '\MasterKelas\Region\GeoPluginNetProvider',
   ];
 
   public function __construct($ip = null) {
@@ -43,20 +44,20 @@ class Region {
 
   public function get() {
     $region = $this->cache->get($this->ip);
-    // if (!$region)
-    //   $region = $this->fetch();
+    if (!$region)
+      $region = $this->fetch();
 
-    try {
-      if (!$region || !isset($region['name'], $region['iso_code'], $region['timezone']))
-        throw new MasterException("invalid.region");
-    } catch (\Throwable $th) {
-      $this->cache->delete($this->ip);
-      $this->name = "Iran";
-      $this->iso_code = "IR";
-      $this->timezone = "Asia/Tehran";
-      return;
-      throw $th;
-    }
+    // try {
+    //   if (!$region || !isset($region['name'], $region['iso_code'], $region['timezone']))
+    //     throw new MasterException("invalid.region");
+    // } catch (\Throwable $th) {
+    //   $this->cache->delete($this->ip);
+    //   $this->name = "Iran";
+    //   $this->iso_code = "IR";
+    //   $this->timezone = "Asia/Tehran";
+    //   return;
+    //   throw $th;
+    // }
 
     $this->name = $region['name'];
     $this->iso_code = strtoupper($region['iso_code']);
@@ -68,7 +69,7 @@ class Region {
     foreach ($this->providers as $provider) {
       try {
         if (class_exists($provider))
-          $provider_instance = (new $provider())->fetch($this->ip);
+          $provider_instance = (new $provider())->fetch($this->ip === '127.0.0.1' ? '212.38.189.145' : $this->ip);
 
         if ($provider_instance && isset($provider_instance['name'], $provider_instance['iso_code'], $provider_instance['timezone'])) {
           $country = [
@@ -84,7 +85,12 @@ class Region {
     }
 
     if (!$country || !isset($country['name'], $country['iso_code'], $country['timezone']) || empty($country['iso_code']) || empty($country['timezone']))
-      return false;
+      return [
+        "name" => "Iran",
+        "iso_code" => "IR",
+        "timezone" => "Asia/Tehran",
+      ];
+
 
     $this->cache->set($this->ip, $country, $this->cache_ttl);
     return $country;

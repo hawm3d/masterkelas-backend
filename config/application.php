@@ -54,11 +54,13 @@ define('WP_ENV', env('WP_ENV') ?: 'production');
  */
 Config::define('WP_HOME', env('WP_HOME'));
 Config::define('WP_SITEURL', env('WP_SITEURL'));
+Config::define('WP_HTTP_BLOCK_EXTERNAL', WP_ENV === 'production');
 
 /**
  * Custom Content Directory
  */
 Config::define('CONTENT_DIR', '/app');
+Config::define('PRIVATE_STORAGE_DIR', dirname(__DIR__) . '/storage');
 Config::define('WP_CONTENT_DIR', $webroot_dir . Config::get('CONTENT_DIR'));
 Config::define('WP_CONTENT_URL', Config::get('WP_HOME') . Config::get('CONTENT_DIR'));
 
@@ -133,6 +135,11 @@ Config::define('WP_REDIS_CONFIG', [
         'wc_session_id',
     ]
 ]);
+
+/**
+ * Queue Config
+ */
+Config::define('MASTER_QUEUE_BACKEND', env('MASTER_QUEUE_BACKEND') ?: "gearman");
 
 /**
  * Debugging Settings
