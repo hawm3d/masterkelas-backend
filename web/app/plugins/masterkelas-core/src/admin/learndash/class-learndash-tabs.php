@@ -15,16 +15,16 @@ class LearnDashTabs {
     add_filter('learndash_header_tab_menu', [__CLASS__, 'tabs'], 10, 3);
 
     if (!class_exists('LearnDashCourseDetails'))
-      require_once dirname(__FILE__) . './metabox/class-learndash-course-details.php';
+      require_once dirname(__FILE__) . '/metabox/class-learndash-course-details.php';
 
     if (!class_exists('LearnDashCourseGallery'))
-      require_once dirname(__FILE__) . './metabox/class-learndash-course-gallery.php';
+      require_once dirname(__FILE__) . '/metabox/class-learndash-course-gallery.php';
 
     if (!class_exists('LearnDashCourseBook'))
-      require_once dirname(__FILE__) . './metabox/class-learndash-course-book.php';
+      require_once dirname(__FILE__) . '/metabox/class-learndash-course-book.php';
 
     if (!class_exists('LearnDashLessonDetails'))
-      require_once dirname(__FILE__) . './metabox/class-learndash-lesson-details.php';
+      require_once dirname(__FILE__) . '/metabox/class-learndash-lesson-details.php';
   }
 
   public static function tabs($header_tabs_data, $menu_tab_key, $screen_post_type) {
