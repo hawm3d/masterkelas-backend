@@ -5,6 +5,9 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 # Language
 source ${SCRIPT_DIR}/setup-language-and-time.sh
 
+# Setup theme
+source ${SCRIPT_DIR}/setup-theme.sh
+
 # WP GraphQL
 source ${SCRIPT_DIR}/setup-wp-graphql.sh
 

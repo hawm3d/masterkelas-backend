@@ -10,6 +10,9 @@ web/app/cache/*
 web/app/object-cache.php
 web/app/db.php
 
+# Storage
+storage/log/*
+
 # WordPress
 web/wp
 web/.htaccess
