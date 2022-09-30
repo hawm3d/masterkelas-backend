@@ -228,7 +228,7 @@ class MasterFactory {
     foreach ($lessons as $key => $lesson) {
       $this->delog($lesson, "lessons", "var_export");
       $slug = $lesson['slug'] ?: sanitize_title($lesson['title']);
-      $this->delog("Inserting Lesson #" . $key + 1, "lessons");
+      $this->delog("Inserting Lesson #" . ($key + 1), "lessons");
       $lesson_id = wp_insert_post([
         "post_type" => learndash_get_post_type_slug('lesson'),
         "post_title" => $lesson['title'],
