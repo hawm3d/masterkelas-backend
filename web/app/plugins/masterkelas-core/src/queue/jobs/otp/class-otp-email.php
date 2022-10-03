@@ -57,11 +57,11 @@ class OTP_Email {
     ]);
 
     try {
-      $subject = "MasterKelas Email OTP Code";
-      $body = "Code: {$otp->token}";
+      $subject = "MasterKelas Authorization Code";
+      $body = "Authorization Code: {$otp->token}";
       $headers = [
-        'Content-type: text/plain; charset=utf-8',
-        'From:' . "testing@gmail.com"
+        'Content-Type: text/plain; charset=UTF-8',
+        'From: [MasterKelas] <no-reply@masterkelas.ml>'
       ];
 
       wp_mail($otp->recipient, $subject, $body, $headers);
