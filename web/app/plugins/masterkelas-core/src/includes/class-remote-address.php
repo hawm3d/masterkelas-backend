@@ -13,7 +13,12 @@ namespace MasterKelas;
 class RemoteAddress {
 
   public static function Ip() {
-    $ip = (new self())->getIpAddress();
+    $ip_factory = new self();
+    $ip_factory->setUseProxy(true);
+    $ip_factory->setTrustedProxies([
+      "37.32.24.182", "37.32.25.95"
+    ]);
+    $ip = $ip_factory->getIpAddress();
     return filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4) ? $ip : null;
   }
 
