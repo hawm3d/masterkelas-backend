@@ -24,6 +24,95 @@ class MasterFactory {
     "failed_images" => 0,
   ];
 
+  public function posts() {
+    $posts_data = [
+      [
+        "type" => "page",
+        "slug" => "index",
+        "title" => "صفحه اصلی",
+        "description" => "",
+        "after_save" => function ($id) {
+          update_option('page_on_front', $id);
+          update_option('show_on_front', 'page');
+        }
+      ],
+      [
+        "type" => "page",
+        "slug" => "blog",
+        "title" => "صفحه اصلی وبلاگ",
+        "description" => "",
+        "after_save" => function ($id) {
+          update_option('page_for_posts', $id);
+        }
+      ],
+      [
+        "type" => "page",
+        "slug" => "policies",
+        "title" => "قوانین، ضوابط و شرایط",
+        "description" => "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.",
+        "after_save" => function ($id) {
+          update_option('woocommerce_terms_page_id', $id);
+          \MasterKelas\Admin::set_option("policy-page", $id);
+        }
+      ],
+    ];
+    $created_posts = 0;
+    $failed_posts = 0;
+
+    \WP_CLI::log(
+      sprintf(
+        "Inserting %s Posts...",
+        count($posts_data)
+      )
+    );
+
+    try {
+      foreach ($posts_data as $post_data) {
+        $this->delog($post_data, "posts", "var_export");
+        if ($post_data['type'] === 'page') {
+          $post_id = 0;
+          $post = get_page_by_path($post_data['slug']);
+          if (!$post) {
+            $post_id = wp_insert_post([
+              'comment_status' => 'close',
+              'ping_status' => 'close',
+              'post_author' => 1,
+              "post_status" => 'publish',
+              "post_title" => $post_data['title'],
+              "post_name" => $post_data['slug'],
+              "post_content" => $post_data['description'],
+              "post_type" => $post_data['type'],
+            ]);
+          } else {
+            $post_id = $post->ID;
+          }
+
+          $this->delog($post_id, "posts");
+
+          if ($post_id && !is_wp_error($post_id) && $post_id > 0) {
+            if (!$post)
+              $created_posts++;
+
+            if (isset($post_data['after_save']) && is_callable($post_data['after_save']))
+              $post_data['after_save']($post_id);
+          }
+        }
+      }
+    } catch (\Throwable $th) {
+      $this->delog($th, "posts", false);
+      $failed_posts++;
+    }
+
+    \WP_CLI::log(
+      sprintf(
+        "Posts: %s total | %s inserted | %s failed",
+        count($posts_data),
+        $created_posts,
+        $failed_posts,
+      )
+    );
+  }
+
   public function run() {
     try {
       \WP_CLI::log(

@@ -71,12 +71,16 @@ class PageHead {
             //throw $th;
           }
 
-          if (!$meta_tags || !isset($meta_tags['title']) || empty($meta_tags['title']))
-            $meta_tags = Page::get_index_head();
+          try {
+            if (!$meta_tags || !isset($meta_tags['title']) || empty($meta_tags['title']))
+              $meta_tags = Page::get_index_head();
+          } catch (\Throwable $th) {
+            //throw $th;
+          }
 
           return [
-            "title" => $meta_tags["title"] ?: "",
-            "description" => $meta_tags["description"] ?: "",
+            "title" => $meta_tags["title"] ?: null,
+            "description" => $meta_tags["description"] ?: null,
           ];
         }
       ]

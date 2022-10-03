@@ -7,8 +7,8 @@
 	font-family: IRANSansX;
 	font-style: normal;
 	font-weight: 100;
-	src: url('../fonts/IRANSansX-thin.woff') format('woff'),   
-	url('../fonts/IRANSansX-thin.woff2') format('woff2');		
+	src: url('../fonts/IRANSansX-Thin.woff') format('woff'),   
+	url('../fonts/IRANSansX-Thin.woff2') format('woff2');		
 }
 
 @font-face {
@@ -23,56 +23,56 @@
 	font-family: IRANSansX;
 	font-style: normal;
 	font-weight: 300;
-	src: url('../fonts/IRANSansX-light.woff') format('woff'),   
-	url('../fonts/IRANSansX-light.woff2') format('woff2');		 
+	src: url('../fonts/IRANSansX-Light.woff') format('woff'),   
+	url('../fonts/IRANSansX-Light.woff2') format('woff2');		 
 }
 
 @font-face {
 	font-family: IRANSansX;
 	font-style: normal;
 	font-weight: 500;
-	src: url('../fonts/IRANSansX-medium.woff') format('woff'),   
-	url('../fonts/IRANSansX-medium.woff2') format('woff2');		 
+	src: url('../fonts/IRANSansX-Medium.woff') format('woff'),   
+	url('../fonts/IRANSansX-Medium.woff2') format('woff2');		 
 }
 
 @font-face {
 	font-family: IRANSansX;
 	font-style: normal;
 	font-weight: 600;
-	src: url('../fonts/IRANSansX-demibold.woff') format('woff'),   
-	url('../fonts/IRANSansX-demibold.woff2') format('woff2');	 
+	src: url('../fonts/IRANSansX-DemiBold.woff') format('woff'),   
+	url('../fonts/IRANSansX-DemiBold.woff2') format('woff2');	 
 }
 
 @font-face {
 	font-family: IRANSansX;
 	font-style: normal;
 	font-weight: 800;
-	src: url('../fonts/IRANSansX-extrabold.woff') format('woff'),   
-	url('../fonts/IRANSansX-extrabold.woff2') format('woff2');		 
+	src: url('../fonts/IRANSansX-ExtraBold.woff') format('woff'),   
+	url('../fonts/IRANSansX-ExtraBold.woff2') format('woff2');		 
 }
 
 @font-face {
 	font-family: IRANSansX;
 	font-style: normal;
 	font-weight: 900;
-	src: url('../fonts/IRANSansX-black.woff') format('woff'),   
-	url('../fonts/IRANSansX-black.woff2') format('woff2');		 
+	src: url('../fonts/IRANSansX-Black.woff') format('woff'),   
+	url('../fonts/IRANSansX-Black.woff2') format('woff2');		 
 }
 
 @font-face {
 	font-family: IRANSansX;
 	font-style: normal;
 	font-weight: bold;
-	src: url('../fonts/IRANSansX-bold.woff') format('woff'),   
-	url('../fonts/IRANSansX-bold.woff2') format('woff2');	 
+	src: url('../fonts/IRANSansX-Bold.woff') format('woff'),   
+	url('../fonts/IRANSansX-Bold.woff2') format('woff2');	 
 }
 
 @font-face {
 	font-family: IRANSansX;
 	font-style: normal;
 	font-weight: normal;
-	src: url('../fonts/IRANSansX-regular.woff') format('woff'),   
-	url('../fonts/IRANSansX-regular.woff2') format('woff2');	
+	src: url('../fonts/IRANSansX-Regular.woff') format('woff'),   
+	url('../fonts/IRANSansX-Regular.woff2') format('woff2');	
 }
 
 body.rtl, .rtl #wpadminbar *, .rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6, .editor-styles-wrapper, label.components-checkbox-control__label, .components-base-control__label, .components-text-control__input {
@@ -200,4 +200,25 @@ html[dir="rtl"] .redux-main {
 .redux-container-multi_text a.redux-multi-text-remove.deletion:hover {
   background: transparent !important;
   color: inherit !important;
+}
+
+html[dir=rtl] .select2-container--default .select2-selection--multiple.select2-selection--clearable {
+  padding-right: unset;
+  padding-left: 25px;
+}
+
+html[dir=rtl] .select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__clear {
+  right: auto;
+  left: 0;
+}
+
+html[dir=rtl] .select2-container .select2-selection--multiple .select2-selection__rendered {
+  padding-left: unset;
+  padding-right: 8px;
+  margin: 0;
+  float: right;
+}
+
+html[dir=rtl] .select2-container .select2-search--inline {
+  float: right;
 }

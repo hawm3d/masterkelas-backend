@@ -235,6 +235,10 @@ class Admin {
 		return \Redux::get_option(self::$opt_name, $id);
 	}
 
+	public static function set_option($id, $value) {
+		return \Redux::set_option(self::$opt_name, $id, $value);
+	}
+
 	public static function enqueue_scripts() {
 		wp_enqueue_style('masterkelas_admin_styles', plugins_url("/admin/assets/css/masterkelas.css", __FILE__), false, MASTERKELAS_ADMIN_VERSION);
 	}

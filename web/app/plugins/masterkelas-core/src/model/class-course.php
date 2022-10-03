@@ -200,7 +200,6 @@ class Course {
         'include_children' => false,
       ];
 
-
     if (!empty($tags_id))
       $tax_query[] = [
         'taxonomy' => "ld_course_tag",
@@ -282,21 +281,22 @@ class Course {
   }
 
   public static function get_course_student($course, $user = null) {
-    $subscribed = false;
-    if ($user) {
-      if (wcs_user_has_subscription($user->id, '', 'active')) {
-        $subscriptions = wcs_get_users_subscriptions($user->id);
-        foreach ($subscriptions as $sub) {
-          $_subscription = wcs_get_subscription($sub->ID);
-          if ($_subscription->get_status() === 'active') {
-            $subscribed = true;
-          }
-        }
-      }
-    }
+    // $subscribed = false;
+    // if ($user) {
+    //   if (wcs_user_has_subscription($user->id, '', 'active')) {
+    //     $subscriptions = wcs_get_users_subscriptions($user->id);
+    //     foreach ($subscriptions as $sub) {
+    //       $_subscription = wcs_get_subscription($sub->ID);
+    //       if ($_subscription->get_status() === 'active') {
+    //         $subscribed = true;
+    //       }
+    //     }
+    //   }
+    // }
 
     return [
-      "hasAccess" => (bool) ($user && ($subscribed || sfwd_lms_has_access($course->ID, $user->id))),
+      // "hasAccess" => (bool) ($user && ($subscribed || sfwd_lms_has_access($course->ID, $user->id))),
+      "hasAccess" => (bool) ($user && sfwd_lms_has_access($course->ID, $user->id)),
       "progress" => 0,
       "completed" => (bool) ($user && learndash_course_completed($user->id, $course->ID)),
     ];

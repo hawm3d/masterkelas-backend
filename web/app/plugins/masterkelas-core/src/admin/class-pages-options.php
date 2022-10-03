@@ -24,6 +24,21 @@ class PagesOptions {
   public static function pages_fields() {
     return [
       [
+        "id" => "subscriptions",
+        "type" => "select",
+        "multi" => true,
+        "data" => "posts",
+        "args" => [
+          "post_type" => ["product"], 'numberposts' => -1
+        ],
+        // 'ajax' => true,
+        "title" => "اشتراک ها",
+        "desc" => "لطفا حداقل یک اشتراک انتخاب کنید.",
+        // "validate" => [
+        //   "url", "not_empty"
+        // ],
+      ],
+      [
         "id" => "policy-page",
         "type" => "select",
         "data" => "pages",

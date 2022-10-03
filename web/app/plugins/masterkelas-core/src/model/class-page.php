@@ -25,11 +25,11 @@ class Page {
   public static function get_index_head() {
     $front_id = get_option('page_on_front', 0);
     if (!$front_id)
-      throw new \Exception();
+      throw new \Exception("invalid.front.page.id");
 
     $page = get_post($front_id);
     if (!$page || is_wp_error($page))
-      throw new \Exception();
+      throw new \Exception("invalid.front.page");
 
     rank_math()->variables->setup();
     $paper = RankMathPaper::get($page, [
