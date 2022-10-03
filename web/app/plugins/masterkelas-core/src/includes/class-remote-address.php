@@ -15,6 +15,7 @@ class RemoteAddress {
   public static function Ip() {
     $ip_factory = new self();
     $ip_factory->setUseProxy(true);
+    $ip_factory->setProxyHeader("X-Real-IP");
     $ip_factory->setTrustedProxies([
       "37.32.24.182"
     ]);
