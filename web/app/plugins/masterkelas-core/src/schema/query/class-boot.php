@@ -28,6 +28,8 @@ class Boot {
         "type" => ["non_null" => "VisitorInformation"],
         "description" => "Visitor Information",
         "resolve" => function ($_, $__, MasterContext $context) {
+          graphql_debug($_SERVER);
+
           return [
             'ip' => (string) $context->region->ip,
             'region' => (string) $context->region->iso_code,
